@@ -1,7 +1,540 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa39ed1e-0ebb-4a80-857b-5cace0a97157" name="Default" comment="" />
+    <list default="true" id="aa39ed1e-0ebb-4a80-857b-5cace0a97157" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/HYLingXinJ.ttf" afterPath="$PROJECT_DIR$/fonts/HYLingXinJ.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/7bal.jpg" afterPath="$PROJECT_DIR$/img/games/7bal.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/8349.jpg" afterPath="$PROJECT_DIR$/img/games/8349.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/9280.jpg" afterPath="$PROJECT_DIR$/img/games/9280.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/9295.jpg" afterPath="$PROJECT_DIR$/img/games/9295.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_5ReelDrive1.png" afterPath="$PROJECT_DIR$/img/games/BTN_5ReelDrive1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_AcesFacesPowerPoker1.png" afterPath="$PROJECT_DIR$/img/games/BTN_AcesFacesPowerPoker1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_AdventurePalace4.png" afterPath="$PROJECT_DIR$/img/games/BTN_AdventurePalace4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_AgentJaneBlonde7.png" afterPath="$PROJECT_DIR$/img/games/BTN_AgentJaneBlonde7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Ariana_ZH.png" afterPath="$PROJECT_DIR$/img/games/BTN_Ariana_ZH.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_AsianBeauty1.png" afterPath="$PROJECT_DIR$/img/games/BTN_AsianBeauty1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Avalon1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Avalon1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_AvalonII.png" afterPath="$PROJECT_DIR$/img/games/BTN_AvalonII.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Baccarat2.png" afterPath="$PROJECT_DIR$/img/games/BTN_Baccarat2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_BattlestarGalactica1.png" afterPath="$PROJECT_DIR$/img/games/BTN_BattlestarGalactica1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Belissimo17.png" afterPath="$PROJECT_DIR$/img/games/BTN_Belissimo17.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_BigKahuna1.png" afterPath="$PROJECT_DIR$/img/games/BTN_BigKahuna1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_BigTop1.png" afterPath="$PROJECT_DIR$/img/games/BTN_BigTop1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_BootyTime.png" afterPath="$PROJECT_DIR$/img/games/BTN_BootyTime.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_BreakAway1.png" afterPath="$PROJECT_DIR$/img/games/BTN_BreakAway1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_BreakDaBank1.png" afterPath="$PROJECT_DIR$/img/games/BTN_BreakDaBank1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_BreakDaBankAgain1.png" afterPath="$PROJECT_DIR$/img/games/BTN_BreakDaBankAgain1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_BreakdaBankAgainMegaSpin1.png" afterPath="$PROJECT_DIR$/img/games/BTN_BreakdaBankAgainMegaSpin1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_BrideZilla.png" afterPath="$PROJECT_DIR$/img/games/BTN_BrideZilla.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_BurningDesire1.png" afterPath="$PROJECT_DIR$/img/games/BTN_BurningDesire1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_BushTelegraph1.png" afterPath="$PROJECT_DIR$/img/games/BTN_BushTelegraph1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_BustTheBank1.png" afterPath="$PROJECT_DIR$/img/games/BTN_BustTheBank1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Carnaval2.png" afterPath="$PROJECT_DIR$/img/games/BTN_Carnaval2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_CashClams2.png" afterPath="$PROJECT_DIR$/img/games/BTN_CashClams2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_CashCrazy9.png" afterPath="$PROJECT_DIR$/img/games/BTN_CashCrazy9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Cashanova1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Cashanova1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Cashapillar1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Cashapillar1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Cashville1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Cashville1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_CoolBuck1.png" afterPath="$PROJECT_DIR$/img/games/BTN_CoolBuck1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_CoolWolf1.png" afterPath="$PROJECT_DIR$/img/games/BTN_CoolWolf1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_CosmicCat1.png" afterPath="$PROJECT_DIR$/img/games/BTN_CosmicCat1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_CouchPotato2.png" afterPath="$PROJECT_DIR$/img/games/BTN_CouchPotato2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_CrazyChameleons1.png" afterPath="$PROJECT_DIR$/img/games/BTN_CrazyChameleons1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_CrownAndAnchor1.png" afterPath="$PROJECT_DIR$/img/games/BTN_CrownAndAnchor1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Cyberstud1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Cyberstud1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_DeckTheHalls1.png" afterPath="$PROJECT_DIR$/img/games/BTN_DeckTheHalls1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_DeucesJokerPowerPoker1.png" afterPath="$PROJECT_DIR$/img/games/BTN_DeucesJokerPowerPoker1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_DeucesWild1.png" afterPath="$PROJECT_DIR$/img/games/BTN_DeucesWild1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_DinoMight1.png" afterPath="$PROJECT_DIR$/img/games/BTN_DinoMight1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Dogfather2.png" afterPath="$PROJECT_DIR$/img/games/BTN_Dogfather2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_DolphinQuest.png" afterPath="$PROJECT_DIR$/img/games/BTN_DolphinQuest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_DoubleDoubleBonus1.png" afterPath="$PROJECT_DIR$/img/games/BTN_DoubleDoubleBonus1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_DoubleJokerPowerPoker1.png" afterPath="$PROJECT_DIR$/img/games/BTN_DoubleJokerPowerPoker1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_DoubleMagic1.png" afterPath="$PROJECT_DIR$/img/games/BTN_DoubleMagic1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_DoubleWammy1.png" afterPath="$PROJECT_DIR$/img/games/BTN_DoubleWammy1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_DrLove.png" afterPath="$PROJECT_DIR$/img/games/BTN_DrLove.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_DrWattsUp1.png" afterPath="$PROJECT_DIR$/img/games/BTN_DrWattsUp1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_ElectroBingo1.png" afterPath="$PROJECT_DIR$/img/games/BTN_ElectroBingo1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Elementals2.png" afterPath="$PROJECT_DIR$/img/games/BTN_Elementals2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_EnchantedWoods1.png" afterPath="$PROJECT_DIR$/img/games/BTN_EnchantedWoods1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_FantasticSevens1.png" afterPath="$PROJECT_DIR$/img/games/BTN_FantasticSevens1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_FinerReelsofLife.png" afterPath="$PROJECT_DIR$/img/games/BTN_FinerReelsofLife.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_FishParty1.png" afterPath="$PROJECT_DIR$/img/games/BTN_FishParty1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_FlyingAce2.png" afterPath="$PROJECT_DIR$/img/games/BTN_FlyingAce2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_FortuneCookie7.png" afterPath="$PROJECT_DIR$/img/games/BTN_FortuneCookie7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_FourByFour1.png" afterPath="$PROJECT_DIR$/img/games/BTN_FourByFour1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_FrenchRoulette1.png" afterPath="$PROJECT_DIR$/img/games/BTN_FrenchRoulette1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_FruitSlots1.png" afterPath="$PROJECT_DIR$/img/games/BTN_FruitSlots1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_GeniesGems2.png" afterPath="$PROJECT_DIR$/img/games/BTN_GeniesGems2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Germinator1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Germinator1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_GirlswithGuns1.png" afterPath="$PROJECT_DIR$/img/games/BTN_GirlswithGuns1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_GirlswithGuns2.png" afterPath="$PROJECT_DIR$/img/games/BTN_GirlswithGuns2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_GoldCoast3.png" afterPath="$PROJECT_DIR$/img/games/BTN_GoldCoast3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_GoldFactory1.png" afterPath="$PROJECT_DIR$/img/games/BTN_GoldFactory1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_GoldSeries_Baccarat1.png" afterPath="$PROJECT_DIR$/img/games/BTN_GoldSeries_Baccarat1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_GoldSeries_EuroRoulette1.png" afterPath="$PROJECT_DIR$/img/games/BTN_GoldSeries_EuroRoulette1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_GoldSeries_MultiWheelRoulette1.png" afterPath="$PROJECT_DIR$/img/games/BTN_GoldSeries_MultiWheelRoulette1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_GoldenDragon6.png" afterPath="$PROJECT_DIR$/img/games/BTN_GoldenDragon6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_GoldenEra.png" afterPath="$PROJECT_DIR$/img/games/BTN_GoldenEra.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_GoldenPrincess.png" afterPath="$PROJECT_DIR$/img/games/BTN_GoldenPrincess.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_GoodToGo2.png" afterPath="$PROJECT_DIR$/img/games/BTN_GoodToGo2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_GopherGold2.png" afterPath="$PROJECT_DIR$/img/games/BTN_GopherGold2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_GreatGriffin1.png" afterPath="$PROJECT_DIR$/img/games/BTN_GreatGriffin1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Halloweenies1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Halloweenies1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_HappyNewYear3.png" afterPath="$PROJECT_DIR$/img/games/BTN_HappyNewYear3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Harveys1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Harveys1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_HellBoy1.png" afterPath="$PROJECT_DIR$/img/games/BTN_HellBoy1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_HighLimitBaccarat1.png" afterPath="$PROJECT_DIR$/img/games/BTN_HighLimitBaccarat1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_HighSociety.png" afterPath="$PROJECT_DIR$/img/games/BTN_HighSociety.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Hitman1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Hitman1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Hohoho1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Hohoho1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_HotAsHades_ZH.png" afterPath="$PROJECT_DIR$/img/games/BTN_HotAsHades_ZH.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_HotInk1.png" afterPath="$PROJECT_DIR$/img/games/BTN_HotInk1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_HotShot3.png" afterPath="$PROJECT_DIR$/img/games/BTN_HotShot3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_HouseofDragons.png" afterPath="$PROJECT_DIR$/img/games/BTN_HouseofDragons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_ImmortalRomance1.png" afterPath="$PROJECT_DIR$/img/games/BTN_ImmortalRomance1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_JackpotExpress1.png" afterPath="$PROJECT_DIR$/img/games/BTN_JackpotExpress1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_JacksOrBetter1.png" afterPath="$PROJECT_DIR$/img/games/BTN_JacksOrBetter1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_JacksorBetterPowerPoker1.png" afterPath="$PROJECT_DIR$/img/games/BTN_JacksorBetterPowerPoker1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_JingleBells6.png" afterPath="$PROJECT_DIR$/img/games/BTN_JingleBells6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_JokerPokerPowerPoker1.png" afterPath="$PROJECT_DIR$/img/games/BTN_JokerPokerPowerPoker1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_KaratePig1.png" afterPath="$PROJECT_DIR$/img/games/BTN_KaratePig1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Kathmandu1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Kathmandu1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_KingArthur.png" afterPath="$PROJECT_DIR$/img/games/BTN_KingArthur.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_LadiesNite5.png" afterPath="$PROJECT_DIR$/img/games/BTN_LadiesNite5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_LadyInRed2.png" afterPath="$PROJECT_DIR$/img/games/BTN_LadyInRed2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_LeaguesOfFortune1.png" afterPath="$PROJECT_DIR$/img/games/BTN_LeaguesOfFortune1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Legacy2.png" afterPath="$PROJECT_DIR$/img/games/BTN_Legacy2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Loaded1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Loaded1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_LooseCannon1.png" afterPath="$PROJECT_DIR$/img/games/BTN_LooseCannon1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_LouisianaDouble1.png" afterPath="$PROJECT_DIR$/img/games/BTN_LouisianaDouble1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_LuckyFirecracker.png" afterPath="$PROJECT_DIR$/img/games/BTN_LuckyFirecracker.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_LuckyKoi.png" afterPath="$PROJECT_DIR$/img/games/BTN_LuckyKoi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_LuckyWitch1.png" afterPath="$PROJECT_DIR$/img/games/BTN_LuckyWitch1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_LuckyZodiac_ZH.png" afterPath="$PROJECT_DIR$/img/games/BTN_LuckyZodiac_ZH.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_MadHatters1.png" afterPath="$PROJECT_DIR$/img/games/BTN_MadHatters1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_MaxDamage1.png" afterPath="$PROJECT_DIR$/img/games/BTN_MaxDamage1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_MaxDamageSlot.png" afterPath="$PROJECT_DIR$/img/games/BTN_MaxDamageSlot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_MayanBingo1.png" afterPath="$PROJECT_DIR$/img/games/BTN_MayanBingo1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_MayanPrincess1.png" afterPath="$PROJECT_DIR$/img/games/BTN_MayanPrincess1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_MermaidsMillions1.png" afterPath="$PROJECT_DIR$/img/games/BTN_MermaidsMillions1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_MonsterMania1.png" afterPath="$PROJECT_DIR$/img/games/BTN_MonsterMania1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Moonshine1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Moonshine1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_MugshotMadness1.png" afterPath="$PROJECT_DIR$/img/games/BTN_MugshotMadness1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Munchkins2.png" afterPath="$PROJECT_DIR$/img/games/BTN_Munchkins2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_MysticDreams1.png" afterPath="$PROJECT_DIR$/img/games/BTN_MysticDreams1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_OrientalFortune2.png" afterPath="$PROJECT_DIR$/img/games/BTN_OrientalFortune2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_PhantomCash.png" afterPath="$PROJECT_DIR$/img/games/BTN_PhantomCash.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_PharaohBingo1.png" afterPath="$PROJECT_DIR$/img/games/BTN_PharaohBingo1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_PiggyFortunes.png" afterPath="$PROJECT_DIR$/img/games/BTN_PiggyFortunes.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Playboy1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Playboy1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_PokerPursuit1.png" afterPath="$PROJECT_DIR$/img/games/BTN_PokerPursuit1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_PollenNation1.png" afterPath="$PROJECT_DIR$/img/games/BTN_PollenNation1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_PremierRacing1.png" afterPath="$PROJECT_DIR$/img/games/BTN_PremierRacing1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_PremierTrotting1.png" afterPath="$PROJECT_DIR$/img/games/BTN_PremierTrotting1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_PurePlatinum1.png" afterPath="$PROJECT_DIR$/img/games/BTN_PurePlatinum1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_RRHearts&amp;Tarts1.png" afterPath="$PROJECT_DIR$/img/games/BTN_RRHearts&amp;Tarts1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_RRKing1.png" afterPath="$PROJECT_DIR$/img/games/BTN_RRKing1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_RacingForPinks.png" afterPath="$PROJECT_DIR$/img/games/BTN_RacingForPinks.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_RapidReels5.png" afterPath="$PROJECT_DIR$/img/games/BTN_RapidReels5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_RedHotDevil.png" afterPath="$PROJECT_DIR$/img/games/BTN_RedHotDevil.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_ReelGems1.png" afterPath="$PROJECT_DIR$/img/games/BTN_ReelGems1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_ReelStrike1.png" afterPath="$PROJECT_DIR$/img/games/BTN_ReelStrike1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_ReelThunder2.png" afterPath="$PROJECT_DIR$/img/games/BTN_ReelThunder2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_RetroReels1.png" afterPath="$PROJECT_DIR$/img/games/BTN_RetroReels1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_RivieraRiches1.png" afterPath="$PROJECT_DIR$/img/games/BTN_RivieraRiches1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_RocktheBoat18.png" afterPath="$PROJECT_DIR$/img/games/BTN_RocktheBoat18.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_RomanRiches11.png" afterPath="$PROJECT_DIR$/img/games/BTN_RomanRiches11.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_RugbyStar_ZH.png" afterPath="$PROJECT_DIR$/img/games/BTN_RugbyStar_ZH.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_SambaBingo1.png" afterPath="$PROJECT_DIR$/img/games/BTN_SambaBingo1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_SantasWildRide1.png" afterPath="$PROJECT_DIR$/img/games/BTN_SantasWildRide1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Scrooge1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Scrooge1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_SecretAdmirer1.png" afterPath="$PROJECT_DIR$/img/games/BTN_SecretAdmirer1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_SecretSanta.png" afterPath="$PROJECT_DIR$/img/games/BTN_SecretSanta.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Shoot.png" afterPath="$PROJECT_DIR$/img/games/BTN_Shoot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_SilverFang1.png" afterPath="$PROJECT_DIR$/img/games/BTN_SilverFang1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_SkullDuggery1.png" afterPath="$PROJECT_DIR$/img/games/BTN_SkullDuggery1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_SpectacularWheelOfWealth1.png" afterPath="$PROJECT_DIR$/img/games/BTN_SpectacularWheelOfWealth1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_SpringBreak2.png" afterPath="$PROJECT_DIR$/img/games/BTN_SpringBreak2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_StarScape1.png" afterPath="$PROJECT_DIR$/img/games/BTN_StarScape1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_StarlightKiss.png" afterPath="$PROJECT_DIR$/img/games/BTN_StarlightKiss.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_SunQuest3.png" afterPath="$PROJECT_DIR$/img/games/BTN_SunQuest3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_SweetHarvest1.png" afterPath="$PROJECT_DIR$/img/games/BTN_SweetHarvest1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_TallyHo1.png" afterPath="$PROJECT_DIR$/img/games/BTN_TallyHo1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_TensOrBetter1.png" afterPath="$PROJECT_DIR$/img/games/BTN_TensOrBetter1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Terminator2_1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Terminator2_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_Thunderstruck1.png" afterPath="$PROJECT_DIR$/img/games/BTN_Thunderstruck1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_ThunderstruckTwo1.png" afterPath="$PROJECT_DIR$/img/games/BTN_ThunderstruckTwo1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_TitansOfTheSun_Hyperion_ZH.png" afterPath="$PROJECT_DIR$/img/games/BTN_TitansOfTheSun_Hyperion_ZH.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_TombRaider2.png" afterPath="$PROJECT_DIR$/img/games/BTN_TombRaider2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_TombRaiderSotS1.png" afterPath="$PROJECT_DIR$/img/games/BTN_TombRaiderSotS1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_TotemTreasure1.png" afterPath="$PROJECT_DIR$/img/games/BTN_TotemTreasure1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_TripleMagic1.png" afterPath="$PROJECT_DIR$/img/games/BTN_TripleMagic1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_TwistedCircus.png" afterPath="$PROJECT_DIR$/img/games/BTN_TwistedCircus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_USRoulette1.png" afterPath="$PROJECT_DIR$/img/games/BTN_USRoulette1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_UntamedBengalTiger1.png" afterPath="$PROJECT_DIR$/img/games/BTN_UntamedBengalTiger1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_UntamedCrownedEagle.png" afterPath="$PROJECT_DIR$/img/games/BTN_UntamedCrownedEagle.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_UntamedGiantPanda.png" afterPath="$PROJECT_DIR$/img/games/BTN_UntamedGiantPanda.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_UntamedWolfPack1.png" afterPath="$PROJECT_DIR$/img/games/BTN_UntamedWolfPack1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_VinylCountdown4.png" afterPath="$PROJECT_DIR$/img/games/BTN_VinylCountdown4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_WasabiSan4.png" afterPath="$PROJECT_DIR$/img/games/BTN_WasabiSan4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_WhataHoot3.png" afterPath="$PROJECT_DIR$/img/games/BTN_WhataHoot3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_WhatonEarth1.png" afterPath="$PROJECT_DIR$/img/games/BTN_WhatonEarth1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_WheelOfWealth1.png" afterPath="$PROJECT_DIR$/img/games/BTN_WheelOfWealth1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_WheelofWealthSE1.png" afterPath="$PROJECT_DIR$/img/games/BTN_WheelofWealthSE1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_WildCatch.png" afterPath="$PROJECT_DIR$/img/games/BTN_WildCatch.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_WinningWizards1.png" afterPath="$PROJECT_DIR$/img/games/BTN_WinningWizards1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_WitchesWealth1.png" afterPath="$PROJECT_DIR$/img/games/BTN_WitchesWealth1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_ZanyZebra1.png" afterPath="$PROJECT_DIR$/img/games/BTN_ZanyZebra1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_footballstar1.png" afterPath="$PROJECT_DIR$/img/games/BTN_footballstar1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_robojack1.png" afterPath="$PROJECT_DIR$/img/games/BTN_robojack1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_somanymonsters.png" afterPath="$PROJECT_DIR$/img/games/BTN_somanymonsters.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_somuchcandy.png" afterPath="$PROJECT_DIR$/img/games/BTN_somuchcandy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/BTN_somuchsushi.png" afterPath="$PROJECT_DIR$/img/games/BTN_somuchsushi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Frog.jpg" afterPath="$PROJECT_DIR$/img/games/Frog.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_15027.png" afterPath="$PROJECT_DIR$/img/games/Game_15027.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5001.png" afterPath="$PROJECT_DIR$/img/games/Game_5001.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5002.png" afterPath="$PROJECT_DIR$/img/games/Game_5002.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5003.png" afterPath="$PROJECT_DIR$/img/games/Game_5003.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5004.png" afterPath="$PROJECT_DIR$/img/games/Game_5004.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5005.png" afterPath="$PROJECT_DIR$/img/games/Game_5005.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5006.png" afterPath="$PROJECT_DIR$/img/games/Game_5006.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5007.png" afterPath="$PROJECT_DIR$/img/games/Game_5007.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5008.png" afterPath="$PROJECT_DIR$/img/games/Game_5008.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5009.png" afterPath="$PROJECT_DIR$/img/games/Game_5009.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5013.png" afterPath="$PROJECT_DIR$/img/games/Game_5013.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5015.png" afterPath="$PROJECT_DIR$/img/games/Game_5015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5016.png" afterPath="$PROJECT_DIR$/img/games/Game_5016.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5017.png" afterPath="$PROJECT_DIR$/img/games/Game_5017.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5018.png" afterPath="$PROJECT_DIR$/img/games/Game_5018.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5019.png" afterPath="$PROJECT_DIR$/img/games/Game_5019.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5025.png" afterPath="$PROJECT_DIR$/img/games/Game_5025.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5026.png" afterPath="$PROJECT_DIR$/img/games/Game_5026.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5027.png" afterPath="$PROJECT_DIR$/img/games/Game_5027.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5028.png" afterPath="$PROJECT_DIR$/img/games/Game_5028.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5029.png" afterPath="$PROJECT_DIR$/img/games/Game_5029.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5030.png" afterPath="$PROJECT_DIR$/img/games/Game_5030.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5034.png" afterPath="$PROJECT_DIR$/img/games/Game_5034.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5035.png" afterPath="$PROJECT_DIR$/img/games/Game_5035.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5039.png" afterPath="$PROJECT_DIR$/img/games/Game_5039.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5040.png" afterPath="$PROJECT_DIR$/img/games/Game_5040.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5043.png" afterPath="$PROJECT_DIR$/img/games/Game_5043.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5044.png" afterPath="$PROJECT_DIR$/img/games/Game_5044.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5048.png" afterPath="$PROJECT_DIR$/img/games/Game_5048.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5049.png" afterPath="$PROJECT_DIR$/img/games/Game_5049.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5058.png" afterPath="$PROJECT_DIR$/img/games/Game_5058.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5060.png" afterPath="$PROJECT_DIR$/img/games/Game_5060.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5061.png" afterPath="$PROJECT_DIR$/img/games/Game_5061.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5062.png" afterPath="$PROJECT_DIR$/img/games/Game_5062.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5070.png" afterPath="$PROJECT_DIR$/img/games/Game_5070.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5073.png" afterPath="$PROJECT_DIR$/img/games/Game_5073.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5076.png" afterPath="$PROJECT_DIR$/img/games/Game_5076.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5077.png" afterPath="$PROJECT_DIR$/img/games/Game_5077.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5078.png" afterPath="$PROJECT_DIR$/img/games/Game_5078.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5079.png" afterPath="$PROJECT_DIR$/img/games/Game_5079.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5080.png" afterPath="$PROJECT_DIR$/img/games/Game_5080.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5083.png" afterPath="$PROJECT_DIR$/img/games/Game_5083.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5084.png" afterPath="$PROJECT_DIR$/img/games/Game_5084.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5088.png" afterPath="$PROJECT_DIR$/img/games/Game_5088.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5089.png" afterPath="$PROJECT_DIR$/img/games/Game_5089.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5091.png" afterPath="$PROJECT_DIR$/img/games/Game_5091.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5092.png" afterPath="$PROJECT_DIR$/img/games/Game_5092.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5093.png" afterPath="$PROJECT_DIR$/img/games/Game_5093.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5094.png" afterPath="$PROJECT_DIR$/img/games/Game_5094.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5095.png" afterPath="$PROJECT_DIR$/img/games/Game_5095.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5102.png" afterPath="$PROJECT_DIR$/img/games/Game_5102.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5103.png" afterPath="$PROJECT_DIR$/img/games/Game_5103.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5104.png" afterPath="$PROJECT_DIR$/img/games/Game_5104.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5106.png" afterPath="$PROJECT_DIR$/img/games/Game_5106.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5115.png" afterPath="$PROJECT_DIR$/img/games/Game_5115.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5116.png" afterPath="$PROJECT_DIR$/img/games/Game_5116.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5117.png" afterPath="$PROJECT_DIR$/img/games/Game_5117.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5118.png" afterPath="$PROJECT_DIR$/img/games/Game_5118.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5131.png" afterPath="$PROJECT_DIR$/img/games/Game_5131.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5201.png" afterPath="$PROJECT_DIR$/img/games/Game_5201.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5202.png" afterPath="$PROJECT_DIR$/img/games/Game_5202.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5203.png" afterPath="$PROJECT_DIR$/img/games/Game_5203.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5204.png" afterPath="$PROJECT_DIR$/img/games/Game_5204.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5402.png" afterPath="$PROJECT_DIR$/img/games/Game_5402.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5404.png" afterPath="$PROJECT_DIR$/img/games/Game_5404.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5407.png" afterPath="$PROJECT_DIR$/img/games/Game_5407.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5601.png" afterPath="$PROJECT_DIR$/img/games/Game_5601.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5703.png" afterPath="$PROJECT_DIR$/img/games/Game_5703.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5704.png" afterPath="$PROJECT_DIR$/img/games/Game_5704.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5705.png" afterPath="$PROJECT_DIR$/img/games/Game_5705.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5706.png" afterPath="$PROJECT_DIR$/img/games/Game_5706.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5707.png" afterPath="$PROJECT_DIR$/img/games/Game_5707.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5801.png" afterPath="$PROJECT_DIR$/img/games/Game_5801.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5802.png" afterPath="$PROJECT_DIR$/img/games/Game_5802.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5803.png" afterPath="$PROJECT_DIR$/img/games/Game_5803.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5804.png" afterPath="$PROJECT_DIR$/img/games/Game_5804.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5805.png" afterPath="$PROJECT_DIR$/img/games/Game_5805.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5806.png" afterPath="$PROJECT_DIR$/img/games/Game_5806.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5808.png" afterPath="$PROJECT_DIR$/img/games/Game_5808.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5809.png" afterPath="$PROJECT_DIR$/img/games/Game_5809.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5810.png" afterPath="$PROJECT_DIR$/img/games/Game_5810.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5811.png" afterPath="$PROJECT_DIR$/img/games/Game_5811.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5821.png" afterPath="$PROJECT_DIR$/img/games/Game_5821.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5823.png" afterPath="$PROJECT_DIR$/img/games/Game_5823.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5824.png" afterPath="$PROJECT_DIR$/img/games/Game_5824.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5825.png" afterPath="$PROJECT_DIR$/img/games/Game_5825.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5826.png" afterPath="$PROJECT_DIR$/img/games/Game_5826.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5827.png" afterPath="$PROJECT_DIR$/img/games/Game_5827.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5828.png" afterPath="$PROJECT_DIR$/img/games/Game_5828.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5831.png" afterPath="$PROJECT_DIR$/img/games/Game_5831.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5832.png" afterPath="$PROJECT_DIR$/img/games/Game_5832.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5833.png" afterPath="$PROJECT_DIR$/img/games/Game_5833.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5835.png" afterPath="$PROJECT_DIR$/img/games/Game_5835.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5836.png" afterPath="$PROJECT_DIR$/img/games/Game_5836.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5837.png" afterPath="$PROJECT_DIR$/img/games/Game_5837.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Game_5901.png" afterPath="$PROJECT_DIR$/img/games/Game_5901.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Geisha.jpg" afterPath="$PROJECT_DIR$/img/games/Geisha.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Krakow.jpg" afterPath="$PROJECT_DIR$/img/games/Krakow.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Megafortune.jpg" afterPath="$PROJECT_DIR$/img/games/Megafortune.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Tiki.jpg" afterPath="$PROJECT_DIR$/img/games/Tiki.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/Voodoo.jpg" afterPath="$PROJECT_DIR$/img/games/Voodoo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ag_fish.jpg" afterPath="$PROJECT_DIR$/img/games/ag_fish.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ag_games.jpg" afterPath="$PROJECT_DIR$/img/games/ag_games.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/alien.jpg" afterPath="$PROJECT_DIR$/img/games/alien.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/alienrobots.jpg" afterPath="$PROJECT_DIR$/img/games/alienrobots.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/arabian.jpg" afterPath="$PROJECT_DIR$/img/games/arabian.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/arc.jpg" afterPath="$PROJECT_DIR$/img/games/arc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/art.jpg" afterPath="$PROJECT_DIR$/img/games/art.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ashamw.jpg" afterPath="$PROJECT_DIR$/img/games/ashamw.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ashfmf.jpg" afterPath="$PROJECT_DIR$/img/games/ashfmf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ashhotj.jpg" afterPath="$PROJECT_DIR$/img/games/ashhotj.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ashsbd.jpg" afterPath="$PROJECT_DIR$/img/games/ashsbd.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/attraction.jpg" afterPath="$PROJECT_DIR$/img/games/attraction.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ba.jpg" afterPath="$PROJECT_DIR$/img/games/ba.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/bal.jpg" afterPath="$PROJECT_DIR$/img/games/bal.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/beach.jpg" afterPath="$PROJECT_DIR$/img/games/beach.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/bfb.jpg" afterPath="$PROJECT_DIR$/img/games/bfb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/bib.jpg" afterPath="$PROJECT_DIR$/img/games/bib.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/big_bang.jpg" afterPath="$PROJECT_DIR$/img/games/big_bang.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/blackjackflash.jpg" afterPath="$PROJECT_DIR$/img/games/blackjackflash.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/blackjackonedk.jpg" afterPath="$PROJECT_DIR$/img/games/blackjackonedk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/blacklagoon.jpg" afterPath="$PROJECT_DIR$/img/games/blacklagoon.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/blood_suckers.jpg" afterPath="$PROJECT_DIR$/img/games/blood_suckers.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/bob.jpg" afterPath="$PROJECT_DIR$/img/games/bob.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/boombrothers.jpg" afterPath="$PROJECT_DIR$/img/games/boombrothers.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/bs.jpg" afterPath="$PROJECT_DIR$/img/games/bs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/bt.jpg" afterPath="$PROJECT_DIR$/img/games/bt.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/c7.jpg" afterPath="$PROJECT_DIR$/img/games/c7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/cashfi.jpg" afterPath="$PROJECT_DIR$/img/games/cashfi.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/catqk.jpg" afterPath="$PROJECT_DIR$/img/games/catqk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/chao.jpg" afterPath="$PROJECT_DIR$/img/games/chao.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/cheaa.jpg" afterPath="$PROJECT_DIR$/img/games/cheaa.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/chl.jpg" afterPath="$PROJECT_DIR$/img/games/chl.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/cm.jpg" afterPath="$PROJECT_DIR$/img/games/cm.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/cosmicfortune.jpg" afterPath="$PROJECT_DIR$/img/games/cosmicfortune.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/crimescene.jpg" afterPath="$PROJECT_DIR$/img/games/crimescene.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/crusaders.jpg" afterPath="$PROJECT_DIR$/img/games/crusaders.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ctp2.jpg" afterPath="$PROJECT_DIR$/img/games/ctp2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/dazzle_not_mobile.jpg" afterPath="$PROJECT_DIR$/img/games/dazzle_not_mobile.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/dcv.jpg" afterPath="$PROJECT_DIR$/img/games/dcv.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/dead_or_alive.jpg" afterPath="$PROJECT_DIR$/img/games/dead_or_alive.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/demolition_squa.jpg" afterPath="$PROJECT_DIR$/img/games/demolition_squa.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/devil.jpg" afterPath="$PROJECT_DIR$/img/games/devil.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/diamonddogs.jpg" afterPath="$PROJECT_DIR$/img/games/diamonddogs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/dnr.jpg" afterPath="$PROJECT_DIR$/img/games/dnr.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/donq.jpg" afterPath="$PROJECT_DIR$/img/games/donq.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/dracula.jpg" afterPath="$PROJECT_DIR$/img/games/dracula.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/dragon_island.jpg" afterPath="$PROJECT_DIR$/img/games/dragon_island.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/dt2.jpg" afterPath="$PROJECT_DIR$/img/games/dt2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/dv2.jpg" afterPath="$PROJECT_DIR$/img/games/dv2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/eas.jpg" afterPath="$PROJECT_DIR$/img/games/eas.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/egyptian_heroes.jpg" afterPath="$PROJECT_DIR$/img/games/egyptian_heroes.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/er.jpg" afterPath="$PROJECT_DIR$/img/games/er.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/europeanroulette3.jpg" afterPath="$PROJECT_DIR$/img/games/europeanroulette3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/evolution.jpg" afterPath="$PROJECT_DIR$/img/games/evolution.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/excalibur.jpg" afterPath="$PROJECT_DIR$/img/games/excalibur.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/fday.jpg" afterPath="$PROJECT_DIR$/img/games/fday.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/fdt.jpg" afterPath="$PROJECT_DIR$/img/games/fdt.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/fff.jpg" afterPath="$PROJECT_DIR$/img/games/fff.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/fireflies.jpg" afterPath="$PROJECT_DIR$/img/games/fireflies.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/fisticuffs.jpg" afterPath="$PROJECT_DIR$/img/games/fisticuffs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/fkmj.jpg" afterPath="$PROJECT_DIR$/img/games/fkmj.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/flowers.jpg" afterPath="$PROJECT_DIR$/img/games/flowers.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/fm.jpg" afterPath="$PROJECT_DIR$/img/games/fm.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/fortuneteller.jpg" afterPath="$PROJECT_DIR$/img/games/fortuneteller.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/foy.jpg" afterPath="$PROJECT_DIR$/img/games/foy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/frankenstein.jpg" afterPath="$PROJECT_DIR$/img/games/frankenstein.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/frtln.jpg" afterPath="$PROJECT_DIR$/img/games/frtln.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/fruit_case.jpg" afterPath="$PROJECT_DIR$/img/games/fruit_case.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/fruitshop.jpg" afterPath="$PROJECT_DIR$/img/games/fruitshop.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/fxf.jpg" afterPath="$PROJECT_DIR$/img/games/fxf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gemq.jpg" afterPath="$PROJECT_DIR$/img/games/gemq.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ghostpirates.jpg" afterPath="$PROJECT_DIR$/img/games/ghostpirates.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ght_a.jpg" afterPath="$PROJECT_DIR$/img/games/ght_a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/glg.jpg" afterPath="$PROJECT_DIR$/img/games/glg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/glr.jpg" afterPath="$PROJECT_DIR$/img/games/glr.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/go_bananas.jpg" afterPath="$PROJECT_DIR$/img/games/go_bananas.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/goldenshamrock.jpg" afterPath="$PROJECT_DIR$/img/games/goldenshamrock.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gonzos_quest.jpg" afterPath="$PROJECT_DIR$/img/games/gonzos_quest.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gts50.jpg" afterPath="$PROJECT_DIR$/img/games/gts50.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gts51.jpg" afterPath="$PROJECT_DIR$/img/games/gts51.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gts52.jpg" afterPath="$PROJECT_DIR$/img/games/gts52.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtsatq.jpg" afterPath="$PROJECT_DIR$/img/games/gtsatq.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtscb.jpg" afterPath="$PROJECT_DIR$/img/games/gtscb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtscbl.jpg" afterPath="$PROJECT_DIR$/img/games/gtscbl.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtscnb.jpg" afterPath="$PROJECT_DIR$/img/games/gtscnb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtsdgk.jpg" afterPath="$PROJECT_DIR$/img/games/gtsdgk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtsdrdv.jpg" afterPath="$PROJECT_DIR$/img/games/gtsdrdv.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtsfc.jpg" afterPath="$PROJECT_DIR$/img/games/gtsfc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtsflzt.jpg" afterPath="$PROJECT_DIR$/img/games/gtsflzt.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtsfpc.jpg" afterPath="$PROJECT_DIR$/img/games/gtsfpc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtsgme.jpg" afterPath="$PROJECT_DIR$/img/games/gtsgme.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtshwkp.jpg" afterPath="$PROJECT_DIR$/img/games/gtshwkp.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtsir.jpg" afterPath="$PROJECT_DIR$/img/games/gtsir.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtsje.jpg" afterPath="$PROJECT_DIR$/img/games/gtsje.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtsjhw.jpg" afterPath="$PROJECT_DIR$/img/games/gtsjhw.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtsjxb.jpg" afterPath="$PROJECT_DIR$/img/games/gtsjxb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtsjzc.jpg" afterPath="$PROJECT_DIR$/img/games/gtsjzc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtsmrln.jpg" afterPath="$PROJECT_DIR$/img/games/gtsmrln.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtspor.jpg" afterPath="$PROJECT_DIR$/img/games/gtspor.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtssmbr.jpg" afterPath="$PROJECT_DIR$/img/games/gtssmbr.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtsswk.jpg" afterPath="$PROJECT_DIR$/img/games/gtsswk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtswg.jpg" afterPath="$PROJECT_DIR$/img/games/gtswg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/gtswng.jpg" afterPath="$PROJECT_DIR$/img/games/gtswng.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/hallofgods.jpg" afterPath="$PROJECT_DIR$/img/games/hallofgods.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/haocs.jpg" afterPath="$PROJECT_DIR$/img/games/haocs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/heavru.jpg" afterPath="$PROJECT_DIR$/img/games/heavru.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/hh.jpg" afterPath="$PROJECT_DIR$/img/games/hh.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/hit2split.jpg" afterPath="$PROJECT_DIR$/img/games/hit2split.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/hlf.jpg" afterPath="$PROJECT_DIR$/img/games/hlf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/hlf2.jpg" afterPath="$PROJECT_DIR$/img/games/hlf2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/hooksheroes_not_mobile.jpg" afterPath="$PROJECT_DIR$/img/games/hooksheroes_not_mobile.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/horus.jpg" afterPath="$PROJECT_DIR$/img/games/horus.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/hotktv.jpg" afterPath="$PROJECT_DIR$/img/games/hotktv.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/icywonder.jpg" afterPath="$PROJECT_DIR$/img/games/icywonder.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/invisibleman_not_mobile.jpg" afterPath="$PROJECT_DIR$/img/games/invisibleman_not_mobile.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/irl.jpg" afterPath="$PROJECT_DIR$/img/games/irl.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/jack_and_the_beanstalk.jpg" afterPath="$PROJECT_DIR$/img/games/jack_and_the_beanstalk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/jack_hammer_2.jpg" afterPath="$PROJECT_DIR$/img/games/jack_hammer_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/jackhammer.jpg" afterPath="$PROJECT_DIR$/img/games/jackhammer.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/jacksorbettermultiplehand.jpg" afterPath="$PROJECT_DIR$/img/games/jacksorbettermultiplehand.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/jokerwildmultiplehand.jpg" afterPath="$PROJECT_DIR$/img/games/jokerwildmultiplehand.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/jqw.jpg" afterPath="$PROJECT_DIR$/img/games/jqw.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/king_of_chicago.jpg" afterPath="$PROJECT_DIR$/img/games/king_of_chicago.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/kkg.jpg" afterPath="$PROJECT_DIR$/img/games/kkg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/longlong.jpg" afterPath="$PROJECT_DIR$/img/games/longlong.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/lostisland.jpg" afterPath="$PROJECT_DIR$/img/games/lostisland.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/lucky_angler.jpg" afterPath="$PROJECT_DIR$/img/games/lucky_angler.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/magic_portals.jpg" afterPath="$PROJECT_DIR$/img/games/magic_portals.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/mcb.jpg" afterPath="$PROJECT_DIR$/img/games/mcb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/mfrt.jpg" afterPath="$PROJECT_DIR$/img/games/mfrt.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/mgstk.jpg" afterPath="$PROJECT_DIR$/img/games/mgstk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/mmy.jpg" afterPath="$PROJECT_DIR$/img/games/mmy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/muse.jpg" afterPath="$PROJECT_DIR$/img/games/muse.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/mythic_maiden.jpg" afterPath="$PROJECT_DIR$/img/games/mythic_maiden.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/nc_7bal.jpg" afterPath="$PROJECT_DIR$/img/games/nc_7bal.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/nc_bal.jpg" afterPath="$PROJECT_DIR$/img/games/nc_bal.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/neonstaxx_not_mobile.jpg" afterPath="$PROJECT_DIR$/img/games/neonstaxx_not_mobile.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/nk.jpg" afterPath="$PROJECT_DIR$/img/games/nk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/pacific.jpg" afterPath="$PROJECT_DIR$/img/games/pacific.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/paw.jpg" afterPath="$PROJECT_DIR$/img/games/paw.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/pgv.jpg" afterPath="$PROJECT_DIR$/img/games/pgv.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/piggy_riches.jpg" afterPath="$PROJECT_DIR$/img/games/piggy_riches.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/pl.jpg" afterPath="$PROJECT_DIR$/img/games/pl.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/pmn.jpg" afterPath="$PROJECT_DIR$/img/games/pmn.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/pst.jpg" afterPath="$PROJECT_DIR$/img/games/pst.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/pyramid_not_mobile.jpg" afterPath="$PROJECT_DIR$/img/games/pyramid_not_mobile.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/qnw.jpg" afterPath="$PROJECT_DIR$/img/games/qnw.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/reel_steal.jpg" afterPath="$PROJECT_DIR$/img/games/reel_steal.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/reelrush.jpg" afterPath="$PROJECT_DIR$/img/games/reelrush.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/retro-funky70.jpg" afterPath="$PROJECT_DIR$/img/games/retro-funky70.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/retro-groovy60.jpg" afterPath="$PROJECT_DIR$/img/games/retro-groovy60.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/retro-super80.jpg" afterPath="$PROJECT_DIR$/img/games/retro-super80.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ririjc.jpg" afterPath="$PROJECT_DIR$/img/games/ririjc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/rky.jpg" afterPath="$PROJECT_DIR$/img/games/rky.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/rng2.jpg" afterPath="$PROJECT_DIR$/img/games/rng2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ro.jpg" afterPath="$PROJECT_DIR$/img/games/ro.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ro_g.jpg" afterPath="$PROJECT_DIR$/img/games/ro_g.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/robinhood.jpg" afterPath="$PROJECT_DIR$/img/games/robinhood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/rodl.jpg" afterPath="$PROJECT_DIR$/img/games/rodl.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/rodz.jpg" afterPath="$PROJECT_DIR$/img/games/rodz.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/rodz_g.jpg" afterPath="$PROJECT_DIR$/img/games/rodz_g.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/rofl.jpg" afterPath="$PROJECT_DIR$/img/games/rofl.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/rol.jpg" afterPath="$PROJECT_DIR$/img/games/rol.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/roulette2adv.jpg" afterPath="$PROJECT_DIR$/img/games/roulette2adv.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/samz.jpg" afterPath="$PROJECT_DIR$/img/games/samz.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/savcas.jpg" afterPath="$PROJECT_DIR$/img/games/savcas.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/sbl.jpg" afterPath="$PROJECT_DIR$/img/games/sbl.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/scarface.jpg" afterPath="$PROJECT_DIR$/img/games/scarface.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/scs.jpg" afterPath="$PROJECT_DIR$/img/games/scs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/secretofthestones.jpg" afterPath="$PROJECT_DIR$/img/games/secretofthestones.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/sfh.jpg" afterPath="$PROJECT_DIR$/img/games/sfh.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/sfr.jpg" afterPath="$PROJECT_DIR$/img/games/sfr.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/shmst.jpg" afterPath="$PROJECT_DIR$/img/games/shmst.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/simsalabim.jpg" afterPath="$PROJECT_DIR$/img/games/simsalabim.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/sis.jpg" afterPath="$PROJECT_DIR$/img/games/sis.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/skp.jpg" afterPath="$PROJECT_DIR$/img/games/skp.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/sling.jpg" afterPath="$PROJECT_DIR$/img/games/sling.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/south_park_reel_chaos.jpg" afterPath="$PROJECT_DIR$/img/games/south_park_reel_chaos.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/southpark.jpg" afterPath="$PROJECT_DIR$/img/games/southpark.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/spacewars.jpg" afterPath="$PROJECT_DIR$/img/games/spacewars.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/sparks_not_mobile.jpg" afterPath="$PROJECT_DIR$/img/games/sparks_not_mobile.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/spellcast.jpg" afterPath="$PROJECT_DIR$/img/games/spellcast.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/spinatagrande.jpg" afterPath="$PROJECT_DIR$/img/games/spinatagrande.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/spr.jpg" afterPath="$PROJECT_DIR$/img/games/spr.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/spud.jpg" afterPath="$PROJECT_DIR$/img/games/spud.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ssp.jpg" afterPath="$PROJECT_DIR$/img/games/ssp.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/starburst.jpg" afterPath="$PROJECT_DIR$/img/games/starburst.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/starburstmini.jpg" afterPath="$PROJECT_DIR$/img/games/starburstmini.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/stickers_not_mobile.jpg" afterPath="$PROJECT_DIR$/img/games/stickers_not_mobile.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/subtopia.jpg" afterPath="$PROJECT_DIR$/img/games/subtopia.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/sx.jpg" afterPath="$PROJECT_DIR$/img/games/sx.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ta.jpg" afterPath="$PROJECT_DIR$/img/games/ta.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/tclsc.jpg" afterPath="$PROJECT_DIR$/img/games/tclsc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/the_wish_master.jpg" afterPath="$PROJECT_DIR$/img/games/the_wish_master.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/thief.jpg" afterPath="$PROJECT_DIR$/img/games/thief.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/thrillspin.jpg" afterPath="$PROJECT_DIR$/img/games/thrillspin.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/thunderfist.jpg" afterPath="$PROJECT_DIR$/img/games/thunderfist.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/tmqd.jpg" afterPath="$PROJECT_DIR$/img/games/tmqd.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/topg.jpg" afterPath="$PROJECT_DIR$/img/games/topg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/tpd2.jpg" afterPath="$PROJECT_DIR$/img/games/tpd2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/trl.jpg" afterPath="$PROJECT_DIR$/img/games/trl.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/troll.jpg" afterPath="$PROJECT_DIR$/img/games/troll.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/trpmnk.jpg" afterPath="$PROJECT_DIR$/img/games/trpmnk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ttc.jpg" afterPath="$PROJECT_DIR$/img/games/ttc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/twinspin.jpg" afterPath="$PROJECT_DIR$/img/games/twinspin.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/ub.jpg" afterPath="$PROJECT_DIR$/img/games/ub.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/vbal.jpg" afterPath="$PROJECT_DIR$/img/games/vbal.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/vcstd.jpg" afterPath="$PROJECT_DIR$/img/games/vcstd.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/vegasparty.jpg" afterPath="$PROJECT_DIR$/img/games/vegasparty.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/victorious.jpg" afterPath="$PROJECT_DIR$/img/games/victorious.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/viking.jpg" afterPath="$PROJECT_DIR$/img/games/viking.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/whk.jpg" afterPath="$PROJECT_DIR$/img/games/whk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/wild_turkey.jpg" afterPath="$PROJECT_DIR$/img/games/wild_turkey.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/wildrockets.jpg" afterPath="$PROJECT_DIR$/img/games/wildrockets.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/wildwater.jpg" afterPath="$PROJECT_DIR$/img/games/wildwater.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/wildwitches.jpg" afterPath="$PROJECT_DIR$/img/games/wildwitches.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/wis.jpg" afterPath="$PROJECT_DIR$/img/games/wis.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/wlg.jpg" afterPath="$PROJECT_DIR$/img/games/wlg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/wonky_wabbits.jpg" afterPath="$PROJECT_DIR$/img/games/wonky_wabbits.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/zcjb.jpg" afterPath="$PROJECT_DIR$/img/games/zcjb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/zctz.jpg" afterPath="$PROJECT_DIR$/img/games/zctz.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/games/zombies.jpg" afterPath="$PROJECT_DIR$/img/games/zombies.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bet.html" afterPath="$PROJECT_DIR$/bet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client.html" afterPath="$PROJECT_DIR$/client.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entertainment.html" afterPath="$PROJECT_DIR$/entertainment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq.html" afterPath="$PROJECT_DIR$/faq.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/football.html" afterPath="$PROJECT_DIR$/football.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forgetpassword.html" afterPath="$PROJECT_DIR$/forgetpassword.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games.html" afterPath="$PROJECT_DIR$/games.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide.html" afterPath="$PROJECT_DIR$/guide.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/css/animation.css" afterPath="$PROJECT_DIR$/help/css/animation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/index.html" afterPath="$PROJECT_DIR$/help/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jssor.slider.min.js" afterPath="$PROJECT_DIR$/js/jssor.slider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/parallax.min.js" afterPath="$PROJECT_DIR$/js/parallax.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scrollreveal.min.js" afterPath="$PROJECT_DIR$/js/scrollreveal.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile.html" afterPath="$PROJECT_DIR$/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/promotion.html" afterPath="$PROJECT_DIR$/promotion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sports.html" afterPath="$PROJECT_DIR$/sports.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,25 +546,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/help/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="648" column="25" lean-forward="true" selection-start-line="648" selection-start-column="25" selection-end-line="648" selection-end-column="25" />
+            <state relative-caret-position="403">
+              <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1511332368333" expanded="false" signature="1414:1427" ph="/*...*/" />
+                <marker date="1511347141760" expanded="true" signature="1414:1427" ph="/*...*/" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="363" column="17" lean-forward="false" selection-start-line="363" selection-start-column="17" selection-end-line="363" selection-end-column="17" />
+            <state relative-caret-position="5340">
+              <caret line="368" column="1" lean-forward="true" selection-start-line="368" selection-start-column="1" selection-end-line="368" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -40,8 +573,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="446" column="14" lean-forward="true" selection-start-line="446" selection-start-column="14" selection-end-line="446" selection-end-column="14" />
+            <state relative-caret-position="6690">
+              <caret line="446" column="14" lean-forward="false" selection-start-line="446" selection-start-column="14" selection-end-line="446" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -52,8 +585,8 @@
       <file leaf-file-name="help.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/help/js/help.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="195">
+              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -62,8 +595,8 @@
       <file leaf-file-name="bet.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="146" column="36" lean-forward="true" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
+            <state relative-caret-position="2190">
+              <caret line="146" column="36" lean-forward="false" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -72,7 +605,7 @@
       <file leaf-file-name="promotion.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/promotion.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="6495">
               <caret line="455" column="61" lean-forward="false" selection-start-line="455" selection-start-column="61" selection-end-line="455" selection-end-column="61" />
               <folding>
                 <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1667,6 +2200,9 @@
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -1681,12 +2217,12 @@
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/sports.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/help/index.html" />
         <option value="$PROJECT_DIR$/promotion.html" />
         <option value="$PROJECT_DIR$/help/js/help.js" />
         <option value="$PROJECT_DIR$/bet.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/help/index.html" />
       </list>
     </option>
   </component>
@@ -1703,11 +2239,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="6" />
-    <option name="y" value="29" />
-    <option name="width" value="1428" />
-    <option name="height" value="809" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="824" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -1728,30 +2263,20 @@
         <subPane>
           <expand>
             <path>
-              <item name="dsnInt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dsnInt" type="462c0819:PsiDirectoryNode" />
+              <item name="disInt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disInt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dsnInt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dsnInt" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dsnInt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dsnInt" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dsnInt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dsnInt" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="disInt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disInt" type="462c0819:PsiDirectoryNode" />
+              <item name="help" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1794,31 +2319,32 @@
       <option name="presentableId" value="Default" />
       <updated>1511327170327</updated>
       <workItem from="1511327172353" duration="5975000" />
+      <workItem from="1511347080271" duration="81000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5975000" />
+    <option name="totallyTimeSpent" value="6056000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843792" sideWeight="0.50277776" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843792" sideWeight="0.49722221" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32712767" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843792" sideWeight="0.49722221" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1837,7 +2363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="81" column="78" lean-forward="false" selection-start-line="81" selection-start-column="78" selection-end-line="81" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1845,7 +2370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="76" column="78" lean-forward="false" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1853,7 +2377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="81" column="78" lean-forward="false" selection-start-line="81" selection-start-column="78" selection-end-line="81" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1861,7 +2384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="81" column="78" lean-forward="false" selection-start-line="81" selection-start-column="78" selection-end-line="81" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1869,7 +2391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="76" column="78" lean-forward="false" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1877,7 +2398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="81" column="78" lean-forward="false" selection-start-line="81" selection-start-column="78" selection-end-line="81" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1885,7 +2405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="81" column="78" lean-forward="false" selection-start-line="81" selection-start-column="78" selection-end-line="81" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1893,7 +2412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="76" column="78" lean-forward="false" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1901,7 +2419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="76" column="78" lean-forward="false" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1909,7 +2426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
           <caret line="517" column="67" lean-forward="true" selection-start-line="517" selection-start-column="67" selection-end-line="517" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1922,7 +2438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="307" column="0" lean-forward="true" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1941,9 +2456,65 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/client/phone2_big.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/client/phone_big.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/nav_hd_spirits.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/section/player.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/client/phone_small.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/nav_hd_spirits.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6690">
+          <caret line="446" column="14" lean-forward="false" selection-start-line="446" selection-start-column="14" selection-end-line="446" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/js/help.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2190">
+          <caret line="146" column="36" lean-forward="false" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/promotion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="6495">
           <caret line="455" column="61" lean-forward="false" selection-start-line="455" selection-start-column="61" selection-end-line="455" selection-end-column="61" />
           <folding>
             <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -3505,78 +4076,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/help/js/help.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="146" column="36" lean-forward="true" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
+        <state relative-caret-position="5340">
+          <caret line="368" column="1" lean-forward="true" selection-start-line="368" selection-start-column="1" selection-end-line="368" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/help/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="648" column="25" lean-forward="true" selection-start-line="648" selection-start-column="25" selection-end-line="648" selection-end-column="25" />
+        <state relative-caret-position="403">
+          <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1511332368333" expanded="false" signature="1414:1427" ph="/*...*/" />
+            <marker date="1511347141760" expanded="true" signature="1414:1427" ph="/*...*/" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/client/phone2_big.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/client/phone_big.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/nav_hd_spirits.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/section/player.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/client/phone_small.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/nav_hd_spirits.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="446" column="14" lean-forward="true" selection-start-line="446" selection-start-column="14" selection-end-line="446" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="363" column="17" lean-forward="false" selection-start-line="363" selection-start-column="17" selection-end-line="363" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>

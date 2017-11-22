@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head runat="server">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>迪士尼国际</title>
+      <link href="./bootstrap.min.css" rel="stylesheet">
+      <link href="./scrollbar.css" rel="stylesheet">
+      <script src="./jquery-2.1.4.js"></script>
+      <script>
+         $(function () {
+             $("a.more").on("click", function (e) {
+                e.preventDefault();
+                $(this).siblings(".box").slideToggle();
+             });
+         });
+      </script>
+      <style>
+         #list {
+         width: 95%;
+         margin: auto;
+         }
+         .clearfix {
+         *zoom: 1;
+         }
+         .clearfix:before,
+         .clearfix:after {
+         display: table;
+         line-height: 0;
+         content: "";
+         }
+         .main_title {
+         padding: 15px 25px 8px 0;
+         float: left;
+         border-bottom: 3px #312B53 solid;
+         font-size: 16px;
+         font-weight: 900;
+         }
+         .item {
+         padding: 5px 10px;
+         background: #AAC1D9;
+         margin: 2px;
+         }
+         .content {
+         margin-top: 15px;
+         height: 100%;
+         }
+         a {
+         display: block;
+         color: #312B53;
+         }
+         img {
+         width: 100%;
+         }
+         .icon {
+         width: 20px;
+         height: 20px;
+         float: right;
+         }
+      </style>
+   </head>
+   <body>
+      <form id="form1" runat="server">
+         <div id="list" class="clearfix">
+            <div class="main_title">
+               VIP网银通道
+            </div>
+            <div class="clearfix"></div>
+            <div class="item">
+               <a href="#" class="more">
+               中国建设银行
+               <img src="./more.png" class="icon">
+               </a>
+               <div class="box" style="display: none;">
+                  <div class="scroll-wrapper content scrollbar-macosx" style="position: relative;">
+                     <div class="content scrollbar-macosx scroll-content" style="height: 100px; margin-bottom: 0px; margin-right: 0px; max-height: none;">
+                        <img src="./VIPCCB-01.jpg">
+                        <img src="./VIPCCB-02.jpg">
+                        <img src="./VIPCCB-03.jpg">
+                        <img src="./VIPCCB-04.jpg">
+                     </div>
+                     <div class="scroll-element scroll-x">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                     <div class="scroll-element scroll-y">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <a href="#" class="more">
+               招商银行
+               <img src="./more.png" class="icon">
+               </a>
+               <div class="box" style="display: none;">
+                  <div class="scroll-wrapper content scrollbar-macosx" style="position: relative;">
+                     <div class="content scrollbar-macosx scroll-content" style="height: 100px; margin-bottom: 0px; margin-right: 0px; max-height: none;">
+                        <img src="./VIPCMB-01.jpg">
+                        <img src="./VIPCMB-02.jpg">
+                        <img src="./VIPCMB-03.jpg">
+                        <img src="./VIPCMB-04.jpg">
+                     </div>
+                     <div class="scroll-element scroll-x">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                     <div class="scroll-element scroll-y">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <a href="#" class="more">
+               农业银行
+               <img src="./more.png" class="icon">
+               </a>
+               <div class="box" style="display: none;">
+                  <div class="scroll-wrapper content scrollbar-macosx" style="position: relative;">
+                     <div class="content scrollbar-macosx scroll-content" style="height: 100px; margin-bottom: 0px; margin-right: 0px; max-height: none;">
+                        <img src="./VIPABC-01.jpg">
+                        <img src="./VIPABC-02.jpg">
+                        <img src="./VIPABC-03.jpg">
+                        <img src="./VIPABC-04.jpg">
+                        <img src="./VIPABC-05.jpg">
+                        <img src="./VIPABC-06.jpg">
+                     </div>
+                     <div class="scroll-element scroll-x">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                     <div class="scroll-element scroll-y">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="main_title">
+               公司入款 - 网银
+            </div>
+            <div class="clearfix"></div>
+            <div class="item">
+               <a href="#" class="more">
+               中国建设银行
+               <img src="./more.png" class="icon">
+               </a>
+               <div class="box" style="display: none;">
+                  <div class="scroll-wrapper content scrollbar-macosx" style="position: relative;">
+                     <div class="content scrollbar-macosx scroll-content" style="height: 100px; margin-bottom: 0px; margin-right: 0px; max-height: none;">
+                        <img src="./CCB.jpg">
+                        <img src="./CCB-02.jpg">
+                        <img src="./CCB-03.jpg">
+                        <img src="./CCB-04.jpg">
+                        <img src="./CCB-05.jpg">
+                        <img src="./CCB-06.jpg">
+                        <img src="./CCB-07.jpg">
+                        <img src="./CCB-08.jpg">
+                        <img src="./CCB-09.jpg">
+                     </div>
+                     <div class="scroll-element scroll-x">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                     <div class="scroll-element scroll-y">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <a href="#" class="more">
+               招商银行
+               <img src="./more.png" class="icon">
+               </a>
+               <div class="box" style="display: none;">
+                  <div class="scroll-wrapper content scrollbar-macosx" style="position: relative;">
+                     <div class="content scrollbar-macosx scroll-content" style="height: 100px; margin-bottom: 0px; margin-right: 0px; max-height: none;">
+                        <img src="./CMB-01.jpg">
+                        <img src="./CMB-02.jpg">
+                        <img src="./CMB-03.jpg">
+                        <img src="./CMB-04.jpg">
+                        <img src="./CMB-05.jpg">
+                        <img src="./CMB-06.jpg">
+                     </div>
+                     <div class="scroll-element scroll-x">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                     <div class="scroll-element scroll-y">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="main_title">
+               公司入款 - 自动转账
+            </div>
+            <div class="clearfix"></div>
+            <div class="item">
+               <a href="#" class="more">
+               自动转账
+               <img src="./more.png" class="icon">
+               </a>
+               <div class="box" style="display: none;">
+                  <div class="scroll-wrapper content scrollbar-macosx" style="position: relative;">
+                     <div class="content scrollbar-macosx scroll-content" style="height: 100px; margin-bottom: 0px; margin-right: 0px; max-height: none;">
+                        <img src="./autodeposit.jpg">
+                     </div>
+                     <div class="scroll-element scroll-x">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                     <div class="scroll-element scroll-y">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="main_title">
+               网银支付2.0
+            </div>
+            <div class="clearfix"></div>
+            <div class="item">
+               <a href="#" class="more">
+               中国建设银行
+               <img src="./more.png" class="icon">
+               </a>
+               <div class="box" style="display: none;">
+                  <div class="scroll-wrapper content scrollbar-macosx" style="position: relative;">
+                     <div class="content scrollbar-macosx scroll-content" style="height: 100px; margin-bottom: 0px; margin-right: 0px; max-height: none;">
+                        <img src="./DCCB-01.jpg">
+                        <img src="./DCCB-02.jpg">
+                        <img src="./DCCB-03.jpg">
+                        <img src="./DCCB-04.jpg">
+                     </div>
+                     <div class="scroll-element scroll-x">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                     <div class="scroll-element scroll-y">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <a href="#" class="more">
+               招商银行
+               <img src="./more.png" class="icon">
+               </a>
+               <div class="box" style="display: none;">
+                  <div class="scroll-wrapper content scrollbar-macosx" style="position: relative;">
+                     <div class="content scrollbar-macosx scroll-content" style="height: 100px; margin-bottom: 0px; margin-right: 0px; max-height: none;">
+                        <img src="./DCMB-01.jpg">
+                        <img src="./DCMB-02.jpg">
+                        <img src="./DCMB-03.jpg">
+                        <img src="./DCMB-04.jpg">
+                     </div>
+                     <div class="scroll-element scroll-x">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                     <div class="scroll-element scroll-y">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <a href="#" class="more">
+               农业银行
+               <img src="./more.png" class="icon">
+               </a>
+               <div class="box" style="display: none;">
+                  <div class="scroll-wrapper content scrollbar-macosx" style="position: relative;">
+                     <div class="content scrollbar-macosx scroll-content" style="height: 100px; margin-bottom: 0px; margin-right: 0px; max-height: none;">
+                        <img src="./DABC-01.jpg">
+                        <img src="./DABC-02.jpg">
+                        <img src="./DABC-03.jpg">
+                        <img src="./DABC-04.jpg">
+                        <img src="./DABC-05.jpg">
+                        <img src="./DABC-06.jpg">
+                     </div>
+                     <div class="scroll-element scroll-x">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                     <div class="scroll-element scroll-y">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="main_title">
+               网银急速付款
+            </div>
+            <div class="clearfix"></div>
+            <div class="item">
+               <a href="#" class="more">
+               网银
+               <img src="./more.png" class="icon">
+               </a>
+               <div class="box" style="display: none;">
+                  <div class="scroll-wrapper content scrollbar-macosx" style="position: relative;">
+                     <div class="content scrollbar-macosx scroll-content" style="height: 100px; margin-bottom: 0px; margin-right: 0px; max-height: none;">
+                        <img src="./0101.png">
+                        <img src="./0102.png">
+                        <img src="./0103.png">
+                        <img src="./0104.png">
+                        <img src="./0105.png">
+                     </div>
+                     <div class="scroll-element scroll-x">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                     <div class="scroll-element scroll-y">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <a href="#" class="more">
+               支付宝
+               <img src="./more.png" class="icon">
+               </a>
+               <div class="box" style="display: none;">
+                  <div class="scroll-wrapper content scrollbar-macosx" style="position: relative;">
+                     <div class="content scrollbar-macosx scroll-content" style="height: 100px; margin-bottom: 0px; margin-right: 0px; max-height: none;">
+                        <img src="./0201.png">
+                        <img src="./0202.png">
+                        <img src="./0203.png">
+                        <img src="./0204.png">
+                        <img src="./0205.png">
+                        <img src="./0206.png">
+                     </div>
+                     <div class="scroll-element scroll-x">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                     <div class="scroll-element scroll-y">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="main_title">
+               QQ钱包付款
+            </div>
+            <div class="clearfix"></div>
+            <div class="item">
+               <a href="#" class="more">
+               支付流程
+               <img src="./more.png" class="icon">
+               </a>
+               <div class="box" style="display: none;">
+                  <div class="scroll-wrapper content scrollbar-macosx" style="position: relative;">
+                     <div class="content scrollbar-macosx scroll-content" style="height: 100px; margin-bottom: 0px; margin-right: 0px; max-height: none;">
+                        <img src="./01.jpg">
+                        <img src="./02.jpg">
+                        <img src="./03.jpg">
+                        <img src="./04.jpg">
+                        <img src="./05.jpg">
+                        <img src="./06.jpg">
+                     </div>
+                     <div class="scroll-element scroll-x">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                     <div class="scroll-element scroll-y">
+                        <div class="scroll-element_outer">
+                           <div class="scroll-element_size"></div>
+                           <div class="scroll-element_track"></div>
+                           <div class="scroll-bar"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <script src="./jquery.scrollbar.js"></script>
+         <script>$('.scrollbar-macosx').scrollbar();</script>
+      </form>
+      <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+         <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+      </div>
+   </body>
+</html>
