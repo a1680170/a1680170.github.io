@@ -1,0 +1,301 @@
+.helpmain .main ul li .foot .btn span,
+.helpmain .main ul li .foot .btn i ,
+.helpmain .nav dl dd ,
+.helpmain .nav dl dd span,
+.helpmain .nav dl dd i,
+/*games按钮效果*/
+.submain  dl dd ,
+.submain  dl dd span,
+.submain  dl dd i,
+/*games按钮效果*/
+.helpmain .main ul li .foot .love i ,
+.helpmain .main ul li .foot .love span  {
+	-webkit-transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+	-moz-transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+	-ms-transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+	-o-transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+	transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+}
+.helpmain {
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	background: #23232B;
+	color: #fff;
+}
+.helpmain .center {
+	width:1200px;
+	margin:0 auto; 
+	overflow:hidden;
+}
+.helpmain .nav {
+	width:180px;
+	float:left;
+	position:absolute;
+	bottom:0;
+	top:0;
+	height:100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing: border-box; /* Safari */
+	background-color:#252737;
+}
+.helpmain .nav dl {
+	width:180px;
+	padding-bottom:20px;
+	padding-top:30px;
+}
+.helpmain .nav dl.fixed {
+	position:fixed;
+	top:0;
+}
+.helpmain .nav dl.bottom {
+	position: absolute;
+	bottom:0;
+}
+.helpmain .nav dl dt  {
+	width:134px;
+	height:46px;
+	display:block;
+	margin:0 auto 20px auto; 
+}
+.helpmain .nav dl dt h1 {
+	margin-top:0;
+	float:left;
+	margin-right:3px;
+	line-height:46px;
+	font-size:58px;
+	/*color:#0088fe;*/
+	font-weight:inherit;
+}
+.helpmain .nav dl dt span {
+	display:block;
+	float:left;
+	height:30px;
+}
+.helpmain .nav dl dt span p {
+	line-height:28px;
+	font-size:20px;
+	/*color:#4b4b4b;*/
+	color: #F4AA43;
+	margin:0;
+	display:block;
+}
+.helpmain .nav dl dt span b {
+	font-size:16px;
+	line-height:18px;
+	margin:0;
+	display:block;
+	/*color:#9b9b9b;*/
+	color: #F4AA43;
+	font-weight:inherit;
+}
+.helpmain .nav dl dd {
+	width:80%;
+	height:50px;
+	line-height:36px;
+	text-align:center;
+	cursor:pointer;
+	position:relative;
+	margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid #A9C1D9;
+}
+
+.helpmain .nav dl dd:nth-of-type(1){
+	border-top: 1px solid #A9C1D9;
+}
+
+.helpmain .nav dl dd span {
+	display:block;
+	width:100%;
+	line-height:36px;
+	color:#AAC1D9;
+	height:100%;
+	font-size:14px;
+}
+.helpmain .nav dl dd i {
+	display:block;
+	width: 0;
+    height: 0;
+	position:absolute;
+	right:25%;
+	top:12px;
+	opacity:0;
+    border-top: 6px solid transparent;
+    border-left: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+}
+.helpmain .nav dl dd.on {
+	/*background-color:#000;*/
+}
+
+.helpmain .nav dl dd:hover{
+
+}
+.helpmain .nav dl dd.on span {
+	color:#F4AA43;
+}
+
+.helpmain .nav dl dd:hover span{
+	-webkit-transform: translate3d(-5px, 0, 0);
+	-moz-transform: translate3d(-5px, 0, 0);
+	-ms-transform: translate3d(-5px, 0, 0);
+	-o-transform: translate3d(-5px, 0, 0);
+	transform: translate3d(-5px, 0, 0);
+}
+
+.helpmain .nav dl dd.on i,.helpmain .nav dl dd:hover i {
+	opacity:1;
+	-webkit-transform: translate3d(5px, 0, 0);
+	-moz-transform: translate3d(5px, 0, 0);
+	-ms-transform: translate3d(5px, 0, 0);
+	-o-transform: translate3d(5px, 0, 0);
+	transform: translate3d(5px, 0, 0);
+}
+.helpmain .main {
+	width:980px;
+	padding:50px;
+	overflow:hidden;
+	float:right;
+	background-color:#252737;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing: border-box; /* Safari */
+}
+.helpmain .main .panel-priv {
+	display:none
+}
+
+.helpmain .main .panel-priv h2 {
+	font-size: 16px;
+    margin-bottom: 20px;
+    color: #0088fe;
+    font-weight:normal;
+}
+.helpmain .main .panel-priv h3 {
+	font-size: 14px;
+    margin-top: 20px;
+    /*color: #0088fe;*/
+    /*color: #000066;*/
+
+    font-weight: bold;
+	margin-bottom:10px;
+}
+.helpmain .main .panel-priv img {
+	width:384px;
+	/*height:206px;*/
+	margin:30px 0;
+}
+.helpmain .main .panel-priv .tutorial {
+	width:610px;
+	height:340px;
+	margin:0px 0;
+}
+.helpmain .main .panel-priv .tutorial img {
+	width:610px;
+	height:340px;
+}
+.helpmain .main .panel-priv ol {
+	width:100%;
+	padding-left:20px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing: border-box; /* Safari */
+}
+.helpmain .main .panel-priv ol li {
+	list-style-type: decimal;
+    list-style-position: outside;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.submain dl dd{
+	width: 120px;
+	display:inline-block;
+	line-height:36px;
+	text-align:center;
+	cursor:pointer;
+	position:relative;
+	border-radius:18px;
+/*	margin:20px 40px 0 80px;*/
+	margin:20px 20px 0 20px;
+	background-color:#e5e5e5;
+}
+.submain dl dd span {
+	width:100%;
+	line-height:36px;
+	color:#565656;
+	/**height:100%;**/
+	margin-right: 10px; 
+	font-size:14px;
+}
+.submain dl dd i {
+	display:block;
+	width: 0;
+    height: 0;
+	position:absolute;
+	right:25%;
+	top:12px;
+	opacity:0;
+    border-top: 6px solid transparent;
+    border-left: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+}
+
+#subcc .panel-sub h3 {
+	font-size: 14px;
+    margin-top: 20px;
+    /*color: #0088fe;
+    font-weight:normal;*/
+    /*color: #000066;*/
+    font-weight:bolder;
+	margin-bottom:10px;
+}
+
+.title{
+	font-size: 18px;
+}
+
+.submain dl dd.on,.submain dl dd:hover {
+	/*background-color:#000;*/
+	background:url(../Images/faqs/btn_bg_spirits.png) repeat-x;
+	background-position-x:0px;
+	background-position-y:-10px; 
+}
+.submain dl dd.on span,.submain dl dd:hover span {
+	color:#fff;
+	-webkit-transform: translate3d(-5px, 0, 0);
+	-moz-transform: translate3d(-5px, 0, 0);
+	-ms-transform: translate3d(-5px, 0, 0);
+	-o-transform: translate3d(-5px, 0, 0);
+	transform: translate3d(-5px, 0, 0);
+}
+.submain dl dd.on i,.submain dl dd:hover i {
+	opacity:1;
+	-webkit-transform: translate3d(5px, 0, 0);
+	-moz-transform: translate3d(5px, 0, 0);
+	-ms-transform: translate3d(5px, 0, 0);
+	-o-transform: translate3d(5px, 0, 0);
+	transform: translate3d(5px, 0, 0);
+}	
+.panel-subcc .panel-sub ol {
+	width:100%;
+	padding-left:20px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing: border-box; /* Safari */
+}
+.panel-subcc .panel-sub ol li {
+	list-style-type: decimal;
+    list-style-position: outside;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+/*默认隐藏*/
+#subcc .panel-sub  {
+	display:none
+}
+/*/默认隐藏*/
