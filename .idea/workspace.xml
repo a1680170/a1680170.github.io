@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa39ed1e-0ebb-4a80-857b-5cace0a97157" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/withdraw/withdraw/wx_02.jpg" afterPath="$PROJECT_DIR$/help/withdraw/withdraw/wx_02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/wechat/wechat/wx_02.jpg" afterPath="$PROJECT_DIR$/help/wechat/wechat/wx_02.jpg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +19,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/help/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
+            <state relative-caret-position="-94">
               <caret line="74" column="28" lean-forward="true" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -388,9 +388,9 @@
       <recent name="$PROJECT_DIR$/img/section" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\a1680170.github.io\help\wechat\wechat" />
       <recent name="C:\Users\Administrator\a1680170.github.io\help\withdraw\withdraw" />
       <recent name="C:\Users\Administrator\a1680170.github.io\help\zfb\zfb" />
-      <recent name="C:\Users\Administrator\a1680170.github.io\help\wechat\wechat" />
       <recent name="C:\Users\Administrator\a1680170.github.io\help\usepc\pc_files" />
       <recent name="C:\Users\Administrator\a1680170.github.io\help\usephone\app_files" />
     </key>
@@ -419,12 +419,12 @@
       <updated>1511327170327</updated>
       <workItem from="1511327172353" duration="5975000" />
       <workItem from="1511347080271" duration="81000" />
-      <workItem from="1511403590408" duration="6748000" />
+      <workItem from="1511403590408" duration="6846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12804000" />
+    <option name="totallyTimeSpent" value="12902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
@@ -3889,9 +3889,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/help/wechat/wechat/howusepc_02.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/help/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
+        <state relative-caret-position="-94">
           <caret line="74" column="28" lean-forward="true" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
