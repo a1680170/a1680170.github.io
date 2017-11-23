@@ -18,6 +18,13 @@ $(function () {
         $(".panel-priv").hide();
         $("#" + obj + "-panel").show();
         // window.location.href = window.location.pathname + "?" + obj;
+
+        if($('#helpmain-nav dd[data="games"]').hasClass("on")){
+            $(".panel-subcc").show();
+            $(".panel-sub:first-child").show();
+        } else{
+            $(".panel-subcc").hide();
+        }
     });
 
 

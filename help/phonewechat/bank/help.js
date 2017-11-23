@@ -37,7 +37,7 @@ $(function () {
         $(".panel-priv").hide();
         $("#" + obj + "-panel").show();
         window.location.href= window.location.pathname+"?"+obj;
- });
+    });
 
 
 	
@@ -50,7 +50,6 @@ $(function () {
         $(this).addClass("on");
         $(".panel-sub").hide();
         $("#" + subobj + "-panel").show();
- 
 	});
 	
 	/**End-Submain**/
