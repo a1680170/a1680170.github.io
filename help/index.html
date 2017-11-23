@@ -68,8 +68,6 @@
         </table>
     </div>
 </div>
-<input name="__RequestVerificationToken" type="hidden"
-       value="cWd3ymv85Tm7ECn9bckNxHlfQRRBSUMqsqOyuaUFZItuz10SpLgjsFCJXWp2-xsY1Qj_IjGnB675gAo4TevfvUpCm7AVJ0BVBrbLNWV3UKw1">
 <!--header start-->
 <header>
 
@@ -84,8 +82,8 @@
                         <b>elp</b>
                     </span>
                     </dt>
-                    <dd class="" data="faq"><span>常见问题</span></dd>
-                    <dd data="deposit" class="on"><span>存款问题</span></dd>
+                    <dd class="on" data="faq"><span>常见问题</span></dd>
+                    <dd data="deposit"><span>存款问题</span></dd>
                     <dd data="withdrawal"><span>提款问题</span></dd>
                     <dd data="games"><span>游戏问题</span></dd>
                     <dd data="paccount"><span>账号问题</span></dd>
@@ -95,7 +93,7 @@
                 </dl>
             </div>
             <div class="main" id="helpmain-main" style="min-height: 926px;">
-                <div class="panel-priv" id="deposit-panel" style="display: block;">
+                <div class="panel-priv" id="deposit-panel">
                     <h1 class="title">存款问题</h1>
                     <h3>电脑（PC）端</h3>
                     <ol>
@@ -142,7 +140,7 @@
                 </div>
                 <!--/deposit-panel-->
                 <!--FAQ-Panel /**一般常见的问题**/ -->
-                <div class="panel-priv" id="faq-panel">
+                <div class="panel-priv" id="faq-panel" style="display: block;">
                     <h1 class="title">常见问题</h1><br>
                     <ol>
                         <li><a href="#" style="color:#F4AA43">如何使用电脑查询注单？</a></li>
@@ -915,11 +913,11 @@
     <script type="text/javascript">
         function b() {
             h = $(window).height();
-            t = $(document).scrollTop();
+            t = $("html, body").scrollTop();
             if (t > h) {
-                $('#gotop').show();
+                $('#gotop').fadeIn();
             } else {
-                $('#gotop').hide();
+                $('#gotop').fadeOut();
             }
         }
 
@@ -928,7 +926,9 @@
             b();
 
             $('#gotop').click(function () {
-                $(document).scrollTop(0);
+                $("html, body").animate({
+                    scrollTop: 0
+                });
             });
 
             $('#code').hover(function () {
