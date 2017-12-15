@@ -1,0 +1,48 @@
+﻿<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>SG-WIN 星加坡双赢科技发展有限公司</title>
+    <meta name="description" content="">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="keywords" content="SG-WIN 星加坡-双赢科技,SG-WIN 星加坡-双赢科技发展有限公司,SG-WIN,星加坡-双赢科技,星加坡,双赢科技,信用网合作,API端口合作,现金网建站加盟,信用盘玩法,官方盘玩法,专注彩票">
+  </head>
+  <body></body>
+  <script src="js/vendor/jquery-1.11.3.min.js"></script>
+  <script>
+
+    var mobileOS = getMobileOperatingSystem();
+    
+    if(mobileOS === 'iOS'){
+      // location.href = "../download/ios/app.plist";
+      location.href = "itms-services://?action=download-manifest&amp;url=https://a1680170.github.io/sgwin/download/ios/app.plist"
+    } else if(mobileOS === 'Android'){
+      location.href = "../download/android/skype.apk"
+    } else {
+      // Back to default home
+      location.href = "../"
+    }
+
+    function getMobileOperatingSystem() {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            // Windows Phone must come first because its UA also contains "Android"
+          if (/windows phone/i.test(userAgent)) {
+              return "Windows Phone";
+          }
+
+          if (/android/i.test(userAgent)) {
+              return "Android";
+          }
+
+          // iOS detection from: http://stackoverflow.com/a/9039885/177710
+          if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+              return "iOS";
+          }
+
+          return "unknown";
+      }
+  </script>
+</html>
