@@ -61,13 +61,25 @@ $(document).ready(()=>{
 	scrollReveal('.game-bg', 600, 800, 345, 'right');
 	scrollReveal('.current-game', 600, 900, 345, 'right');
 	scrollReveal('.games-container .button.go', 600, 1000, 345, 'bottom');
-	scrollReveal('.service .service-item:nth-child(1)', 600, 100, 300, 'bottom', increaseServiceAmount('span.deposit-value', 25, 100, ''));
-	scrollReveal('.service .service-item:nth-child(2)', 600, 100, 600, 'bottom', increaseServiceAmount('span.withdraw-value', 120, 30, 'time'));
-	scrollReveal('.service .service-item:nth-child(3)', 600, 100, 900, 'bottom', increaseServiceAmount('span.bank-value', 34, 100, ''));
-	
+
 	stragerScrollReveal('.service-wrapper > div', 600, 200, 300, 'bottom');
+	stragerScrollReveal('.service .service-item', 600, 100, 300, 'bottom');
 	stragerScrollReveal('.game-list .game-item', 600, 50, 300, 'bottom');
 	stragerScrollReveal('.partner li', 600, 100, 200, 'bottom');	
+
+	// Detect visible
+	var increaseServiceAmountExecuted = false;
+	$(window).scroll(function(){
+	    if($('.service-item').visible() && !increaseServiceAmountExecuted){
+	    	increaseServiceAmountExecuted = true;
+			increaseServiceAmount('span.deposit-value', 25, 100, '');
+			increaseServiceAmount('span.withdraw-value', 120, 30, 'time');
+			increaseServiceAmount('span.bank-value', 34, 100, '');
+		}
+		if(increaseServiceAmountExecuted){
+			$(window).unbind('scroll');
+		}
+	});
 })
 
 
@@ -95,13 +107,12 @@ function getCurrentGame(){
 	})
 }
 
-function scrollReveal(selector, duration, delay, distance, origin, callback){
+function scrollReveal(selector, duration, delay, distance, origin){
 	sr.reveal(selector, { 
 		duration: duration, 
 		delay: delay,
 		distance: distance + 'px', 
-		origin: origin,
-		afterReveal: function (domEl) { console.log(callback) }
+		origin: origin
 	});
 }
 
