@@ -90,10 +90,20 @@ $(document).ready(()=>{
 			increaseServiceAmount('span.withdraw-value', 120, 30, 'time');
 			increaseServiceAmount('span.bank-value', 34, 100, '');
 		}
-		if(increaseServiceAmountExecuted){
-			$(window).unbind('scroll');
+		// if(increaseServiceAmountExecuted){
+			// $(window).unbind('scroll');
+		// }
+		if($(window).scrollTop() > 100){
+			$('.sticky-nav-list .back-to-top').css('opacity', '1');
+		} else{
+			$('.sticky-nav-list .back-to-top').css('opacity', '0');
 		}
 	});
+
+	$('.sticky-nav-list .back-to-top a').click(function(e){
+		e.preventDefault();
+		$("html, body").animate({ scrollTop: 0 });
+	})
 
 	tabContentItemToggle('.sub-content-item-header', '.sub-content-item-content');
 	tabSwitchContentToggle('.tab-container.left-panel .tab-switch ul li a', '.tab-container.left-panel .tab-content .sub-content');
