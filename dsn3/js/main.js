@@ -66,6 +66,7 @@ $(document).ready(()=>{
 	scrollReveal('.game-bg', 600, 800, 345, 'right');
 	scrollReveal('.current-game', 600, 900, 345, 'right');
 	scrollReveal('.games-container .button.go', 600, 1000, 345, 'bottom');
+	scrollReveal('.games-container .more-games', 600, 1000, 345, 'right');
 
 	//Mobile
 	scrollReveal('.phone-wrapper .mobile1', 600, 0, 345, 'bottom');
@@ -144,7 +145,7 @@ function scrollReveal(selector, duration, delay, distance, origin){
 }
 
 function stragerScrollReveal(selector, duration, delay, distance, origin){
-	for(var i=1; i <= $(selector).length; i++){
+	for(var i = 1; i <= $(selector).length; i++){
 		sr.reveal( selector + ':nth-child('+ i +')', { 
 			duration: duration, 
 			delay: delay * i,
