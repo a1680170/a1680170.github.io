@@ -91,15 +91,15 @@ html, body {
   background-image: url(../img/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 330px;
-  height: 60px;
+  width: 250px;
+  height: 45px;
   float: left;
-  margin-top: 18px;
+  margin-top: 25px;
 }
 
 .header .nav {
   float: left;
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 .header .nav-list {
@@ -111,7 +111,7 @@ html, body {
 
 .header .nav-list .nav-item {
   display: inline-block;
-  margin: 0 12px;
+  margin: 0 9px;
 }
 
 .header .nav-list .nav-item a {
@@ -171,6 +171,22 @@ html, body {
   outline: none;
 }
 
+.header .login-form .login-input .forgot-password{
+  position: absolute;
+  right: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.header .login-form .login-input .verification{
+  position: absolute;
+  right: 8px;
+  top: 0;
+  width: auto;
+  height: 19px;
+}
+
 .header .login-form .login-input input:focus + .input-label {
   visibility: visible;
   opacity: 1;
@@ -196,14 +212,35 @@ html, body {
   transition: all 200ms ease-in-out;
 }
 
+.header .login-form .login-input button{
+  transition: background-color 200ms ease-in-out;
+}
+
 .header .login-form .login-input button.login {
   background-color: #dfdfdf;
   color: #707070;
 }
 
+.header .login-form .login-input button.login:hover {
+  background-color: #bababa;
+}
+
+.header .login-form .login-input button.trial {
+  background-color: #3C9DC4;
+  color: #fff;
+}
+
+.header .login-form .login-input button.trial:hover {
+  background-color: #2d81a3;
+}
+
 .header .login-form .login-input button.register {
   background-color: #ED1B93;
   color: #fff;
+}
+
+.header .login-form .login-input button.register:hover {
+  background-color: #af0a68;
 }
 
 .header .login-form .login-support {
@@ -216,6 +253,24 @@ html, body {
 
 .header .login-form .login-support a {
   color: #fff;
+}
+
+.header .login-form.verify .inline-input input{
+  width: 100px;
+}
+
+.header .login-form.trial .button{
+  min-width: initial;
+  margin-right: 2px;
+}
+
+.header .login-form.trial.verify .inline-input input{
+  width: 95px;
+}
+
+.header .login-form.trial.verify .button{
+  min-width: initial;
+  margin-right: 2px;
 }
 
 .content {
@@ -1040,8 +1095,8 @@ html, body {
 
 .games-container .game-title .game-end {
   position: absolute;
-  left: 84px;
-  top: 94px;
+  left: 68px;
+  top: 78px;
   width: 80%;
   height: 80%;
   background-image: url(../img/game-end.png);
