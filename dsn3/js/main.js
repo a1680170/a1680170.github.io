@@ -67,6 +67,7 @@ $(document).ready(()=>{
 	scrollReveal('.current-game', 600, 900, 345, 'right');
 	scrollReveal('.games-container .button.go', 600, 1000, 345, 'bottom');
 	scrollReveal('.games-container .more-games', 600, 1000, 345, 'right');
+	scrollReveal('.games-container .wrapper .right', 600, 100, 345, 'right');
 
 	//Mobile
 	scrollReveal('.phone-wrapper .mobile1', 600, 0, 345, 'bottom');
@@ -79,7 +80,6 @@ $(document).ready(()=>{
 	stragerScrollReveal('.service-wrapper > div', 600, 200, 300, 'bottom');
 	stragerScrollReveal('.service .service-item', 600, 100, 300, 'bottom');
 	stragerScrollReveal('.service.mobile .service-item', 600, 100, 300, 'right');
-	stragerScrollReveal('.game-list .game-item', 600, 50, 300, 'bottom');
 	stragerScrollReveal('.partner li', 600, 100, 200, 'bottom');	
 
 	// Detect visible
@@ -91,6 +91,7 @@ $(document).ready(()=>{
 			increaseServiceAmount('span.withdraw-value', 120, 30, 'time');
 			increaseServiceAmount('span.bank-value', 34, 100, '');
 		}
+
 		// if(increaseServiceAmountExecuted){
 			// $(window).unbind('scroll');
 		// }
