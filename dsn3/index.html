@@ -70,17 +70,17 @@
                 <!-- Slides -->
                 <div class="swiper-slide banner1">
                   <div class="bg"></div>
-                  <div class="title" data-swiper-parallax="-100"></div>
-                  <div class="deco"  data-swiper-parallax="-200"></div>
-                  <div class="character" data-swiper-parallax="-800"></div>
+                  <div class="title"></div>
+                  <div class="deco"></div>
+                  <div class="character"></div>
                   <div class="button go"></div>
                 </div>
                 <div class="swiper-slide banner2">
                   <div class="bg"></div>
-                  <div class="deco"  data-swiper-parallax="-200"></div>
+                  <div class="deco"></div>
                   <div class="wrapper">
                     <div class="title"></div>
-                    <div class="character" data-swiper-parallax="-800"></div>
+                    <div class="character"></div>
                     <div class="button go"></div>
                   </div>
                 </div>
@@ -414,9 +414,6 @@
           </li>
           <li class="customer-service">
             <a href="#">Customer Service</a>
-            <div class="sticky-hidden-content">
-              
-            </div>
           </li>
           <li class="download">
             <a href="http://soft.320app.com/" target="_blank">Download</a>
@@ -439,4 +436,36 @@
    <script type="text/javascript" src="js/tilt.js"></script>
    <script type="text/javascript" src="js/jquery.visible.min.js"></script>
    <script type="text/javascript" src="js/main.js"></script>
+   <script>
+     $('.customer-service a').click(function(e){
+      e.preventDefault();
+      popup("https://chatserver.comm100.com/chatWindow.aspx?siteId=228510&planId=11");
+      
+    //   window.open ("",
+    // "mywindow","menubar=0,resizable=0,width=300,height=500,left=,top=0");
+    // });
+
+     function popup(url) 
+      {
+       var width  = 300;
+       var height = 500;
+       var left   = screen.width - 660;
+       var top    = 0;
+       var params = 'width='+width+', height='+height;
+       params += ', top='+top+', left='+left;
+       params += ', directories=no';
+       params += ', location=no';
+       params += ', menubar=no';
+       params += ', resizable=no';
+       params += ', scrollbars=no';
+       params += ', status=no';
+       params += ', toolbar=no';
+       newwin=window.open(url,'customWindow', params);
+       if (window.focus) {
+        newwin.focus()
+      }
+        return false;
+      }
+    });
+   </script>
 </html>

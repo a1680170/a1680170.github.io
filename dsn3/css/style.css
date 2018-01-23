@@ -663,6 +663,42 @@ html, body {
           transform: translateY(-10px);
 }
 
+@media (max-height: 700px){
+  .banner1 .title {
+    top: 40px;
+  }
+  .banner1 .character {
+    width: 50%;
+    height: 280px;
+    top: 135px;
+  }
+  .banner1 .button.go {
+    top: 320px;
+  }
+}
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+  .content{
+    height: 550px;
+  }
+  .banner1 .title {
+    top: 40px;
+  }
+  .banner1 .character {
+    width: 50%;
+    height: 280px;
+    top: 135px;
+  }
+  .banner1 .button.go {
+    top: 320px;
+  }
+}
+
 .banner2 .bg {
   background-image: url(../img/banner/banner_2_bg.png);
   background-size: cover;
