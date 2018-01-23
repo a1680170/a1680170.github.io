@@ -439,7 +439,8 @@
    <script>
      $('.customer-service a').click(function(e){
       e.preventDefault();
-      popup("https://chatserver.comm100.com/chatWindow.aspx?siteId=228510&planId=11");
+      // popup("https://chatserver.comm100.com/chatWindow.aspx?siteId=228510&planId=11");
+      popup("popup.html");
       
     //   window.open ("",
     // "mywindow","menubar=0,resizable=0,width=300,height=500,left=,top=0");
@@ -461,6 +462,20 @@
        params += ', status=no';
        params += ', toolbar=no';
        newwin=window.open(url,'customWindow', params);
+
+       setWindowTitle(newwin) // Starts checking
+
+        function setWindowTitle(newwin)
+        {
+            if(newwin.document) // If loaded
+            {
+                newwin.document.title = "";
+            }
+            else // If not loaded yet
+            {
+                setTimeout(setWindowTitle, 10); // Recheck again every 10 ms
+            }
+        }
        if (window.focus) {
         newwin.focus()
       }

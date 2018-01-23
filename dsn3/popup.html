@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="hidden" xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+      <!-- <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui" name="viewport"> -->
+      <title>迪士尼III</title>
+      <!--[if lt IE 9 ]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]--> 
+      <link rel="stylesheet" href="css/animate.css" />
+      <style>
+        html,body{
+          margin: 0;
+          padding: 0;
+          background-color: #329FD9;
+        }
+        iframe{
+          width: 100vw;
+          height: 100vh;
+          outline: none;
+          border: 0;
+        }
+        .close{
+          position: fixed;
+          background-color: #329FD9;
+          width: 100px;
+          height: 30px;
+          top: 0;
+          right: 0;
+          outline: none;
+          border: 0;
+          color: #fff;
+          cursor: pointer;
+          animation-delay: 1s;
+          text-align: right;
+        }
+        .close:hover{
+          color: yellow;
+        }
+        .footer{
+          position: fixed;
+          width: 200px;
+          height: 30px;
+          background-color: #329FD9;
+          bottom: 0;
+          right: 0;
+          animation-delay: 1s;
+        }
+
+      </style>
+   </head>
+   <body>
+    <button class="close fadeInDown animated">关闭</button>
+    <iframe src="https://chatserver.comm100.com/chatWindow.aspx?siteId=228510&planId=11"></iframe>
+    <div class="footer fadeInUp animated"></div>
+   </body>
+   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+   <script>
+     $('.close').click(function(){
+      window.close();
+     });
+   </script>
+</html>
