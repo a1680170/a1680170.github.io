@@ -5,6 +5,7 @@
       <meta name="description" content="" />
       <meta name="keywords" content="" />
       <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+      <link rel="apple-touch-icon" href="img/support-app-icon.png">
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="black" />
       <!-- <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui" name="viewport"> -->
@@ -43,6 +44,7 @@
           cursor: pointer;
           animation-delay: 1s;
           text-align: right;
+          z-index: 999;
         }
         .close:hover{
           color: yellow;
@@ -55,6 +57,31 @@
           bottom: 0;
           right: 0;
           animation-delay: 1s;
+          z-index: 999;
+        }
+
+        .instruction{
+          display: none;
+          position: fixed;
+          bottom: 50px;
+          left: 0;
+          right: 0;
+          width: 80%;
+          height: 50px;
+          margin: auto;
+        }
+
+        .instruction img{
+          width: 100%;
+          height: auto;
+        }
+
+        .instruction .close-instruction{
+          position: absolute;
+          right: 0;
+          top: 0;
+          opacity: 0;
+          height: 100%;
         }
 
       </style>
@@ -63,6 +90,10 @@
     <button class="close fadeInDown animated">关闭</button>
     <iframe src="https://chatserver.comm100.com/chatWindow.aspx?siteId=228510&planId=11"></iframe>
     <div class="footer fadeInUp animated"></div>
+    <div class="instruction ios fadeInUp animated">
+      <img src="img/popup-instruction.png" />
+      <button class="close-instruction">Close</button>
+    </div>
    </body>
    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
    <script>
@@ -73,7 +104,12 @@
 
       if(getMobileOperatingSystem() === 'android' || getMobileOperatingSystem() === 'ios'){
         $('.close, .footer').hide();
-      }
+        $('.instruction').fadeIn();
+      };
+
+      $('.close-instruction').click(function(){
+        $('.instruction').fadeOut();
+       });
     });
 
      function getMobileOperatingSystem() {

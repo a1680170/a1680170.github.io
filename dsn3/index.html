@@ -414,6 +414,11 @@
           </li>
           <li class="customer-service">
             <a href="#">Customer Service</a>
+            <div class="sticky-hidden kefu">
+              <button id="kefu-popup" class="kefu" href="#">在线客服</button>
+              <h3 class="kefu-mobile-title">扫描下载手机版客服</h3>
+              <div id="mobile-qr"></div>
+            </div>
           </li>
           <li class="download">
             <a href="http://soft.320app.com/" target="_blank">Download</a>
@@ -436,12 +441,25 @@
    <script type="text/javascript" src="js/tilt.js"></script>
    <script type="text/javascript" src="js/jquery.visible.min.js"></script>
    <script type="text/javascript" src="js/main.js"></script>
+   <script type="text/javascript" src="js/qrcode.min.js"></script>
    <script>
+      new QRCode(document.getElementById("mobile-qr"), location.href + "/popup.html");
+
      $('.customer-service a').click(function(e){
       e.preventDefault();
-      // popup("https://chatserver.comm100.com/chatWindow.aspx?siteId=228510&planId=11");
-      popup("popup.html");
+
+      $(this).siblings('.sticky-hidden.kefu').toggleClass('show');
+
+      $('#kefu-popup').click(function(e){
+        popup("popup.html");
+        $('.sticky-hidden.kefu').removeClass('show');
+      });
       
+      // popup("https://chatserver.comm100.com/chatWindow.aspx?siteId=228510&planId=11");
+      
+      
+      
+     
     //   window.open ("",
     // "mywindow","menubar=0,resizable=0,width=300,height=500,left=,top=0");
     // });
