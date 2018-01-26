@@ -113,6 +113,14 @@
           margin: 0;
           z-index: 999;
         }
+
+        .user-agent{
+            position: fixed;
+            bottom: 100px;
+            width: 100%;
+            height: 100px;
+            left: 0;
+        }
     </style>
 </head>
 
@@ -124,6 +132,7 @@
     <!-- Only show this if detected mobile -->
     <div class="instruction ios fadeInUp animated">
         <img src="img/popup-instruction.png" />
+        <p class="user-agent"></p>
         <button class="close-instruction">Close</button>
     </div>
 
@@ -154,6 +163,8 @@
       $('.close-instruction').click(function(){
         $('.instruction').fadeOut();
        });
+
+      $('.user-agent').text(navigator.userAgent);
     });
 
     function isWeixinBrowser(){
