@@ -1,20 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html class="hidden" xmlns="http://www.w3.org/1999/xhtml">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
-      <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-      <link rel="apple-touch-icon" href="img/support-app-icon.png">
-      <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-      <!-- <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui" name="viewport"> -->
-      <title>迪士尼III</title>
-      <!--[if lt IE 9 ]>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link rel="apple-touch-icon" href="img/support-app-icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <!-- <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui" name="viewport"> -->
+    <title>迪士尼III客服</title>
+    <!--[if lt IE 9 ]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]--> 
-      <link rel="stylesheet" href="css/animate.css" />
-      <style>
+      <![endif]-->
+    <link rel="stylesheet" href="css/animate.css" />
+    <style>
         html,body{
           margin: 0;
           padding: 0;
@@ -30,6 +31,10 @@
           bottom: 0;
           left: 0;
           position: fixed;
+        }
+
+        .blur{
+          filter: blur(20px);
         }
         .close{
           position: fixed;
@@ -84,19 +89,51 @@
           height: 100%;
         }
 
-      </style>
-   </head>
-   <body>
+        .overlay{
+          display: none;
+          position: fixed;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-color: rgba(55,55,55,0.5);
+          z-index: 99;
+        }
+
+        .image-container{
+          display: none;
+          background: url(img/temp.png) top no-repeat;
+          width: 80%;
+          height: 500px;
+          margin: 40px auto;
+          background-size: contain;
+          position: fixed;
+          top: 0;
+          right: 0;
+          margin: 0;
+          z-index: 999;
+        }
+    </style>
+</head>
+
+<body>
     <button class="close fadeInDown animated">关闭</button>
     <iframe src="https://chatserver.comm100.com/chatWindow.aspx?siteId=228510&planId=11"></iframe>
     <div class="footer fadeInUp animated"></div>
+
+    <!-- Only show this if detected mobile -->
     <div class="instruction ios fadeInUp animated">
-      <img src="img/popup-instruction.png" />
-      <button class="close-instruction">Close</button>
+        <img src="img/popup-instruction.png" />
+        <button class="close-instruction">Close</button>
     </div>
-   </body>
-   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-   <script>
+
+    <!-- Only show this if detected wechat or qq -->
+    <div class="image-container"></div>
+    <div class="overlay"></div>
+
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script>
     $(document).ready(function(){
       $('.close').click(function(){
         window.close();
@@ -107,23 +144,37 @@
         $('.instruction').fadeIn();
       };
 
+      if(isWeixinBrowser() || isQQBrowser()){
+        $('.instruction').fadeOut();
+        $('iframe').addClass('blur');
+        $('.image-container').fadeIn();
+        $('.overlay').fadeIn();
+      };
+
       $('.close-instruction').click(function(){
         $('.instruction').fadeOut();
        });
     });
 
-     function getMobileOperatingSystem() {
-      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-        if (/android/i.test(userAgent)) {
-            return "android";
-        }
-
-        // iOS detection from: http://stackoverflow.com/a/9039885/177710
-        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-            return "ios";
-        }
-
-        return "unknown";
+    function isWeixinBrowser(){
+      return /micromessenger/.test(navigator.userAgent.toLowerCase())
     }
-   </script>
+
+    function isQQBrowser(){
+      return /qbwebviewtype/.test(navigator.userAgent.toLowerCase())
+    }
+
+   function getMobileOperatingSystem() {
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      if (/android/i.test(userAgent)) {
+          return "android";
+      }
+
+      // iOS detection from: http://stackoverflow.com/a/9039885/177710
+      if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+          return "ios";
+      }
+      return "unknown";
+    }
+</script>
 </html>
