@@ -164,7 +164,9 @@
         $('.footer').hide();
         $('.close').addClass('no-font');
         $('.instruction').fadeIn();
-        if (!(("standalone" in window.navigator) && !window.navigator.standalone)){
+
+        //Detect standalone webapp in iOS
+        if (!(("standalone" in window.navigator) && !window.navigator.standalone) && getMobileOperatingSystem() === 'ios')){
           $('.instruction').addClass("hidden");
         }
       };
