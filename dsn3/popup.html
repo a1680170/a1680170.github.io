@@ -165,7 +165,7 @@
         $('.footer').hide();
         $('.close').addClass('no-font');
         $('.instruction').fadeIn();
-        if (("standalone" in window.navigator) && !window.navigator.standalone){
+        if (!(("standalone" in window.navigator) && !window.navigator.standalone)){
           $('.instruction').addClass("hidden");
         }
       };
