@@ -443,7 +443,7 @@
    <script type="text/javascript" src="js/main.js"></script>
    <script type="text/javascript" src="js/qrcode.min.js"></script>
    <script>
-      new QRCode(document.getElementById("mobile-qr"), location.href + "/popup.html");
+      new QRCode(document.getElementById("mobile-qr"), location.origin + location.pathname + "popup.html");
 
      $('.customer-service a').click(function(e){
       e.preventDefault();
