@@ -80,6 +80,10 @@
           margin: auto;
         }
 
+        .instruction.hidden{
+          display: none !important;
+        }
+
         .instruction img{
           width: 100%;
           height: auto;
@@ -161,6 +165,9 @@
         $('.footer').hide();
         $('.close').addClass('no-font');
         $('.instruction').fadeIn();
+        if (("standalone" in window.navigator) && !window.navigator.standalone){
+          $('.instruction').addClass("hidden");
+        }
       };
 
       if(isWeixinBrowser() || isQQBrowser()){
