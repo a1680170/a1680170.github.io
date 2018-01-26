@@ -166,7 +166,7 @@
         $('.instruction').fadeIn();
 
         //Detect standalone webapp in iOS
-        if (!(("standalone" in window.navigator) && !window.navigator.standalone) && getMobileOperatingSystem() === 'ios')){
+        if (!(("standalone" in window.navigator) && !window.navigator.standalone) && getMobileOperatingSystem() === 'ios'){
           $('.instruction').addClass("hidden");
         }
       };
