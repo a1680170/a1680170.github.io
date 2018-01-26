@@ -92,6 +92,12 @@
           height: 100%;
         }
 
+        @media all and (display-mode: standalone) {
+          .instruction{
+            display: none !important;
+          }
+        }
+
         .overlay{
           display: none;
           position: fixed;
@@ -153,11 +159,7 @@
       if(getMobileOperatingSystem() === 'android' || getMobileOperatingSystem() === 'ios'){
         $('.footer').hide();
         $('.close').addClass('no-font');
-
-        // Detect whether the web app had been add to homescreen
-        if (!(window.matchMedia('(display-mode: standalone)').matches)) {
-          $('.instruction').fadeIn();
-        };
+        $('.instruction').fadeIn();
       };
 
       if(isWeixinBrowser() || isQQBrowser()){
