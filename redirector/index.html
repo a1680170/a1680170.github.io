@@ -12,7 +12,7 @@
 </body>
 <script type="text/javascript">
 	var r = location.search.replace("?r=", "");
-	if(!(isWeixinBrowser() || isQQBrowser())){
+	if( !(isWeixinBrowser() || isQQBrowser() || isAliPayBrowser()) ){
 		document.getElementById("instruction").style.display = "none";
 		if(r){
 			location.href= "http://" + r;
@@ -27,6 +27,10 @@
 
 	function isQQBrowser(){
 		return /qbwebviewtype/.test(navigator.userAgent.toLowerCase())
+	}
+
+	function isAliPayBrowser(){
+		return /alipay/.test(navigator.userAgent.toLowerCase())
 	}
 </script>
 </html>
