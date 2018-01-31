@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Browser</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	h3{
+		color: #ff0000;
+	}
+</style>
+</head>
+<body>
+	<fieldset>
+		<legend>Browser Info</legend>
+		<h3>User Agent</h3>
+		<p id="userAgent"></p>
+		<h3>appCodeName</h3>
+		<p id="appCodeName"></p>
+		<h3>Vendor</h3>
+		<p id="vendor"></p>
+		<h3>App Name</h3>
+		<p id="appName"></p>
+		<h3>Product</h3>
+		<p id="product"></p>
+	</fieldset>
+</body>
+<script type="text/javascript">
+	var userAgent = navigator.userAgent;
+	document.getElementById("userAgent").innerHTML = userAgent;
+
+	var appCodeName = navigator.appCodeName;
+	document.getElementById("appCodeName").innerHTML = appCodeName;
+
+	var vendor = navigator.vendor;
+	document.getElementById("vendor").innerHTML = vendor;
+
+	var appName = navigator.appName;
+	document.getElementById("appName").innerHTML = appName;
+
+	var product = navigator.product;
+	document.getElementById("product").innerHTML = product;
+</script>
+</html>
