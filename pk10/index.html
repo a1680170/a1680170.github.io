@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PK10</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<div class="result-wrapper">
+    <div class="header">
+        <div class="date">
+            <div>期数</div>
+            <div>12345</div>
+        </div>
+        <div class="result" id="pk10-result"></div>
+    </div>
+    <div class="content">
+        <div class="stopwatch-container">
+            <div class="stopwatch">
+                <div class="wrapper"  data-anim="base wrapper" style="animation-delay: 1000s">
+                    <div class="circle" data-anim="base left" style="animation-duration: 2000s"></div>
+                    <div class="circle" data-anim="base right" style="animation-duration: 1000s"></div>
+                </div>
+                <div class="counter">
+                    <div class="bg">
+                      <span class="counter">
+                          <span>加载中</span>
+                      </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="result hide">
+            <div class="rank">
+                <ul>
+                    <li class="first"></li>
+                    <li class="second"></li>
+                    <li class="third"></li>
+                </ul>
+            </div>
+            <div class="cars">
+                <ul>
+                    <li class="c-1"></li>
+                    <li class="c-2"></li>
+                    <li class="c-3"></li>
+                </ul>
+            </div>
+            <div class="footer"></div>
+        </div>
+        <div class="backdrop" id="pk10-backdrop"></div>
+    </div>
+</div>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/pixi.min.js"></script>
+<script src="js/moment.js"></script>
+<script src="js/render.js"></script>
+</body>
+</html>

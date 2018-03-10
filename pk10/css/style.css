@@ -1,0 +1,631 @@
+.result-wrapper{
+    width: 600px;
+    height: 440px;
+    position: relative;
+    margin: auto;
+    background: #1076bb; /* Old browsers */
+    background: -moz-linear-gradient(left, #1076bb 0%, #ffffff 50%, #4482c3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #1076bb 0%,#ffffff 50%,#4482c3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #1076bb 0%,#ffffff 50%,#4482c3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.result-wrapper > div{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.result-wrapper > div.header{
+    height: calc(15% - 6px);
+    top: 3px;
+    box-sizing: border-box;
+    background: #0080c5; /* Old browsers */
+    background: -moz-linear-gradient(left, #0080c5 0%, #005896 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #0080c5 0%,#005896 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #0080c5 0%,#005896 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-top: 2px solid #faaf40;
+    border-bottom: 2px solid #faaf40;
+}
+
+.result-wrapper > div.header .date{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    background-image: url(../img/header-right.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.result-wrapper > div.header .result{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.result-wrapper > div.content{
+    height: 85%;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.result-wrapper > div > div.backdrop {
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+}
+
+.result-wrapper > div.header > div > canvas{
+    width: 90%;
+}
+
+.result-wrapper > div.content > div > canvas{
+    width: 100%;
+    height: 100%;
+}
+
+.result-wrapper .content  .stopwatch-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    display: table;
+    margin: auto;
+    width: 20rem;
+    transition: transform 400ms ease, opacity 700ms ease;
+}
+.result-wrapper .content  .stopwatch-container.hide {
+    transform: scale(4) rotate(360deg);
+    opacity: 0;
+}
+.result-wrapper .content  .stopwatch-container.hidden {
+    display: none;
+}
+.result-wrapper .content  .stopwatch-container .stopwatch {
+    width: 20rem;
+    height: 20rem;
+    margin: -2rem auto;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 50%;
+    position: relative;
+    transform: scale(0.8);
+    display: table-cell;
+    /* Hide half of the progress bar */
+    /* Set the sizes of the elements that make up the progress bar */
+    /* Using the data attributes for the animation selectors. */
+    /* Base settings for all animated elements */
+    /* Linear animation */
+    /* Keyframes name */
+    /* Rotate the right side of the progress bar from 0 to 180 degrees */
+    /* Rotate the left side of the progress bar from 0 to 360 degrees */
+    /* Set the wrapper clip to auto, effectively removing the clip */
+}
+.result-wrapper .content  .stopwatch-container .stopwatch .bg {
+    box-sizing: border-box;
+    border: 0.25rem solid #fff;
+    background: #004279 url("../img/timer_ring.png") no-repeat;
+    background-size: 124% 124%;
+    background-position: center;
+    position: absolute;
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    top: 2rem;
+    left: 2rem;
+    text-align: center;
+    overflow: hidden;
+}
+.result-wrapper .content  .stopwatch-container .stopwatch span.counter {
+    display: block;
+    color: #fff;
+    font-size: 5rem;
+    line-height: 16rem;
+    text-align: center;
+    font-weight: 700;
+    transform: skewX(-10deg);
+}
+.result-wrapper .content  .stopwatch-container .stopwatch span.counter:before {
+    content: "倒数计时";
+    color: #f8ae4c;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 1rem;
+    top: -3.5rem;
+    left: 0;
+    font-size: 1.75rem;
+}
+.result-wrapper .content  .stopwatch-container .stopwatch span.counter-open {
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    bottom: 2rem;
+    left: 50%;
+    width: 4rem;
+    position: absolute;
+    transform: skewX(-10deg);
+}
+.result-wrapper .content  .stopwatch-container .stopwatch span.counter-open:before {
+    content: "封盘";
+    color: #f8ae4c;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 1rem;
+    top: 0.25rem;
+    font-size: 1.25rem;
+    white-space: nowrap;
+    transform: translateX(-120%);
+}
+.result-wrapper .content  .stopwatch-container .stopwatch .wrapper {
+    width: 20rem;
+    /* Set the size of the progress bar */
+    height: 20rem;
+    position: absolute;
+    /* Enable clipping */
+    clip: rect(0, 20rem, 20rem, 10rem);
+}
+.result-wrapper .content  .stopwatch-container .stopwatch .circle {
+    width: 20rem;
+    height: 20rem;
+    border: 2rem solid #c9252c;
+    border-radius: 50%;
+    position: absolute;
+    clip: rect(0rem, 10rem, 20rem, 0rem);
+    will-change: transform, border;
+    transition: border 0.5s ease-in-out;
+    box-sizing: border-box;
+}
+.result-wrapper .content  .stopwatch-container .stopwatch .circle.yellow {
+    border: 2rem solid #faaf40 !important;
+}
+.result-wrapper .content  .stopwatch-container .stopwatch .circle.green {
+    border: 2rem solid #37b34a !important;
+}
+.result-wrapper .content  .stopwatch-container .stopwatch div[data-anim~=base] {
+    -webkit-animation-iteration-count: 1;
+    /* Only run once */
+    -webkit-animation-fill-mode: forwards;
+    /* Hold the last keyframe */
+    -webkit-animation-timing-function: linear;
+}
+.result-wrapper .content  .stopwatch-container .stopwatch .wrapper[data-anim~=wrapper] {
+    -webkit-animation-duration: 0.01s;
+    /* Complete keyframes asap */
+    -webkit-animation-delay: 15s;
+    /* Wait half of the animation */
+    -webkit-animation-name: close-wrapper;
+}
+.result-wrapper .content  .stopwatch-container .stopwatch .circle[data-anim~=left] {
+    -webkit-animation-duration: 30s;
+    /* Full animation time */
+    -webkit-animation-name: left-spin;
+}
+.result-wrapper .content  .stopwatch-container .stopwatch .circle[data-anim~=right] {
+    -webkit-animation-duration: 15s;
+    /* Half animation time */
+    -webkit-animation-name: right-spin;
+}
+@-webkit-keyframes right-spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(180deg);
+    }
+}
+@-webkit-keyframes left-spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes close-wrapper {
+    to {
+        clip: rect(auto, auto, auto, auto);
+    }
+}
+
+.result-wrapper .content .result {
+    height: 100%;
+    position: relative;
+    background: url("../img/result_background.svg") no-repeat center;
+    background-size: cover;
+    animation: fadeDown 600ms linear forwards;
+}
+
+.result-wrapper .content .result.hide {
+   display: none;
+}
+.result-wrapper .content .result:before {
+    content: "";
+    background: url("../img/shine.svg") no-repeat center;
+    background-size: contain;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    animation: shine 15s linear infinite;
+}
+.result-wrapper .content .result .rank {
+    position: relative;
+    height: 40%;
+    top: 1rem;
+}
+.result-wrapper .content .result .rank ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.result-wrapper .content .result .rank ul li {
+    position: absolute;
+    height: 100%;
+    width: 33%;
+}
+.result-wrapper .content .result .rank ul li.first {
+    background: url("../img/result1.png") no-repeat center;
+    background-size: contain;
+    width: 100%;
+    animation: zoomIn 800ms linear forwards;
+}
+.result-wrapper .content .result .rank ul li.second {
+    background: url("../img/result2.png") no-repeat center;
+    background-size: contain;
+    left: 5%;
+    animation: zoomIn 1200ms linear forwards;
+}
+.result-wrapper .content .result .rank ul li.third {
+    background: url("../img/result3.png") no-repeat center;
+    background-size: contain;
+    right: 5%;
+    animation: zoomIn 1600ms linear forwards;
+}
+.result-wrapper .content .result .cars {
+    display: block;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    bottom: 0;
+    z-index: 99;
+}
+.result-wrapper .content .result .cars ul {
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.result-wrapper .content .result .cars ul li {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background: url("../img/winners.svg") no-repeat;
+    background-size: 620px;
+}
+.result-wrapper .content .result .cars ul li:first-child {
+    left: 0;
+    animation: slideIn-alt 800ms linear forwards;
+}
+.result-wrapper .content .result .cars ul li:nth-child(2) {
+    left: 50%;
+    animation-delay: 1s;
+    animation: slideIn 1200ms linear forwards;
+}
+.result-wrapper .content .result .cars ul li:last-child {
+    right: 0;
+    animation: slideIn-alt 1600ms linear forwards;
+}
+.result-wrapper .content .result .cars ul li.c-1 {
+    background-position: 0px 0px;
+}
+.result-wrapper .content .result .cars ul li.c-2 {
+    background-position: -310px 0px;
+}
+.result-wrapper .content .result .cars ul li.c-3 {
+    background-position: 0px -140px;
+}
+.result-wrapper .content .result .cars ul li.c-4 {
+    background-position: -310px -140px;
+}
+.result-wrapper .content .result .cars ul li.c-5 {
+    background-position: 0px -294px;
+}
+.result-wrapper .content .result .cars ul li.c-6 {
+    background-position: -310px -294px;
+}
+.result-wrapper .content .result .cars ul li.c-7 {
+    background-position: 0px -440px;
+}
+.result-wrapper .content .result .cars ul li.c-8 {
+    background-position: -310px -440px;
+}
+.result-wrapper .content .result .cars ul li.c-9 {
+    background-position: 0px -580px;
+}
+.result-wrapper .content .result .cars ul li.c-10 {
+    background-position: -310px -580px;
+}
+.result-wrapper .content .result .cars ul li.c-1 {
+    display: block;
+}
+.result-wrapper .content .result .cars ul li.c-2 {
+    display: block;
+}
+.result-wrapper .content .result .cars ul li.c-3 {
+    display: block;
+}
+.result-wrapper .content .result .cars ul li.c-4 {
+    display: block;
+}
+.result-wrapper .content .result .cars ul li.c-5 {
+    display: block;
+}
+.result-wrapper .content .result .cars ul li.c-6 {
+    display: block;
+}
+.result-wrapper .content .result .cars ul li.c-7 {
+    display: block;
+}
+.result-wrapper .content .result .cars ul li.c-8 {
+    display: block;
+}
+.result-wrapper .content .result .cars ul li.c-9 {
+    display: block;
+}
+.result-wrapper .content .result .cars ul li.c-10 {
+    display: block;
+}
+.result-wrapper .content .result .footer {
+    background: url("../img/checkers.svg") no-repeat center;
+    background-size: cover;
+    bottom: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+}
+
+@-moz-keyframes shine {
+    from {
+        transform: translate3d(0, 25vh, 0) rotate(0deg) scale(2);
+    }
+    to {
+        transform: translate3d(0, 25vh, 0) rotate(360deg) scale(2);
+    }
+}
+@-webkit-keyframes shine {
+    from {
+        transform: translate3d(0, 25vh, 0) rotate(0deg) scale(2);
+    }
+    to {
+        transform: translate3d(0, 25vh, 0) rotate(360deg) scale(2);
+    }
+}
+@-o-keyframes shine {
+    from {
+        transform: translate3d(0, 25vh, 0) rotate(0deg) scale(2);
+    }
+    to {
+        transform: translate3d(0, 25vh, 0) rotate(360deg) scale(2);
+    }
+}
+@keyframes shine {
+    from {
+        transform: translate3d(0, 25vh, 0) rotate(0deg) scale(2);
+    }
+    to {
+        transform: translate3d(0, 25vh, 0) rotate(360deg) scale(2);
+    }
+}
+@-moz-keyframes slideIn {
+    from {
+        transform: translate3d(100vh, -10vh, 0) scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(-50%, 0, 0) scale(1.3);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes slideIn {
+    from {
+        transform: translate3d(100vh, -10vh, 0) scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(-50%, 0, 0) scale(1.3);
+        opacity: 1;
+    }
+}
+@-o-keyframes slideIn {
+    from {
+        transform: translate3d(100vh, -10vh, 0) scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(-50%, 0, 0) scale(1.3);
+        opacity: 1;
+    }
+}
+@keyframes slideIn {
+    from {
+        transform: translate3d(100vh, -10vh, 0) scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(-50%, 0, 0) scale(1.3);
+        opacity: 1;
+    }
+}
+@-moz-keyframes slideIn-alt {
+    from {
+        transform: translate3d(100vh, -10vh, 0) scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0) scale(1);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes slideIn-alt {
+    from {
+        transform: translate3d(100vh, -10vh, 0) scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0) scale(1);
+        opacity: 1;
+    }
+}
+@-o-keyframes slideIn-alt {
+    from {
+        transform: translate3d(100vh, -10vh, 0) scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0) scale(1);
+        opacity: 1;
+    }
+}
+@keyframes slideIn-alt {
+    from {
+        transform: translate3d(100vh, -10vh, 0) scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0) scale(1);
+        opacity: 1;
+    }
+}
+@-moz-keyframes zoomIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes zoomIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+}
+@-o-keyframes zoomIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+}
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadeDown {
+    0% {
+        transform: translate3d(0, -50%, 0);
+        opacity: 0;
+    }
+    50% {
+        transform: translate3d(0, 0, 0);
+        opacity: 0.5;
+    }
+    75% {
+        transform: translate3d(0, -5%, 0);
+        opacity: 0.75;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadeDown {
+    0% {
+        transform: translate3d(0, -50%, 0);
+        opacity: 0;
+    }
+    50% {
+        transform: translate3d(0, 0, 0);
+        opacity: 0.5;
+    }
+    75% {
+        transform: translate3d(0, -5%, 0);
+        opacity: 0.75;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+@-o-keyframes fadeDown {
+    0% {
+        transform: translate3d(0, -50%, 0);
+        opacity: 0;
+    }
+    50% {
+        transform: translate3d(0, 0, 0);
+        opacity: 0.5;
+    }
+    75% {
+        transform: translate3d(0, -5%, 0);
+        opacity: 0.75;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+@keyframes fadeDown {
+    0% {
+        transform: translate3d(0, -50%, 0);
+        opacity: 0;
+    }
+    50% {
+        transform: translate3d(0, 0, 0);
+        opacity: 0.5;
+    }
+    75% {
+        transform: translate3d(0, -5%, 0);
+        opacity: 0.75;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
