@@ -38,8 +38,7 @@ body:before {
     right: 0;
     bottom: 0;
     left: 0;
-    background: url(../images/parallax-bg.png) top / cover no-repeat;
-    background-size: 100% auto;
+    background: url(../images/parallax-bg.jpg) top / cover no-repeat;
     min-width: 1200px;
     height: 200vh;
 }
@@ -232,6 +231,13 @@ body:before {
     width: 100%;
     height: calc(100vh - 100px);
     position: relative;
+    transform: scale(0.7);
+    transition: transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    will-change: transform;
+}
+
+.section-1 .image-container.animate{
+    transform: scale(1)
 }
 
 .section-1 .image-container .side {
@@ -1695,6 +1701,7 @@ body:before {
     -o-transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
     transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
     background: url(../images/section-5/mobile2/phone.svg) center / contain no-repeat;
+    will-change: transform;
 }
 
 .section-5 .image2 .img:before {
@@ -1713,6 +1720,7 @@ body:before {
     -webkit-transition-delay: 400ms;
     -o-transition-delay: 400ms;
     transition-delay: 400ms;
+    will-change: transform;
 }
 
 .section-5 .image2 .img1 {

@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    var section1Timeout;
     var video = document.getElementById("section-7");
 
     $.getJSON("json/skypeId.json", function(result){
@@ -16,10 +17,6 @@ $(document).ready(function () {
         // console.log('callback - particles.js config loaded');
     });
 
-    // setTimeout(function () {
-    //     $('.section-1 .image-container').addClass('animate');
-    // }, 400);
-
     $('#section-container').fullpage({
         scrollBar: true,
         anchors:['home', 'method', 'game', 'special', 'mobile', 'charity', 'contact', 'trial'],
@@ -29,7 +26,9 @@ $(document).ready(function () {
 
             //using index
             if(index == 1){
-                $('.section-1 .image-container').addClass('animate');
+                section1Timeout = setTimeout(function(){
+                    $('.section-1 .image-container').addClass('animate');
+                }, 200);
             }
 
             if (index == 2) {
@@ -54,11 +53,11 @@ $(document).ready(function () {
 
             //after leaving section 2
             if (index == 1 && direction == 'down') {
+                clearInterval(section1Timeout);
                 $('.section-1 .image-container').removeClass('animate');
             }
 
             else if (index == 2 && direction == 'up') {
-                $('.section-1 .image-container').addClass('animate');
                 $('.section-2 .flex-wrapper .flex-col').removeClass('show');
             }
 
