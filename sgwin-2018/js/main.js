@@ -1,6 +1,12 @@
 $(document).ready(function () {
     var video = document.getElementById("section-7");
 
+    $.getJSON("json/skypeId.json", function(result){
+        $.each(result, function(i, field){
+            $(".skype-button.bubble").attr("data-contact-id", field);
+        });
+    });
+
     var section1Laptop = $('.section-1 .laptop');
     TweenMax.from($('.section-1 .text-wrapper'), 0.4, {ease: Power4.easeOut, x: -200, alpha: 0});
     TweenMax.from(section1Laptop, 0.4, {ease: Power4.easeOut, x: 200, alpha: 0});
@@ -10,9 +16,9 @@ $(document).ready(function () {
         // console.log('callback - particles.js config loaded');
     });
 
-    setTimeout(function () {
-        $('.section-1 .image-container').addClass('animate');
-    }, 400);
+    // setTimeout(function () {
+    //     $('.section-1 .image-container').addClass('animate');
+    // }, 400);
 
     $('#section-container').fullpage({
         scrollBar: true,
@@ -22,13 +28,12 @@ $(document).ready(function () {
             var loadedSection = $(this);
 
             //using index
-            if (index == 2) {
-                var section2 = $('.section-2 .flex-wrapper .flex-col');
-                for (var i = 1; i <= section2.length; i++) {
-                    TweenMax.set($('.section-2 .flex-wrapper .flex-col:nth-child(' + i + ')'),{delay:0.2 * (i - 1), className:'+=show'});
-                    // TweenMax.to($('.section-2 .flex-wrapper .flex-col:nth-child(' + i + ')'), i * 0.2 , {class:'+=show'});
-                }
+            if(index == 1){
+                $('.section-1 .image-container').addClass('animate');
+            }
 
+            if (index == 2) {
+                animateSection2();
             }
 
             if(index == 5){
@@ -41,6 +46,7 @@ $(document).ready(function () {
 
             if(index == 7){
                 video.play();
+                $(".skype-wrapper").show();
             }
         },
         onLeave: function (index, nextIndex, direction) {
@@ -59,6 +65,19 @@ $(document).ready(function () {
             else if (index == 2 && direction == 'down') {
                 $('.section-2 .flex-wrapper .flex-col').removeClass('show');
             }
+
+            else if (index == 6 && direction == 'up') {
+                $('.section-6 .image').removeClass('animate');
+            }
+
+            else if (index == 6 && direction == 'down') {
+                $('.section-6 .image').removeClass('animate');
+            }
+
+            else if (index == 7 && direction == 'up') {
+                $(".skype-wrapper").hide();
+            }
+
         }
     });
 
@@ -96,7 +115,12 @@ $(document).ready(function () {
         $('.section-5 .tab-nav a').not($(this)).removeClass('active');
 
         $('.section-5 .tab-content .tab-item:nth-child('+  (currIndex + 1) + ')').fadeIn();
+        $('.section-5 .tab-content .tab-item:nth-child('+  (currIndex + 1) + ')').find(".feature").addClass('active');
+        $('.section-5 .tab-content .tab-item:nth-child('+  (currIndex + 1) + ')').find(".image2").addClass('animate');
+
         $('.section-5 .tab-content .tab-item:not(:nth-child('+  (currIndex + 1) + '))').fadeOut();
+        $('.section-5 .tab-content .tab-item:not(:nth-child('+  (currIndex + 1) + '))').find(".feature").removeClass('active');
+        $('.section-5 .tab-content .tab-item:not(:nth-child('+  (currIndex + 1) + '))').find(".image2").removeClass('animate');
     })
 });
 
@@ -106,18 +130,21 @@ $(window).scroll(function () {
     // TweenMax.to($('.parallax-bg'), 0.1, {transform: 'translateY(-' + scrollTop + 'px)'})
 });
 
-function flexColAnimation(){
-
+function animateSection2(){
+    $('.section-2 .flex-wrapper .flex-col').addClass('show')
 }
 
 function animateSection5(){
     $('.section-5 .feature1').addClass('active');
+    // $('.section-5 .image2').addClass('animate');
 }
 
 function animateSection6(){
-    var imageSize = $('.section-6 .image > div');
-    for (var i = 1; i <= imageSize.length; i++) {
-        TweenMax.to($('.section-6 .image > div:nth-child(' + i + ')'), 0.4 * i ,{ delay: 0.2 * i, alpha: 1});
+    // var imageSize = $('.section-6 .image > div');
+    // for (var i = 1; i <= imageSize.length; i++) {
+        // TweenMax.fromTo($('.section-6 .image > div:nth-child(' + i + ')'), 0.4 * i ,{ delay: 0.2 * i, alpha: 1});
         // TweenMax.to($('.section-2 .flex-wrapper .flex-col:nth-child(' + i + ')'), i * 0.2 , {class:'+=show'});
-    }
+    // }
+
+    $('.section-6 .image').addClass('animate');
 }

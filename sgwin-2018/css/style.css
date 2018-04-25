@@ -1,6 +1,6 @@
 :root {
     font-size: 16px;
-    font-family: "Heiti SC", Arial sans-serif;
+    font-family: "STHeiti", "Heiti SC", Arial sans-serif;
 }
 
 body {
@@ -74,6 +74,7 @@ body:before {
     height: 3rem;
     line-height: 3rem;
     text-align: center;
+    z-index: 2;
 }
 
 .tab .tab-nav a {
@@ -296,33 +297,33 @@ body:before {
 }
 
 .section-1 .image-container .laptop .cover {
-    width: 190px;
+    width: 304px;
     z-index: 2;
-    height: 233px;
+    height: 351px;
     position: absolute;
-    top: 49px;
-    left: 93px;
-    /*transform-origin: left top;*/
+    top: 34px;
+    left: 76px;
+    /* transform-origin: left top; */
     /* transform: translate(246px, 15px) scale(1.25); */
     transition: transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1), opacity 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
-    /*opacity: 0;*/
-    background: url(../images/section-1/box-1.png) center / contain no-repeat;
-    animation: zoomInOut 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite alternate;
-    transform-origin: 180px 50px;
+    /* opacity: 0; */
+    background: url(../images/section-1/pc-screen.png) center / contain no-repeat;
+     animation: zoomInOut 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite alternate;
+    transform-origin: 250px 100px;
 }
 
-.section-1 .image-container .laptop .cover:before {
-    content: '';
-    width: 190px;
-    z-index: 2;
-    height: 233px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    transition: transform 200ms cubic-bezier(0.4, 0.0, 0.2, 1), opacity 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
-    background: url(../images/section-1/pc-screen.png) center / contain no-repeat;
-    transform: translate(0);
-}
+/*.section-1 .image-container .laptop .cover:before {*/
+    /*content: '';*/
+    /*width: 190px;*/
+    /*z-index: 2;*/
+    /*height: 233px;*/
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*left: 0px;*/
+    /*transition: transform 200ms cubic-bezier(0.4, 0.0, 0.2, 1), opacity 300ms cubic-bezier(0.4, 0.0, 0.2, 1);*/
+    /*background: url(../images/section-1/pc-screen.png) center / contain no-repeat;*/
+    /*transform: translate(0);*/
+/*}*/
 
 .section-1 .image-container.animate .laptop .cover:before {
     transform: translate(-15px, 9px);
@@ -344,23 +345,23 @@ body:before {
     position: absolute;
     top: 52px;
     right: 23px;
-    background: url(../images/section-1/box-2.png) center / contain no-repeat;
+    background: url(../images/section-1/popup.png) center / contain no-repeat;
     z-index: 2;
     animation: zoomInOut 2s cubic-bezier(0.4, 0.0, 0.2, 1) infinite alternate;
 }
 
-.section-1 .image-container .laptop .popup:before {
-    content: '';
-    width: 103px;
-    height: 157px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: url(../images/section-1/popup.png) center / contain no-repeat;
-    z-index: 2;
-    transition: transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1), opacity 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
-    transform: translate(0);
-}
+/*.section-1 .image-container .laptop .popup:before {*/
+    /*content: '';*/
+    /*width: 103px;*/
+    /*height: 157px;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*background: url(../images/section-1/popup.png) center / contain no-repeat;*/
+    /*z-index: 2;*/
+    /*transition: transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1), opacity 300ms cubic-bezier(0.4, 0.0, 0.2, 1);*/
+    /*transform: translate(0);*/
+/*}*/
 
 .section-1 .image-container.animate .laptop .popup:before {
     transform: translate(-15px, 9px);
@@ -376,26 +377,26 @@ body:before {
 }
 
 .section-1 .image-container .laptop .screen-2 {
-    width: 300px;
-    height: 171px;
+    width: 360px;
+    height: 260px;
     position: absolute;
-    right: 0;
-    bottom: 0;
-    background: url(../images/section-1/box-3.png) center / contain no-repeat;
-    animation: zoomInOut 3s cubic-bezier(0.4, 0.0, 0.2, 1) infinite alternate;
+    right: -46px;
+    bottom: -59px;
+    background: url(../images/section-1/pc-screen-2.png) center / contain no-repeat;
+     animation: zoomInOut 3s cubic-bezier(0.4, 0.0, 0.2, 1) infinite alternate;
 }
 
-.section-1 .image-container .laptop .screen-2:before {
-    content: '';
-    width: 300px;
-    height: 171px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    background: url(../images/section-1/pc-screen-2.png) center / contain no-repeat;
-    transition: transform 400ms cubic-bezier(0.4, 0.0, 0.2, 1), opacity 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
-    transform: translate(0);
-}
+/*.section-1 .image-container .laptop .screen-2:before {*/
+    /*content: '';*/
+    /*width: 300px;*/
+    /*height: 171px;*/
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*background: url(../images/section-1/pc-screen-2.png) center / contain no-repeat;*/
+    /*transition: transform 400ms cubic-bezier(0.4, 0.0, 0.2, 1), opacity 300ms cubic-bezier(0.4, 0.0, 0.2, 1);*/
+    /*transform: translate(0);*/
+/*}*/
 
 .section-1 .image-container.animate .laptop .screen-2:before {
     transform: translate(0px, -12px);
@@ -476,19 +477,32 @@ body:before {
     flex: 1 1 33%;
     background-color: #0d1940;
     border-radius: 4px;
-    min-height: 470px;
+    min-height: 400px;
     margin-top: 200px;
     position: relative;
-    padding: 250px 2rem 2rem;
+    padding: 220px 2rem 2rem;
     box-sizing: border-box;
     opacity: 0;
-    transition: transform 1000ms cubic-bezier(0.4, 0.0, 0.2, 1), opacity 1000ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    /*transition: transform 1000ms cubic-bezier(0.4, 0.0, 0.2, 1), opacity 1000ms cubic-bezier(0.4, 0.0, 0.2, 1);*/
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
     transform: translateY(200px);
 }
 
 .section-2 .flex-wrapper .flex-col.show {
     opacity: 1;
     transform: translateY(0);
+}
+
+.section-2 .flex-wrapper .flex-col:nth-child(1) {
+    transition-duration: 400ms;
+}
+
+.section-2 .flex-wrapper .flex-col:nth-child(2) {
+    transition-duration: 800ms;
+}
+
+.section-2 .flex-wrapper .flex-col:nth-child(3) {
+    transition-duration: 1200ms;
 }
 
 .section-2 .flex-wrapper .flex-col:not(:last-child) {
@@ -1291,7 +1305,7 @@ body:before {
     font-size: 1.5rem;
     padding-left: 100px;
     position: relative;
-    transform: translateY(-30px);
+    transform: translateY(-100%);
     opacity: 0;
     transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
 }
@@ -1310,7 +1324,7 @@ body:before {
     height: 70px;
 }
 
-.section-5 .feature1 li:nth-child(1){
+.section-5 .feature1 li:nth-child(1) {
     transition-duration: 1s;
 }
 
@@ -1318,24 +1332,24 @@ body:before {
     background: url(../images/section-5/item1.png) center / contain no-repeat;
 }
 
-.section-5 .feature1 li:nth-child(2){
-    transition-duration: 2s;
+.section-5 .feature1 li:nth-child(2) {
+    transition-duration: 1.5s;
 }
 
 .section-5 .feature1 li:nth-child(2):before {
     background: url(../images/section-5/item2.png) center / contain no-repeat;
 }
 
-.section-5 .feature1 li:nth-child(3){
-    transition-duration: 3s;
+.section-5 .feature1 li:nth-child(3) {
+    transition-duration: 2s;
 }
 
 .section-5 .feature1 li:nth-child(3):before {
     background: url(../images/section-5/item3.png) center / contain no-repeat;
 }
 
-.section-5 .feature1 li:nth-child(4){
-    transition-duration: 4s;
+.section-5 .feature1 li:nth-child(4) {
+    transition-duration: 2.5s;
 }
 
 .section-5 .feature1 li:nth-child(4):before {
@@ -1374,29 +1388,39 @@ body:before {
 .section-5 .image1 .img4 {
     bottom: 74px;
     animation: zoomInOut 2s cubic-bezier(0.4, 0.0, 0.2, 1) infinite alternate;
+    width: 481px;
+    height: 256px;
 }
 
 .section-5 .image1 .img5 {
-    bottom: 104px;
-    right: 155px;
+    bottom: 99px;
+    right: 434px;
     animation: zoomInOut 4s cubic-bezier(0.4, 0.0, 0.2, 1) infinite alternate;
+    width: 217px;
+    height: 117px;
 }
 
 .section-5 .image1 .img6 {
     top: 190px;
     right: 154px;
     animation: zoomInOut 3s cubic-bezier(0.4, 0.0, 0.2, 1) infinite alternate;
+    width: 253px;
+    height: 138px;
 }
 
 .section-5 .image1 .img7 {
     bottom: 175px;
     left: 0;
     animation: zoomInOut 1s cubic-bezier(0.4, 0.0, 0.2, 1) infinite alternate;
+    width: 218px;
+    height: 123px;
 }
 
 .section-5 .image1 .img8 {
     top: 116px;
     animation: zoomInOut 7s cubic-bezier(0.4, 0.0, 0.2, 1) infinite alternate;
+    width: 297px;
+    height: 174px;
 }
 
 .section-5 .image1 .img9 {
@@ -1405,25 +1429,208 @@ body:before {
     animation: zoomInOut 8s cubic-bezier(0.4, 0.0, 0.2, 1) infinite alternate;
 }
 
+.section-5 .image2 {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    perspective: 500px;
+    margin-top: -50px;
+}
+
+.section-5 .image2 .img {
+    position: absolute;
+    width: 360px;
+    height: 186px;
+    opacity: 0;
+    transform-style: preserve-3d;
+    transform: translateX(-100%) translateY(-100%) translateZ(-40px);
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+    background: url(../images/section-5/mobile2/phone.svg) center / contain no-repeat;
+}
+
+.section-5 .image2 .img:before {
+    content: '';
+    width: 87%;
+    height: 87%;
+    position: absolute;
+    top: 7px;
+    left: 21px;
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+    transform: scale(0);
+    transition-delay: 400ms;
+}
+
+.section-5 .image2 .img1 {
+    top: 73px;
+    left: 90px;
+    transition-duration: 200ms;
+}
+
+.section-5 .image2 .img1:before {
+    background: url(../images/section-5/mobile2/Screen1.png) center / contain no-repeat;
+    transition-duration: 200ms;
+}
+
+.section-5 .image2 .img2 {
+    top: 213px;
+    left: 367px;
+    transition-duration: 400ms;
+}
+
+.section-5 .image2 .img2:before {
+    background: url(../images/section-5/mobile2/Screen2.png) center / contain no-repeat;
+    /*transform: scaleY(1.04);*/
+    transition-duration: 400ms;
+}
+
+.section-5 .image2 .img3 {
+    top: -3px;
+    left: -383px;
+    transition-duration: 600ms;
+}
+
+.section-5 .image2 .img3:before {
+    background: url(../images/section-5/mobile2/Screen3.png) center / contain no-repeat;
+    transition-duration: 600ms;
+}
+
+.section-5 .image2 .img4 {
+    top: 134px;
+    left: -88px;
+    /* transition-duration: 800ms; */
+}
+
+.section-5 .image2 .img4:before {
+    background: url(../images/section-5/mobile2/Screen4.png) center / contain no-repeat;
+    transition-duration: 800ms;
+}
+
+.section-5 .image2 .img5 {
+    left: 193px;
+    top: 276px;
+    transition-duration: 1000ms;
+}
+
+.section-5 .image2 .img5:before {
+    background: url(../images/section-5/mobile2/Screen5.png) center / contain no-repeat;
+    transition-duration: 1000ms;
+}
+
+.section-5 .image2 .img6 {
+    top: 309px;
+    left: -32px;
+    transition-duration: 1200ms;
+}
+
+.section-5 .image2 .img6:before {
+    background: url(../images/section-5/mobile2/Screen6.png) center / contain no-repeat;
+    transition-duration: 1200ms;
+}
+
+.section-5 .image2 .img7 {
+    top: 451px;
+    left: 247px;
+    transition-duration: 1400ms;
+}
+
+.section-5 .image2 .img7:before {
+    background: url(../images/section-5/mobile2/Screen7.png) center / contain no-repeat;
+    /*transform: scaleY(1.04);*/
+    transition-duration: 1400ms;
+}
+
+
+.section-5 .image2.animate .img {
+    transform: translateX(0) translateY(0) translateZ(0);
+    opacity: 1;
+}
+
+.section-5 .image2.animate .img:before {
+    transform: scale(1);
+}
+
+.section-5 .text-wrapper2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35%;
+    height: 100%;
+}
+
+.section-5 .feature2 {
+    margin: 1rem 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section-5 .feature2 li {
+    height: 90px;
+    line-height: 90px;
+    color: #fff;
+    font-size: 1.5rem;
+    padding-left: 100px;
+    position: relative;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.section-5 .feature2.active li {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.section-5 .feature2 li:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 70px;
+    height: 70px;
+}
+
+.section-5 .feature2 li:nth-child(1) {
+    transition-duration: 1s;
+}
+
+.section-5 .feature2 li:nth-child(1):before {
+    background: url(../images/section-5/item5.png) center / contain no-repeat;
+}
+
+.section-5 .feature2 li:nth-child(2) {
+    transition-duration: 1.5s;
+}
+
+.section-5 .feature2 li:nth-child(2):before {
+    background: url(../images/section-5/item6.png) center / contain no-repeat;
+}
+
+.section-5 .feature2 li:nth-child(3) {
+    transition-duration: 2s;
+}
+
+.section-5 .feature2 li:nth-child(3):before {
+    background: url(../images/section-5/item7.png) center / contain no-repeat;
+}
+
 @keyframes zoomUp {
-    0%{
+    0% {
         transform: translateY(200px);
         opacity: 0;
     }
-    25%{
+    25% {
         transform: translateY(0);
         opacity: 1;
     }
-    50%{
+    50% {
         transform: translateY(0);
         opacity: 1;
     }
-    100%{
+    100% {
         transform: translateY(-200px);
         opacity: 0;
     }
 }
-
 
 /*Section 6 design*/
 .section-6 {
@@ -1562,6 +1769,7 @@ body:before {
     width: 50%;
     height: 100%;
     top: 20%;
+    perspective: 1000px;
 }
 
 .section-6 .image .image-1 {
@@ -1571,6 +1779,10 @@ body:before {
     width: 80%;
     height: 300px;
     background: url(../images/section-6/1.jpg) center / cover no-repeat;
+    transform-origin: left;
+    transform: translateX(-100px);
+    transition-duration: 200ms;
+    opacity: 0;
 }
 
 .section-6 .image .image-2 {
@@ -1580,6 +1792,10 @@ body:before {
     width: 20%;
     height: 150px;
     background: url(../images/section-6/2.jpg) center / cover no-repeat;
+    transform-origin: left;
+    transform: translateY(-100px);
+    transition-duration: 400ms;
+    opacity: 0;
 }
 
 .section-6 .image .image-3 {
@@ -1589,6 +1805,10 @@ body:before {
     width: 20%;
     height: 300px;
     background: url(../images/section-6/6.jpg) center / cover no-repeat;
+    transform-origin: top;
+    transform: translateY(-100px);
+    transition-duration: 800ms;
+    opacity: 0;
 }
 
 .section-6 .image .image-4 {
@@ -1598,15 +1818,19 @@ body:before {
     width: calc(40% + 0.5rem);
     height: 150px;
     background: url(../images/section-6/3.jpg) center / cover no-repeat;
+    transform-origin: right;
+    transform: translateX(100px);
+    transition-duration: 1200ms;
+    opacity: 0;
 }
 
 /*.section-6 .image .image-5 {*/
-    /*position: absolute;*/
-    /*top: calc(300px + 0.5rem);*/
-    /*right: calc(40% + 0.5rem);*/
-    /*width: 20%;*/
-    /*height: 150px;*/
-    /*background: url(../images/section-6/5.png) center / cover no-repeat;*/
+/*position: absolute;*/
+/*top: calc(300px + 0.5rem);*/
+/*right: calc(40% + 0.5rem);*/
+/*width: 20%;*/
+/*height: 150px;*/
+/*background: url(../images/section-6/5.png) center / cover no-repeat;*/
 /*}*/
 
 .section-6 .image .image-6 {
@@ -1616,6 +1840,10 @@ body:before {
     width: 20%;
     height: 150px;
     background: url(../images/section-6/4.jpg) center / cover no-repeat;
+    transform-origin: top;
+    transform: translateY(-100px);
+    transition-duration: 1600ms;
+    opacity: 0;
 }
 
 .section-6 .image .image-7 {
@@ -1625,17 +1853,31 @@ body:before {
     width: 20%;
     height: 150px;
     background: url(../images/section-6/5.jpg) center / cover no-repeat;
+    transform-origin: left;
+    transform: translateX(-100px);
+    transition-duration: 2000ms;
+    opacity: 0;
 }
 
-.section-6 .image.animate > div {
+.section-6 .image > div {
     /*animation-name: fadeInOut;*/
     /*animation-timing-function: linear;*/
     /*animation-fill-mode: forwards;*/
     opacity: 0;
 }
 
+.section-6 .image.animate > div {
+    /*animation-name: fadeInOut;*/
+    /*animation-timing-function: linear;*/
+    /*animation-fill-mode: forwards;*/
+    opacity: 1;
+    transform: translateX(0) translateY(0) translateZ(0);
+}
+
 .section-6 .image > div {
-    transition: transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    /*transition: transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);*/
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+    transform-style: preserve-3d;
 }
 
 @keyframes ripple {
@@ -1662,14 +1904,63 @@ body:before {
     }
 }
 
-.section-7{
+.section-7 {
     position: relative;
     overflow: hidden;
 }
 
-.section-7 video{
-    width:100%;
+.section-7 video {
+    width: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.section-7 .contact{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.section-7 .contact .field{
+    margin: 1rem 0 3rem;
+}
+
+.section-7 .contact .field > *{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.section-7 .contact .field label{
+    width: 200px;
+    margin-right: 1rem;
+}
+
+.section-7 .contact .field .button{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 180px;
+    height: 45px;
+    line-height:45px;
+    background-color: #3c58c3;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 0;
+}
+
+.section-7 .slogan{
+     position: absolute;
+    width: 37%;
+    /* height: 70%; */
+    right: 0;
+    top: -10%;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: auto;
+}
+
+.skype-wrapper{
+    display: none;
 }
