@@ -152,9 +152,9 @@ $(document).ready(function () {
             $('body').toggleClass('fixed');
             toggleScroll(scroll);
             if(scroll){
-                document.ontouchmove = function(e){ e.preventDefault(); }
-            } else{
                 document.ontouchmove = function(e){ return true; }
+            } else{
+                document.ontouchmove = function(e){ e.preventDefault(); }
             }
         });
 
