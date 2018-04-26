@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="css/jquery.fullpage.min.css"/>
     <link rel="index" title="" href=""/>
 </head>
-<body class="" lang="en-US">
+<body class="body" lang="en-US">
 <div class="skype-wrapper">
-    <div class="skype-button bubble"  data-contact-id="live:"></div>
+    <div class="skype-button bubble" data-contact-id="live:"></div>
 </div>
 <div class="parallax-bg"></div>
 <header class="header">
@@ -50,7 +50,21 @@
                     <a href="#contact">联系我们</a>
                 </li>
                 <li data-menuanchor="trial">
-                    <a href="#">试玩区</a>
+                    <a class="dropdown-anchor" href="#">试玩区
+                        <div class="dropdown">
+                            <ul>
+                                <li>
+                                    <button onclick="window.open('http://demo.sgwin123.com')">现金平台</button>
+                                </li>
+                                <li>
+                                    <button onclick="window.open('http://demo2.sgwin123.com')">信用平台</button>
+                                </li>
+                                <li>
+                                    <button onclick="window.open('http://swq.831831.in')">元角分平台</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -139,7 +153,9 @@
         </div>
     </section>
     <section class="section page-section section-3">
-        <div class="globe" id="particles-js"></div>
+        <div class="globe-wrapper">
+            <div class="globe" id="particles-js"></div>
+        </div>
         <div class="wrapper">
             <div class="tab">
                 <div class="tab-nav">
@@ -336,14 +352,28 @@
                     </div>
                     <div class="tab-item">
                         <div class="image2">
-                            <div class="img img2"></div>
-                            <div class="img img3"></div>
-                            <div class="img img1"></div>
-                            <div class="img img4"></div>
-                            <div class="img img5"></div>
-                            <div class="img img6"></div>
-                            <div class="img img7"></div>
-                           </div>
+                            <div class="img img1">
+                                <div class="screen"></div>
+                            </div>
+                            <div class="img img2">
+                                <div class="screen"></div>
+                            </div>
+                            <div class="img img3">
+                                <div class="screen"></div>
+                            </div>
+                            <div class="img img4">
+                                <div class="screen"></div>
+                            </div>
+                            <div class="img img5">
+                                <div class="screen"></div>
+                            </div>
+                            <div class="img img6">
+                                <div class="screen"></div>
+                            </div>
+                            <div class="img img7">
+                                <div class="screen"></div>
+                            </div>
+                        </div>
                         <div class="text-wrapper2">
                             <h1 class="title1">
                                 全面支持会员/ <br/>代理手机APP
@@ -360,12 +390,14 @@
         </div>
     </section>
     <section class="section page-section section-6">
-        <div class="ripple">
-            <div class="damping"></div>
-            <div class="damping"></div>
-            <div class="damping"></div>
-            <div class="damping"></div>
-            <div class="damping"></div>
+        <div class="ripple-wrapper">
+            <div class="ripple">
+                <div class="damping"></div>
+                <div class="damping"></div>
+                <div class="damping"></div>
+                <div class="damping"></div>
+                <div class="damping"></div>
+            </div>
         </div>
         <div class="world-map"></div>
         <div class="title">
@@ -385,9 +417,11 @@
         </div>
     </section>
     <section class="section page-section section-7">
-        <video autoplay muted loop id="section-7">
-            <source src="images/section-7/bg.mp4" type="video/mp4">
-        </video>
+        <div class="video-wrapper">
+            <video autoplay muted loop id="section-7">
+                <source src="images/section-7/bg.mp4" type="video/mp4">
+            </video>
+        </div>
         <div class="wrapper">
             <div class="contact">
                 <div class="field">
@@ -418,9 +452,13 @@
         </div>
     </section>
 </article>
-<script src="js/jquery-3.2.1.min.js" type="application/javascript"></script>
+<!--<script src="js/jquery-3.2.1.min.js" type="application/javascript"></script>-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 <script src="js/jquery.fullpage.min.js" type="application/javascript"></script>
-<script src="js/jquery.fullpage.extensions.min.js" type="application/javascript"></script>
+<!--<script src="js/jquery.fullpage.extensions.min.js" type="application/javascript"></script>-->
+<!--<script src="js/jquery.alton.min.js" type="application/javascript"></script>-->
 <script src="js/TweenMax.min.js" type="application/javascript"></script>
 <script src="js/particles.min.js" type="application/javascript"></script>
 <script src="js/main.js" type="application/javascript"></script>
