@@ -143,15 +143,14 @@ $(document).ready(function () {
         });
     }else{
 
-        var scroll = true;
+        this.scroll = true;
         $('.header .nav-header').click(function(e){
             e.preventDefault();
             $(this).toggleClass('active');
-            $('.mobile-navlink').slideToggle(200);
-            $('.mobile-navlink').toggleClass('active');
+            $('.mobile-navlink').slideToggle(200).toggleClass('active');
             $('body').toggleClass('fixed');
-            toggleScroll(scroll);
-            if(scroll){
+            toggleScroll(this.scroll);
+            if(this.scroll){
                 document.ontouchmove = function(e){ return true; }
             } else{
                 document.ontouchmove = function(e){ e.preventDefault(); }
@@ -159,7 +158,7 @@ $(document).ready(function () {
         });
 
         function toggleScroll(scroll){
-            return !scroll;
+            return this.scroll = !scroll;
         }
 
         // Hide Header on on scroll down
