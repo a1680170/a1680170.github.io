@@ -143,13 +143,24 @@ $(document).ready(function () {
         });
     }else{
 
+        var scroll = true;
         $('.header .nav-header').click(function(e){
             e.preventDefault();
             $(this).toggleClass('active');
             $('.mobile-navlink').slideToggle(200);
             $('.mobile-navlink').toggleClass('active');
             $('body').toggleClass('fixed');
+            toggleScroll(scroll);
+            if(scroll){
+                document.ontouchmove = function(e){ e.preventDefault(); }
+            } else{
+                document.ontouchmove = function(e){ return true; }
+            }
         });
+
+        function toggleScroll(scroll){
+            return !scroll;
+        }
 
         // Hide Header on on scroll down
         var didScroll;
