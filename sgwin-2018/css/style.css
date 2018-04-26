@@ -269,7 +269,11 @@ body:before {
     color: #fff;
 }
 
-.section-title{
+.mobile-navlink {
+    display: none;
+}
+
+.section-title {
     display: none;
 }
 
@@ -2494,6 +2498,10 @@ body:before {
         position: relative;
     }
 
+    .body.fixed {
+        overflow: hidden;
+    }
+
     .tab {
         height: auto;
         padding-top: 40px;
@@ -2533,7 +2541,7 @@ body:before {
         margin: auto;
     }
 
-    .section-title{
+    .section-title {
         display: block;
         color: #5b81e3;
         text-align: center;
@@ -2571,6 +2579,20 @@ body:before {
         opacity: 1;
     }
 
+    .skype-wrapper{
+        transition: all 200ms ease-in-out;
+    }
+
+    .skype-wrapper.nav-up{
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .skype-wrapper.nav-down{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
     .header .logo {
         width: auto;
         height: 45px;
@@ -2588,6 +2610,9 @@ body:before {
         width: 30px;
         height: 4px;
         background-color: #fff;
+        cursor: pointer;
+        z-index: 999;
+        transition: all 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
     }
 
     .header .nav-header:before {
@@ -2598,6 +2623,7 @@ body:before {
         width: 30px;
         height: 4px;
         background-color: #fff;
+        transition: transform 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
     }
 
     .header .nav-header:after {
@@ -2608,10 +2634,114 @@ body:before {
         width: 30px;
         height: 4px;
         background-color: #fff;
+        transition: transform 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
     }
 
-    .header .nav-header #navlink {
+    .header .nav-header.active {
+        background-color: transparent;
+    }
+
+    .header .nav-header.active:before {
+        transform: rotate(45deg) translateX(8px) translateY(8px);
+    }
+
+    .header .nav-header.active:after {
+        transform: rotate(-45deg) translateX(6px) translateY(-6px);
+    }
+
+    .mobile-navlink {
         display: none;
+        padding: 4rem 0 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #0e192b;
+        z-index: 98;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .mobile-navlink ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mobile-navlink li {
+        margin: 0 1rem;
+        color: #fff;
+        line-height: 50px;
+        text-align: center;
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    .mobile-navlink li:nth-child(1) {
+        transition: all 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    }
+
+    .mobile-navlink li:nth-child(2) {
+        transition: all 400ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    }
+
+    .mobile-navlink li:nth-child(3) {
+        transition: all 600ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    }
+
+    .mobile-navlink li:nth-child(4) {
+        transition: all 800ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    }
+
+    .mobile-navlink li:nth-child(5) {
+        transition: all 1000ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    }
+
+    .mobile-navlink li:nth-child(6) {
+        transition: all 1200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    }
+
+    .mobile-navlink li:nth-child(7) {
+        transition: all 1400ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    }
+
+    .mobile-navlink li:nth-child(8) {
+        transition: all 1600ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    }
+
+    .mobile-navlink li a {
+        margin: 0 1rem;
+        color: #fff;
+        line-height: 50px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .mobile-navlink.active li {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .mobile-navlink  .dropdown ul{
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mobile-navlink  .dropdown ul li{
+        flex: 1 1 33%;
+    }
+
+    .mobile-navlink  .dropdown ul li button{
+        color: #fff;
+        font-size: 0.8rem;
     }
 
     .section-1 {
@@ -2714,27 +2844,27 @@ body:before {
         transform: scale(0.5);
     }
 
-    .section-4 .paragraph.float-right{
+    .section-4 .paragraph.float-right {
         display: none
     }
 
-    .section-5{
+    .section-5 {
         height: calc(100vh - 100px);
     }
 
-    .section-5 .tab{
+    .section-5 .tab {
         height: 80vh;
     }
 
-    .section-5 .image1{
+    .section-5 .image1 {
         transform: scale(0.4);
     }
 
-    .section-5 .title1{
+    .section-5 .title1 {
         font-size: 2rem;
     }
 
-    .section-5 .feature1 li{
+    .section-5 .feature1 li {
         width: 50%;
         float: left;
         padding-left: 50px;
@@ -2742,14 +2872,14 @@ body:before {
         font-size: 1rem;
     }
 
-    .section-5 .feature1 li:before{
+    .section-5 .feature1 li:before {
         width: 40px;
         height: 40px;
         top: 50%;
         transform: translateY(-50%);
     }
 
-    .section-5 .feature2 li{
+    .section-5 .feature2 li {
         width: 50%;
         float: left;
         padding-left: 50px;
@@ -2757,56 +2887,60 @@ body:before {
         font-size: 1rem;
     }
 
-    .section-5 .feature2 li:before{
+    .section-5 .feature2 li:before {
         width: 40px;
         height: 40px;
         top: 50%;
         transform: translateY(-50%);
     }
 
-    .section-5 .text-wrapper2{
+    .section-5 .text-wrapper2 {
         width: 100%;
         top: initial;
         bottom: 0;
     }
 
-
-    .section-6{
+    .section-6 {
         height: 100vh;
     }
 
-    .section-6 .image{
+    .section-6 .image {
         width: 100%;
     }
 
-    .section-6 .image .image-1{
+    .section-6 .image .image-1 {
         width: 70%;
         height: 160px;
     }
-    .section-6 .image .image-2{
+
+    .section-6 .image .image-2 {
         left: calc(70% + 0.5rem);
         width: 30%;
         height: 80px;
     }
-    .section-6 .image .image-3{
+
+    .section-6 .image .image-3 {
         left: calc(70% + 0.5rem);
         width: 30%;
         height: 160px;
         top: calc(80px + 0.5rem);
     }
-    .section-6 .image .image-4{
+
+    .section-6 .image .image-4 {
         right: 30%;
         width: calc(80% + 0.5rem);
         height: 80px;
         top: calc(160px + 0.5rem);
     }
-    .section-6 .image .image-6{
+
+    .section-6 .image .image-6 {
         top: calc(240px + 1rem);
         right: calc(60% + 0.5rem);
         width: 40%;
         height: 80px;
     }
-    .section-6 .image .image-7{
+
+    .section-6 .image .image-7 {
         top: calc(240px + 1rem);
         right: 30%;
         width: 30%;
@@ -2819,12 +2953,12 @@ body:before {
         width: 230px;
     }
 
-    .section-6 .title h1{
+    .section-6 .title h1 {
         font-size: 2rem;
         padding-left: 30px;
     }
 
-    .section-6 .title h3{
+    .section-6 .title h3 {
         font-size: 1rem;
         padding-left: 30px;
         word-break: break-all;
@@ -2836,43 +2970,43 @@ body:before {
         transform: scale(0.5);
     }
 
-    .section-6 .world-map{
+    .section-6 .world-map {
         width: 200%;
     }
 
-    .section-7{
+    .section-7 {
         height: 100vh;
     }
 
-    .section-7 .video-wrapper{
+    .section-7 .video-wrapper {
         z-index: -1;
     }
 
-    .section-7 video{
+    .section-7 video {
         height: 100%;
         width: auto;
     }
 
-    .section-7 .slogan{
+    .section-7 .slogan {
         position: relative;
         font-size: 1.5rem;
         width: auto;
         margin: 3rem auto;
     }
 
-    .section-7 .contact{
+    .section-7 .contact {
         font-size: 0.8rem;
     }
 
-    .section-7 .contact .field{
+    .section-7 .contact .field {
         margin: 1rem 0 2rem;
     }
 
-    .section-7 .contact .field label{
+    .section-7 .contact .field label {
         width: 100px;
     }
 
-    .section-7 .contact .field .button{
+    .section-7 .contact .field .button {
         width: 120px;
         height: 30px;
         line-height: 30px;
