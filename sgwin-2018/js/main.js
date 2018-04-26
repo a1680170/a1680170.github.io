@@ -1,4 +1,13 @@
 $(document).ready(function () {
+
+    var isMobile = false; //initiate as false
+    // device detection
+    if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent)
+        || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(navigator.userAgent.substr(0, 4))) {
+        isMobile = true;
+    }
+
+
     var section1Timeout;
     var video = document.getElementById("section-7");
 
@@ -8,9 +17,9 @@ $(document).ready(function () {
         });
     });
 
-    $('.header .nav-header li a.dropdown-anchor').hover(function(e){
+    $('.header .nav-header li a.dropdown-anchor').hover(function (e) {
         e.preventDefault();
-       $('.dropdown').slideToggle(200);
+        $('.dropdown').slideToggle(200);
         // $('.dropdown').focus();
     });
 
@@ -20,7 +29,7 @@ $(document).ready(function () {
     // TweenMax.from(section1Laptop, 0.4, {ease: Power4.easeOut, x: 200, alpha: 0});
 
     /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-    particlesJS.load('particles-js', 'json/particlesjs-config.json', function() {
+    particlesJS.load('particles-js', 'json/particlesjs-config.json', function () {
         // console.log('callback - particles.js config loaded');
     });
 
@@ -29,108 +38,186 @@ $(document).ready(function () {
     var section5Animated = true;
     var section6Animated = true;
 
-    $('#section-container').fullpage({
-        scrollBar: true,
-        anchors: ['home', 'method', 'game', 'special', 'mobile', 'charity', 'contact', 'trial'],
-        menu: '#navlink',
-        afterLoad: function (anchorLink, index) {
-            var loadedSection = $(this);
+    if(!isMobile){
+        $('#section-container').fullpage({
+            scrollBar: true,
+            anchors: ['home', 'method', 'game', 'special', 'mobile', 'charity', 'contact', 'trial'],
+            menu: '#navlink',
+            afterLoad: function (anchorLink, index) {
+                var loadedSection = $(this);
 
-            //using index
-            if (index == 1) {
-                section1Timeout = setTimeout(function () {
-                    $('.section-1 .image-container').addClass('animate');
-                }, 400);
-                animateSection1(section1Animated);
-                if (section1Animated) {
-                    section1Animated = false;
+                //using index
+                if (index == 1) {
+                    section1Timeout = setTimeout(function () {
+                        $('.section-1 .image-container').addClass('animate');
+                    }, 400);
+                    animateSection1(section1Animated);
+                    if (section1Animated) {
+                        section1Animated = false;
+                    }
+                }
+
+                if (index == 2) {
+                    animateSection2(section2Animated);
+                    if (section2Animated) {
+                        section2Animated = false;
+                    }
+                }
+
+                if (index == 4) {
+                    animateSection5(section5Animated);
+                    if (section5Animated) {
+                        section5Animated = false;
+                    }
+                }
+
+                if (index == 5) {
+
+                    TweenMax.fromTo($('.section-6 .image .image-1'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-2'), 2, {y: 0, alpha: 1}, {y: -100, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-3'), 2, {y: 0, alpha: 1}, {y: -200, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-4'), 2, {x: 0, alpha: 1}, {x: 100, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-6'), 2, {x: 0, alpha: 1}, {x: -200, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-7'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
+
+                }
+
+                if (index == 6) {
+                    animateSection6(section6Animated);
+                    if (section6Animated) {
+                        section6Animated = false;
+                    }
+                }
+
+                if (index == 7) {
+                    video.play();
+                    $(".skype-wrapper").show();
+                }
+            },
+            onLeave: function (index, nextIndex, direction) {
+                var leavingSection = $(this);
+
+                //after leaving section 2
+                if (index == 1 && direction == 'down') {
+                    clearInterval(section1Timeout);
+                    $('.section-1 .image-container').removeClass('animate');
+                }
+
+                else if (index == 2 && direction == 'up') {
+                    $('.section-2 .flex-wrapper .flex-col').removeClass('show');
+                }
+
+                else if (index == 2 && direction == 'down') {
+                    $('.section-2 .flex-wrapper .flex-col').removeClass('show');
+                }
+
+                else if (index == 6 && direction == 'up') {
+                    // $('.section-6 .image').removeClass('animate');
+                    // animateSection6(false);
+                    TweenMax.fromTo($('.section-6 .image .image-1'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-2'), 2, {y: 0, alpha: 1}, {y: -100, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-3'), 2, {y: 0, alpha: 1}, {y: -200, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-4'), 2, {x: 0, alpha: 1}, {x: 100, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-6'), 2, {x: 0, alpha: 1}, {x: -200, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-7'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
+
+                }
+
+                else if (index == 6 && direction == 'down') {
+                    // $('.section-6 .image').removeClass('animate');
+                    // animateSection6(false);
+                    TweenMax.fromTo($('.section-6 .image .image-1'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-2'), 2, {y: 0, alpha: 1}, {y: -100, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-3'), 2, {y: 0, alpha: 1}, {y: -200, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-4'), 2, {x: 0, alpha: 1}, {x: 100, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-6'), 2, {x: 0, alpha: 1}, {x: -200, alpha: 0});
+                    TweenMax.fromTo($('.section-6 .image .image-7'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
+
+                }
+
+                else if (index == 7 && direction == 'up') {
+                    $(".skype-wrapper").hide();
+                }
+
+            }
+        });
+    }else{
+
+        // Hide Header on on scroll down
+        var didScroll;
+        var lastScrollTop = 0;
+        var delta = 5;
+        var navbarHeight = $('header').outerHeight();
+
+        $(window).scroll(function(event){
+            didScroll = true;
+        });
+
+        setInterval(function() {
+            if (didScroll) {
+                hasScrolled();
+                didScroll = false;
+            }
+        }, 250);
+
+        function hasScrolled() {
+            var st = $(this).scrollTop();
+
+            // Make sure they scroll more than delta
+            if(Math.abs(lastScrollTop - st) <= delta)
+                return;
+
+            // If they scrolled down and are past the navbar, add class .nav-up.
+            // This is necessary so you never see what is "behind" the navbar.
+            if (st > lastScrollTop && st > navbarHeight){
+                // Scroll Down
+                $('header').removeClass('nav-down').addClass('nav-up');
+            } else {
+                // Scroll Up
+                if(st + $(window).height() < $(document).height()) {
+                    $('header').removeClass('nav-up').addClass('nav-down');
                 }
             }
 
-            if (index == 2) {
-                animateSection2(section2Animated);
-                if (section2Animated) {
-                    section2Animated = false;
-                }
-            }
-
-            if (index == 4){
-                animateSection5(section5Animated);
-                if (section5Animated) {
-                    section5Animated = false;
-                }
-            }
-
-            if (index == 5) {
-
-                TweenMax.fromTo($('.section-6 .image .image-1'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-2'), 2, {y: 0, alpha: 1}, {y: -100, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-3'), 2, {y: 0, alpha: 1}, {y: -200, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-4'), 2, {x: 0, alpha: 1}, {x: 100, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-6'), 2, {x: 0, alpha: 1}, {x: -200, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-7'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
-
-            }
-
-            if (index == 6) {
-                animateSection6(section6Animated);
-                if (section6Animated) {
-                    section6Animated = false;
-                }
-            }
-
-            if (index == 7) {
-                video.play();
-                $(".skype-wrapper").show();
-            }
-        },
-        onLeave: function (index, nextIndex, direction) {
-            var leavingSection = $(this);
-
-            //after leaving section 2
-            if (index == 1 && direction == 'down') {
-                clearInterval(section1Timeout);
-                $('.section-1 .image-container').removeClass('animate');
-            }
-
-            else if (index == 2 && direction == 'up') {
-                $('.section-2 .flex-wrapper .flex-col').removeClass('show');
-            }
-
-            else if (index == 2 && direction == 'down') {
-                $('.section-2 .flex-wrapper .flex-col').removeClass('show');
-            }
-
-            else if (index == 6 && direction == 'up') {
-                // $('.section-6 .image').removeClass('animate');
-                // animateSection6(false);
-                TweenMax.fromTo($('.section-6 .image .image-1'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-2'), 2, {y: 0, alpha: 1}, {y: -100, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-3'), 2, {y: 0, alpha: 1}, {y: -200, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-4'), 2, {x: 0, alpha: 1}, {x: 100, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-6'), 2, {x: 0, alpha: 1}, {x: -200, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-7'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
-
-            }
-
-            else if (index == 6 && direction == 'down') {
-                // $('.section-6 .image').removeClass('animate');
-                // animateSection6(false);
-                TweenMax.fromTo($('.section-6 .image .image-1'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-2'), 2, {y: 0, alpha: 1}, {y: -100, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-3'), 2, {y: 0, alpha: 1}, {y: -200, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-4'), 2, {x: 0, alpha: 1}, {x: 100, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-6'), 2, {x: 0, alpha: 1}, {x: -200, alpha: 0});
-                TweenMax.fromTo($('.section-6 .image .image-7'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
-
-            }
-
-            else if (index == 7 && direction == 'up') {
-                $(".skype-wrapper").hide();
-            }
-
+            lastScrollTop = st;
         }
-    });
+
+        //using index
+        section1Timeout = setTimeout(function () {
+            $('.section-1 .image-container').addClass('animate');
+        }, 400);
+        animateSection1(section1Animated);
+        if (section1Animated) {
+            section1Animated = false;
+        }
+
+        animateSection2(section2Animated);
+        if (section2Animated) {
+            section2Animated = false;
+        }
+
+        animateSection5(section5Animated);
+        if (section5Animated) {
+            section5Animated = false;
+        }
+
+
+        TweenMax.fromTo($('.section-6 .image .image-1'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
+        TweenMax.fromTo($('.section-6 .image .image-2'), 2, {y: 0, alpha: 1}, {y: -100, alpha: 0});
+        TweenMax.fromTo($('.section-6 .image .image-3'), 2, {y: 0, alpha: 1}, {y: -200, alpha: 0});
+        TweenMax.fromTo($('.section-6 .image .image-4'), 2, {x: 0, alpha: 1}, {x: 100, alpha: 0});
+        TweenMax.fromTo($('.section-6 .image .image-6'), 2, {x: 0, alpha: 1}, {x: -200, alpha: 0});
+        TweenMax.fromTo($('.section-6 .image .image-7'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
+
+
+        animateSection6(section6Animated);
+        if (section6Animated) {
+            section6Animated = false;
+        }
+
+        video.play();
+        $(".skype-wrapper").show();
+    }
 
     // Section 3 Tab Nav
     $('.section-3 .tab-nav a').click(function (e) {
@@ -356,7 +443,7 @@ function animateSection2(play) {
 }
 
 function animateSection5(play) {
-    if(play){
+    if (play) {
         // Static animation
         TweenMax.fromTo($('.section-5 .image1 .img1'), 5, {scale: 0, alpha: 0}, {
             scale: 1,
