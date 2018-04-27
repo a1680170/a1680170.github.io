@@ -2534,6 +2534,7 @@ body:before {
         width: 100%;
         background: url(../images/parallax-bg.jpg) right top / cover no-repeat;
         height: calc(100vh + 1400px);
+        min-width: auto;
     }
 
     .wrapper {
@@ -2873,6 +2874,7 @@ body:before {
 
     .section-4 {
         height: 100vh;
+        overflow: hidden;
     }
 
     .section-4 .paragraph {

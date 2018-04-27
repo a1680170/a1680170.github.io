@@ -165,7 +165,8 @@ $(document).ready(function () {
                 that.removeClass('active');
                 $('.mobile-navlink').slideUp(200).removeClass('active');
                 $('body').removeClass('fixed');
-                toggleScroll();
+                // toggleScroll();
+                scroll = true;
             });
 
         });
