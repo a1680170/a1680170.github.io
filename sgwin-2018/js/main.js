@@ -146,29 +146,28 @@ $(document).ready(function () {
 
         $('.header .nav-header').click(function (e) {
             e.preventDefault();
-            var that = $(this);
             $(this).toggleClass('active');
             $('.mobile-navlink').slideToggle(200).toggleClass('active');
             $('body').toggleClass('fixed');
-            toggleScroll();
-            if (scroll) {
-                document.ontouchmove = function (e) {
-                    return true;
-                }
-            } else {
-                document.ontouchmove = function (e) {
-                    e.preventDefault();
-                }
-            }
+            // toggleScroll();
+            // if (scroll) {
+            //     document.ontouchmove = function (e) {
+            //         return true;
+            //     }
+            // } else {
+            //     document.ontouchmove = function (e) {
+            //         e.preventDefault();
+            //     }
+            // }
 
-            $('.mobile-navlink ul li a').click(function () {
-                that.removeClass('active');
-                $('.mobile-navlink').slideUp(200).removeClass('active');
-                $('body').removeClass('fixed');
-                // toggleScroll();
-                scroll = true;
-            });
+        });
 
+        $('.mobile-navlink ul li a').click(function () {
+            $('.header .nav-header').removeClass('active');
+            $('.mobile-navlink').slideUp(200).removeClass('active');
+            $('body').removeClass('fixed');
+            // toggleScroll();
+            // scroll = true;
         });
 
         function toggleScroll() {
