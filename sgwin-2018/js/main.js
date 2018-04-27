@@ -149,25 +149,27 @@ $(document).ready(function () {
             $(this).toggleClass('active');
             $('.mobile-navlink').slideToggle(200).toggleClass('active');
             $('body').toggleClass('fixed');
-            // toggleScroll();
-            // if (scroll) {
-            //     document.ontouchmove = function (e) {
-            //         return true;
-            //     }
-            // } else {
-            //     document.ontouchmove = function (e) {
-            //         e.preventDefault();
-            //     }
-            // }
+            toggleScroll();
+            if (scroll) {
+                document.ontouchmove = function (e) {
+                    return true;
+                }
+            } else {
+                document.ontouchmove = function (e) {
+                    e.preventDefault();
+                }
+            }
 
         });
 
         $('.mobile-navlink ul li a').click(function () {
-            $('.header .nav-header').removeClass('active');
-            $('.mobile-navlink').slideUp(200).removeClass('active');
-            $('body').removeClass('fixed');
+            // $('.header .nav-header').removeClass('active');
+            // $('.mobile-navlink').slideUp(200).removeClass('active');
+            // $('body').removeClass('fixed');
             // toggleScroll();
             // scroll = true;
+            $('.header .nav-header').click();
+
         });
 
         function toggleScroll() {
@@ -274,8 +276,37 @@ $(document).ready(function () {
         $('.section-3 .tab-nav a').not($(this)).removeClass('active');
 
         $('.section-3 .tab-content .tab-item:nth-child(' + (currIndex + 1) + ')').fadeIn();
+
+        var section4GameList1Timeline = new TimelineLite({paused: true});
+        var section4GameList2Timeline = new TimelineLite({paused: true});
+
+        for (var a = 1; a <= $('.section-3 .game-list li').length; a++) {
+            section4GameList1Timeline.fromTo($('.section-3 .game-list li:nth-child(' + a + ')'), 0.01 * a, {
+                y: 100,
+                alpha: 0
+            }, {y: 0, alpha: 1});
+        }
+
+        for (var b = 1; b <= $('.section-3 .game-list-2 li').length; b++) {
+            section4GameList2Timeline.fromTo($('.section-3 .game-list-2 li:nth-child(' + b + ')'), 0.01 * b, {
+                y: 100,
+                alpha: 0
+            }, {y: 0, alpha: 1});
+        }
+
+        if (currIndex === 0) {
+            // animateSection5("image1", "play");
+            // animateSection5("image2", "reverse");
+            section4GameList1Timeline.play();
+
+        } else {
+            // animateSection5("image2", "play");
+            // animateSection5("image1", "reverse");
+            section4GameList2Timeline.play();
+        }
+
         $('.section-3 .tab-content .tab-item:not(:nth-child(' + (currIndex + 1) + '))').fadeOut();
-    })
+    });
 
     // Section 4 Tab Nav
     $('.section-4 .tab-nav a').click(function (e) {
