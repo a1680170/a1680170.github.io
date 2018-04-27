@@ -558,7 +558,7 @@ function animateSection6(play) {
 
         var damping = $('.section-6 .ripple .damping');
         ripple.from(damping, 1, {scale: 0.5, alpha: 0})
-            .to(damping, 1, {scale: 1, alpha: 1})
+            .to(damping, 0.2, {scale: 1, alpha: 1})
             .to(damping, 1, {scale: 1.5, alpha: 0});
         ripple.play();
 

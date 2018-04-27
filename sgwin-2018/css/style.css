@@ -2500,6 +2500,7 @@ body:before {
 
     .body.fixed {
         overflow: hidden;
+        position: fixed;
     }
 
     .tab {
@@ -2530,6 +2531,7 @@ body:before {
     }
 
     .parallax-bg {
+        width: 100%;
         background: url(../images/parallax-bg.jpg) right top / cover no-repeat;
         height: calc(100vh + 1400px);
     }
@@ -2647,6 +2649,10 @@ body:before {
 
     .header .nav-header.active:after {
         transform: rotate(-45deg) translateX(6px) translateY(-6px);
+    }
+
+    .header .nav-header #navlink{
+        display: none;
     }
 
     .mobile-navlink {
@@ -2802,8 +2808,37 @@ body:before {
         transform: scale(0.6);
     }
 
+    .section-2 .flex-wrapper .flex-col .image-1 img.base{
+        left: 0;
+    }
+    .section-2 .flex-wrapper .flex-col .image-1 img.light{
+        /*left:40px;*/
+    }
+
+    .section-2 .flex-wrapper .flex-col .image-1 img.circle{
+        left: 86px;
+    }
+
+    .section-2 .flex-wrapper .flex-col .image-3 img.base{
+        left: 15px;
+    }
+
+    .section-2 .flex-wrapper .flex-col .image-3 img.light{
+        right: initial;
+        left: -43px;
+    }
+
+    .section-2 .flex-wrapper .flex-col .image-3 img.stats{
+        right: 0;
+    }
+
     .section-3 .tab .tab-content {
         height: 600px;
+        transition: all 200ms ease-in-out;
+    }
+
+    .section-3 .tab .tab-content.show-more{
+        height: 800px;
     }
 
     .section-3 .tab .tab-content:before {
