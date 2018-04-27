@@ -21,6 +21,11 @@ body:before {
     z-index: -1;
 }
 
+body.pace-running {
+    overflow: hidden;
+    position: fixed;
+}
+
 /*body:after{*/
 /*content: '';*/
 /*position: fixed;*/
@@ -3380,6 +3385,10 @@ body:before {
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
     body {
         display: none;
+    }
+
+    html{
+        background-color: #04101a;
     }
 
     html:before {
