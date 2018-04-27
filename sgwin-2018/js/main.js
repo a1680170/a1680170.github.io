@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    var scroll = true;
     var isMobile = false; //initiate as false
     // device detection
     if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent)
@@ -38,7 +38,7 @@ $(document).ready(function () {
     var section5Animated = true;
     var section6Animated = true;
 
-    if(!isMobile){
+    if (!isMobile) {
         $('#section-container').fullpage({
             scrollBar: true,
             anchors: ['home', 'method', 'game', 'special', 'mobile', 'charity', 'contact', 'trial'],
@@ -141,24 +141,37 @@ $(document).ready(function () {
 
             }
         });
-    }else{
+    } else {
 
-        this.scroll = true;
-        $('.header .nav-header').click(function(e){
+
+        $('.header .nav-header').click(function (e) {
             e.preventDefault();
+            var that = $(this);
             $(this).toggleClass('active');
             $('.mobile-navlink').slideToggle(200).toggleClass('active');
             $('body').toggleClass('fixed');
-            toggleScroll(this.scroll);
-            if(this.scroll){
-                document.ontouchmove = function(e){ return true; }
-            } else{
-                document.ontouchmove = function(e){ e.preventDefault(); }
+            toggleScroll();
+            if (scroll) {
+                document.ontouchmove = function (e) {
+                    return true;
+                }
+            } else {
+                document.ontouchmove = function (e) {
+                    e.preventDefault();
+                }
             }
+
+            $('.mobile-navlink ul li a').click(function () {
+                that.removeClass('active');
+                $('.mobile-navlink').slideUp(200).removeClass('active');
+                $('body').removeClass('fixed');
+                toggleScroll();
+            });
+
         });
 
-        function toggleScroll(scroll){
-            return this.scroll = !scroll;
+        function toggleScroll() {
+            scroll = !scroll;
         }
 
         // Hide Header on on scroll down
@@ -167,11 +180,11 @@ $(document).ready(function () {
         var delta = 5;
         var navbarHeight = $('header').outerHeight();
 
-        $(window).scroll(function(event){
+        $(window).scroll(function (event) {
             didScroll = true;
         });
 
-        setInterval(function() {
+        setInterval(function () {
             if (didScroll) {
                 hasScrolled();
                 didScroll = false;
@@ -182,19 +195,19 @@ $(document).ready(function () {
             var st = $(this).scrollTop();
 
             // Make sure they scroll more than delta
-            if(Math.abs(lastScrollTop - st) <= delta)
+            if (Math.abs(lastScrollTop - st) <= delta)
                 return;
 
             // If they scrolled down and are past the navbar, add class .nav-up.
             // This is necessary so you never see what is "behind" the navbar.
-            if (st > lastScrollTop && st > navbarHeight){
+            if (st > lastScrollTop && st > navbarHeight) {
                 // Scroll Down
                 $('header').removeClass('nav-down').addClass('nav-up');
                 // $('.skype-wrapper').removeClass('nav-down').addClass('nav-up');
                 $('.skype-wrapper').show();
             } else {
                 // Scroll Up
-                if(st + $(window).height() < $(document).height()) {
+                if (st + $(window).height() < $(document).height()) {
                     $('header').removeClass('nav-up').addClass('nav-down');
                     // $('.skype-wrapper').removeClass('nav-up').addClass('nav-down');
                     $('.skype-wrapper').hide();
@@ -544,8 +557,8 @@ function animateSection6(play) {
         });
 
         var damping = $('.section-6 .ripple .damping');
-        ripple.from(damping, 2, {scale: 0.5, alpha: 0})
-            .to(damping, 0, {scale: 1, alpha: 1})
+        ripple.from(damping, 1, {scale: 0.5, alpha: 0})
+            .to(damping, 1, {scale: 1, alpha: 1})
             .to(damping, 1, {scale: 1.5, alpha: 0});
         ripple.play();
 

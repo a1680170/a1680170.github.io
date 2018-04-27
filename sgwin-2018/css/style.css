@@ -2579,16 +2579,16 @@ body:before {
         opacity: 1;
     }
 
-    .skype-wrapper{
+    .skype-wrapper {
         transition: all 200ms ease-in-out;
     }
 
-    .skype-wrapper.nav-up{
+    .skype-wrapper.nav-up {
         transform: translateY(0);
         opacity: 1;
     }
 
-    .skype-wrapper.nav-down{
+    .skype-wrapper.nav-down {
         transform: translateY(-100%);
         opacity: 0;
     }
@@ -2720,6 +2720,7 @@ body:before {
         text-decoration: none;
         font-size: 1.5rem;
         font-weight: bold;
+        text-align: center;
     }
 
     .mobile-navlink.active li {
@@ -2727,7 +2728,7 @@ body:before {
         opacity: 1;
     }
 
-    .mobile-navlink  .dropdown ul{
+    .mobile-navlink .dropdown ul {
         display: flex;
         list-style: none;
         margin: 0;
@@ -2735,13 +2736,16 @@ body:before {
         margin: 0;
     }
 
-    .mobile-navlink  .dropdown ul li{
+    .mobile-navlink .dropdown ul li {
         flex: 1 1 33%;
     }
 
-    .mobile-navlink  .dropdown ul li button{
+    .mobile-navlink .dropdown ul li button {
         color: #fff;
         font-size: 0.8rem;
+        background: transparent;
+        border: 0;
+        outline: none;
     }
 
     .section-1 {
@@ -2849,7 +2853,8 @@ body:before {
     }
 
     .section-5 {
-        height: calc(100vh - 100px);
+        height: 100vh;
+        overflow: hidden;
     }
 
     .section-5 .tab {
@@ -2857,11 +2862,79 @@ body:before {
     }
 
     .section-5 .image1 {
-        transform: scale(0.4);
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 230px;
+        /*transform: translateX(-11%);*/
+    }
+
+    .section-5 .image1 .img1 {
+        width: 400px;
+        /* height: 200px; */
+        /*-118*/
+        left: 0;
+        /*+104*/
+        top: 0;
+    }
+
+    .section-5 .image1 .img2 {
+        width: 238px;
+        left: 92px;
+        top: -17px;
+    }
+
+    .section-5 .image1 .img3 {
+        width: 244px;
+        top: 33px;
+        left: 82px;
+    }
+
+    .section-5 .image1 .img4 {
+        width: 169px;
+        height: auto;
+        left: 149px;
+        top: 61px;
+    }
+
+    .section-5 .image1 .img5 {
+        width: 100px;
+        height: auto;
+        left: 110px;
+        top: 108px;
+    }
+
+    .section-5 .image1 .img6 {
+        width: 100px;
+        height: auto;
+        top: 46px;
+        left: 203px;
+    }
+
+    .section-5 .image1 .img7 {
+        width: 100px;
+        height: auto;
+        left: 115px;
+        top: 59px;
+    }
+
+    .section-5 .image1 .img8 {
+        width: 100px;
+        height: auto;
+        left: 138px;
+        top: 23px;
+    }
+
+    .section-5 .image1 .img9 {
+        width: 50px;
+        height: auto;
+        left: 95px;
+        top: 85px;
     }
 
     .section-5 .title1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .section-5 .feature1 li {
@@ -2870,6 +2943,8 @@ body:before {
         padding-left: 50px;
         box-sizing: border-box;
         font-size: 1rem;
+        height: 60px;
+        line-height: 60px;
     }
 
     .section-5 .feature1 li:before {
@@ -2885,6 +2960,8 @@ body:before {
         padding-left: 50px;
         box-sizing: border-box;
         font-size: 1rem;
+        height: 60px;
+        line-height: 60px;
     }
 
     .section-5 .feature2 li:before {
@@ -2894,7 +2971,18 @@ body:before {
         transform: translateY(-50%);
     }
 
+    .section-5 .image2 {
+        position: relative;
+        width: 100%;
+        height: 230px;
+        -webkit-perspective: 500px;
+        perspective: 500px;
+        /* margin-top: -50px; */
+        transform: scale(0.4) translateX(-21px) translateY(-97px);
+    }
+
     .section-5 .text-wrapper2 {
+        position: relative;
         width: 100%;
         top: initial;
         bottom: 0;
@@ -3010,5 +3098,31 @@ body:before {
         width: 120px;
         height: 30px;
         line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    body {
+        display: none;
+    }
+
+    html:before {
+        content: '';
+        width: 50px;
+        height: 50px;
+        background: url(../images/screen-rotate.svg) center / contain no-repeat;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        animation: rotateScreen 1s linear infinite alternate;
+    }
+
+    @keyframes rotateScreen{
+        to{
+            transform: rotate(-40deg);
+        }
     }
 }
