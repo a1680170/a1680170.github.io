@@ -114,24 +114,24 @@ $(document).ready(function () {
                 else if (index == 6 && direction == 'up') {
                     // $('.section-6 .image').removeClass('animate');
                     // animateSection6(false);
-                    TweenMax.fromTo($('.section-6 .image .image-1'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
-                    TweenMax.fromTo($('.section-6 .image .image-2'), 2, {y: 0, alpha: 1}, {y: -100, alpha: 0});
-                    TweenMax.fromTo($('.section-6 .image .image-3'), 2, {y: 0, alpha: 1}, {y: -200, alpha: 0});
-                    TweenMax.fromTo($('.section-6 .image .image-4'), 2, {x: 0, alpha: 1}, {x: 100, alpha: 0});
-                    TweenMax.fromTo($('.section-6 .image .image-6'), 2, {x: 0, alpha: 1}, {x: -200, alpha: 0});
-                    TweenMax.fromTo($('.section-6 .image .image-7'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
+                    // TweenMax.fromTo($('.section-6 .image .image-1'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
+                    // TweenMax.fromTo($('.section-6 .image .image-2'), 2, {y: 0, alpha: 1}, {y: -100, alpha: 0});
+                    // TweenMax.fromTo($('.section-6 .image .image-3'), 2, {y: 0, alpha: 1}, {y: -200, alpha: 0});
+                    // TweenMax.fromTo($('.section-6 .image .image-4'), 2, {x: 0, alpha: 1}, {x: 100, alpha: 0});
+                    // TweenMax.fromTo($('.section-6 .image .image-6'), 2, {x: 0, alpha: 1}, {x: -200, alpha: 0});
+                    // TweenMax.fromTo($('.section-6 .image .image-7'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
 
                 }
 
                 else if (index == 6 && direction == 'down') {
                     // $('.section-6 .image').removeClass('animate');
                     // animateSection6(false);
-                    TweenMax.fromTo($('.section-6 .image .image-1'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
-                    TweenMax.fromTo($('.section-6 .image .image-2'), 2, {y: 0, alpha: 1}, {y: -100, alpha: 0});
-                    TweenMax.fromTo($('.section-6 .image .image-3'), 2, {y: 0, alpha: 1}, {y: -200, alpha: 0});
-                    TweenMax.fromTo($('.section-6 .image .image-4'), 2, {x: 0, alpha: 1}, {x: 100, alpha: 0});
-                    TweenMax.fromTo($('.section-6 .image .image-6'), 2, {x: 0, alpha: 1}, {x: -200, alpha: 0});
-                    TweenMax.fromTo($('.section-6 .image .image-7'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
+                    // TweenMax.fromTo($('.section-6 .image .image-1'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
+                    // TweenMax.fromTo($('.section-6 .image .image-2'), 2, {y: 0, alpha: 1}, {y: -100, alpha: 0});
+                    // TweenMax.fromTo($('.section-6 .image .image-3'), 2, {y: 0, alpha: 1}, {y: -200, alpha: 0});
+                    // TweenMax.fromTo($('.section-6 .image .image-4'), 2, {x: 0, alpha: 1}, {x: 100, alpha: 0});
+                    // TweenMax.fromTo($('.section-6 .image .image-6'), 2, {x: 0, alpha: 1}, {x: -200, alpha: 0});
+                    // TweenMax.fromTo($('.section-6 .image .image-7'), 2, {x: 0, alpha: 1}, {x: -100, alpha: 0});
 
                 }
 
@@ -217,6 +217,17 @@ $(document).ready(function () {
 
             lastScrollTop = st;
         }
+
+
+        $('.section-4 .paragraph.float-left').click(function(){
+            $(this).removeClass('active').hide();
+            $('.section-4 .paragraph.float-right').addClass('active').show();
+        });
+
+        $('.section-4 .paragraph.float-right').click(function(){
+            $(this).removeClass('active').hide();
+            $('.section-4 .paragraph.float-left').addClass('active').show();
+        });
 
         //using index
         section1Timeout = setTimeout(function () {
@@ -563,14 +574,12 @@ function animateSection6(play) {
             .to(damping, 1, {scale: 1.5, alpha: 0});
         ripple.play();
 
+        TweenMax.fromTo($('.section-6 .image .image-1'), 2, {x: -100, alpha: 0}, {x: 0, alpha: 1});
+        TweenMax.fromTo($('.section-6 .image .image-2'), 2, {delay: 0.2, y: -100, alpha: 0}, {y: 0, alpha: 1});
+        TweenMax.fromTo($('.section-6 .image .image-3'), 2, {delay: 0.2 * 2, y: -200, alpha: 0}, {y: 0, alpha: 1});
+        TweenMax.fromTo($('.section-6 .image .image-4'), 2, {delay: 0.2 * 3, x: 100, alpha: 0}, {x: 0, alpha: 1});
+        TweenMax.fromTo($('.section-6 .image .image-6'), 2, {delay: 0.2 * 4, x: -200, alpha: 0}, {x: 0, alpha: 1});
+        TweenMax.fromTo($('.section-6 .image .image-7'), 2, {delay: 0.2 * 5, x: -100, alpha: 0}, {x: 0, alpha: 1});
+
     }
-
-    TweenMax.fromTo($('.section-6 .image .image-1'), 2, {x: -100, alpha: 0}, {x: 0, alpha: 1});
-    TweenMax.fromTo($('.section-6 .image .image-2'), 2, {delay: 0.2, y: -100, alpha: 0}, {y: 0, alpha: 1});
-    TweenMax.fromTo($('.section-6 .image .image-3'), 2, {delay: 0.2 * 2, y: -200, alpha: 0}, {y: 0, alpha: 1});
-    TweenMax.fromTo($('.section-6 .image .image-4'), 2, {delay: 0.2 * 3, x: 100, alpha: 0}, {x: 0, alpha: 1});
-    TweenMax.fromTo($('.section-6 .image .image-6'), 2, {delay: 0.2 * 4, x: -200, alpha: 0}, {x: 0, alpha: 1});
-    TweenMax.fromTo($('.section-6 .image .image-7'), 2, {delay: 0.2 * 5, x: -100, alpha: 0}, {x: 0, alpha: 1});
-
-
 }

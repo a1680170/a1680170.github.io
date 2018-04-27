@@ -1379,6 +1379,16 @@ body:before {
     width: 50%;
 }
 
+
+.section-4 .paragraph.float-left .info h1:nth-child(2){
+    display: none;
+}
+
+.section-4 .paragraph.float-right .info h1:nth-child(1){
+    display: none;
+}
+
+
 .section-4 .paragraph .image {
     width: 100%;
     height: 450px;
@@ -1475,6 +1485,11 @@ body:before {
 .section-4 .paragraph .image.image3 img.img1 {
     left: 45px;
     bottom: 0;
+}
+
+.section-4 .paragraph .image.image3 img.img2 {
+    left: -110px;
+    top: 85px;
 }
 
 .section-4 .paragraph .image.image3 img.img3 {
@@ -2436,11 +2451,16 @@ body:before {
     overflow: hidden;
 }
 
-.section-7 video {
+.section-7 video ,
+.section-7 .gif-bg {
     width: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.section-7 .gif-bg{
+    display: none;
 }
 
 .section-7 .contact {
@@ -2721,7 +2741,6 @@ body:before {
     }
 
     .mobile-navlink li a {
-        margin: 0 1rem;
         color: #fff;
         line-height: 50px;
         text-decoration: none;
@@ -2745,6 +2764,7 @@ body:before {
 
     .mobile-navlink .dropdown ul li {
         flex: 1 1 33%;
+        margin: 0;
     }
 
     .mobile-navlink .dropdown ul li button {
@@ -2873,8 +2893,13 @@ body:before {
     }
 
     .section-4 {
-        height: 100vh;
+        min-height: 100vh;
+        height: auto;
         overflow: hidden;
+    }
+
+    .section-4 .tab .tab-content {
+        height: 500px;
     }
 
     .section-4 .paragraph {
@@ -2882,20 +2907,128 @@ body:before {
     }
 
     .section-4 .paragraph .image {
-        transform: scale(0.5);
+        transform: scale(0.5) translateX(-100px);
+        margin: -60px auto -90px;
+    }
+
+    .section-4 .paragraph .image.image1 img.img4{
+        right: -200px;
+    }
+
+    .section-4 .paragraph .image.image1 img.img5{
+        right: -330px;
+    }
+
+    .section-4 .paragraph .image.image1 img.img6{
+        right: -300px;
+    }
+
+    .section-4 .paragraph .image.image2 {
+        transform: scale(0.5) translateX(-120px) translateY(-50px);
+    }
+
+    .section-4 .paragraph .image.image2 img.img5{
+        right: -150px;
+    }
+
+    .section-4 .paragraph .image.image2 img.img6{
+        right: -300px;
+    }
+
+    .section-4 .paragraph .image.image2 img.img7{
+        right: -280px;
+    }
+
+    .section-4 .paragraph .image.image3 img.img4{
+        right: -200px;
+    }
+
+    .section-4 .paragraph .image.image3 img.img5{
+        right: -330px;
+    }
+
+    .section-4 .paragraph .image.image3 img.img6{
+        right: -300px;
+    }
+
+    .section-4 .paragraph .image.image4 {
+        transform: scale(0.5) translateX(-120px) translateY(-50px);
+    }
+
+    .section-4 .paragraph .image.image4 img.img5{
+        right: -150px;
+    }
+
+    .section-4 .paragraph .image.image4 img.img6{
+        right: -300px;
+    }
+
+    .section-4 .paragraph .image.image4 img.img7{
+        right: -280px;
+    }
+
+    .section-4 .paragraph .info{
+        padding: 16px;
+        box-sizing: border-box;
+        background-color: #0d1940;
+        border-radius: 6px;
+        width: 100%;
     }
 
     .section-4 .paragraph.float-right {
         display: none
     }
 
+    .section-4 .paragraph .title-wrapper:after{
+        content: '';
+        clear: both;
+        display: block;
+    }
+
+    .section-4 .paragraph .title-wrapper h1{
+        display: inline-block !important;
+    }
+
+    .section-4 .paragraph .info h1:nth-child(1){
+        float: left;
+    }
+
+    .section-4 .paragraph .info h1:nth-child(2){
+        float: right;
+    }
+
+    .section-4 .paragraph .info ul li{
+        white-space: normal;
+    }
+
+    .section-4 .paragraph.float-left.active .info h1:nth-child(1){
+        border-bottom: 3px solid #5072cb;
+    }
+
+    .section-4 .paragraph.float-right.active .info h1:nth-child(2){
+        border-bottom: 3px solid #5072cb;
+    }
+
+    .section-4 .paragraph .info h1{
+        font-size: 1.5rem;
+        margin: 0 auto 1rem;
+        padding-bottom: 4px;
+        display: inline-block;
+    }
+
+    .section-4 .paragraph .info ul{
+        margin: 0;
+    }
+
     .section-5 {
-        height: 100vh;
+        min-height: 100vh;
+        height: auto;
         overflow: hidden;
     }
 
     .section-5 .tab {
-        height: 80vh;
+        min-height: 80vh;
+        height: 550px;
     }
 
     .section-5 .image1 {
@@ -3108,8 +3241,13 @@ body:before {
     }
 
     .section-7 video {
+        display: none;
+    }
+
+    .section-7 .gif-bg{
         height: 100%;
         width: auto;
+        display: block;
     }
 
     .section-7 .slogan {
