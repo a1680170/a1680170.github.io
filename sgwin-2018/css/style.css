@@ -2531,7 +2531,7 @@ body.pace-running {
     display: none;
 }
 
-@media (min-width: 320px) and (max-width: 720px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .section {
         height: auto;
         position: relative;
@@ -2754,9 +2754,9 @@ body.pace-running {
         color: #fff;
         line-height: 50px;
         text-align: center;
-        -webkit-transform: translateY(-100px);
-        -ms-transform: translateY(-100px);
-        transform: translateY(-100px);
+        -webkit-transform: translateY(-200px);
+        -ms-transform: translateY(-200px);
+        transform: translateY(-200px);
         opacity: 0;
     }
 
