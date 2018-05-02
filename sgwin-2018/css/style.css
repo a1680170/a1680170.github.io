@@ -3380,7 +3380,8 @@ body.pace-running {
   }
 
   .section-6 {
-    height: 100vh;
+    min-height: 100vh;
+    height: 650px;
   }
 
   .section-6 .image {
