@@ -251,6 +251,34 @@ $(document).ready(function() {
     animateSection2(true);
 
     $(".section-3 .game-list").fadeIn();
+    $(".section-3 .game-list li").each(function(k, i) {
+      var that = $(i);
+      TweenMax.fromTo(
+        that,
+        0.01 * (k + 1),
+        {
+          y: 100,
+          alpha: 0
+        },
+        { y: 0, alpha: 1 },
+        "-=0.1"
+      );
+    });
+
+    $(".section-3 .game-list-2 li").each(function(k, i) {
+      var that = $(i);
+      TweenMax.fromTo(
+        that,
+        0.01 * (k + 1),
+        {
+          y: 100,
+          alpha: 0
+        },
+        { y: 0, alpha: 1 },
+        "-=0.1"
+      );
+    });
+
     animateSection4(true);
 
     animateSection5(true);
