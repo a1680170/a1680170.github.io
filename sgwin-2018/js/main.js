@@ -241,6 +241,34 @@ $(document).ready(function() {
         .show();
     });
 
+    // Section 4 Tab Nav
+    $(".section-4 .tab-nav a").click(function(e) {
+      e.preventDefault();
+
+      $(".section-4 .paragraph.float-right")
+        .removeClass("active")
+        .hide();
+      $(".section-4 .paragraph.float-left")
+        .addClass("active")
+        .show();
+
+      var currIndex = $(this).index();
+      $(this).addClass("active");
+
+      $(".section-4 .tab-nav a")
+        .not($(this))
+        .removeClass("active");
+
+      $(
+        ".section-4 .tab-content .tab-item:nth-child(" + (currIndex + 1) + ")"
+      ).fadeIn();
+      $(
+        ".section-4 .tab-content .tab-item:not(:nth-child(" +
+          (currIndex + 1) +
+          "))"
+      ).fadeOut();
+    });
+
     //using index
     section1Timeout = setTimeout(function() {
       $(".section-1 .image-container").addClass("animate");
