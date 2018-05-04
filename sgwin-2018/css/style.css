@@ -3466,13 +3466,10 @@ body.pace-running {
   }
 
   .section-7 video {
-    display: none;
-  }
-
-  .section-7 .gif-bg {
+    /*display: none;*/
     height: 100%;
     width: auto;
-    display: block;
+    left: -33%;
   }
 
   .section-7 .slogan {
