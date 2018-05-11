@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Browser</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	h3{
+		color: #ff0000;
+	}
+	#country{
+		display: inline-block;
+		padding-right: 20px;
+		vertical-align: middle;
+	}
+	#flag{
+		display:  inline-block;
+		width: 20px;
+		vertical-align: middle;
+	}
+</style>
+</head>
+<body>
+	<fieldset>
+		<legend>IP Info</legend>
+		<h3>IP Address</h3>
+		<p id="ip"></p>
+		<h3>Country</h3>
+		<div>
+			<p id="country"></p>
+			<img id="flag" alt=""/>
+		</div>
+		<h3>Location</h3>
+		<iframe 
+		  width="300" 
+		  height="170" 
+		  frameborder="0" 
+		  scrolling="no" 
+		  marginheight="0" 
+		  marginwidth="0" 
+		  id="map"
+		  src=""
+		 >
+		 </iframe>
+	</fieldset>
+</body>
+<script type="text/javascript">
+
+	var requestUrl = 'http://api.ipstack.com/202.73.60.147?access_key=cb889c3744416fa91f3934795cac0607';
+	var xhr = new XMLHttpRequest();
+
+	xhr.open('GET', requestUrl);
+	xhr.send(null);
+
+	xhr.onreadystatechange = function () {
+	  var DONE = 4; // readyState 4 means the request is done.
+	  var OK = 200; // status 200 is a successful return.
+	  if (xhr.readyState === DONE) {
+	    if (xhr.status === OK) 
+	  		var data = JSON.parse(xhr.responseText);
+	  		var mapUrl = "https://maps.google.com/maps?q=" + data.latitude + "," + data.longitude + "&hl=es;z=14&amp;output=embed";
+
+	  		document.getElementById("ip").innerHTML = data.ip;
+	  		document.getElementById("country").innerHTML = data.country_name;
+	  		document.getElementById("flag").src = data.location.country_flag;
+	  		document.getElementById("flag").alt = data.country_name;
+	  		document.getElementById("map").src = mapUrl;
+	    } else {
+	      console.log('Error: ' + xhr.status);
+	    }
+  	};
+</script>
+</html>
