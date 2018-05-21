@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WeChat Test</title>
+</head>
+<body>
+<div class="qr-code">
+</div>
+<!-- <img style="display: none" class="image" src="img/logo.png"/> -->
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/jquery-qrcode-0.14.0.min.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript">
+    // If image is empty, leave blank or undefined
+    var imageLocation = "img/logo.png";
+    var qrImageLogo = null;
+    var qrURL = "www.google.com";
+    var qrMode = 0;
+    var qrImageLogoSize = 0.15;
+
+    // If image location is set
+    if (imageLocation !== "" && imageLocation !== undefined) {
+        var qrImage = new Image();
+        qrImage.src = imageLocation;
+        qrImageLogo = qrImage;
+        qrMode = 4;
+    }
+
+    $(document).ready(function() {
+        $('.qr-code').qrcode({
+            // content
+            text: qrURL,
+
+            // render method: 'canvas', 'image' or 'div'
+            render: 'canvas',
+
+            // Image size
+            mSize: qrImageLogoSize,
+            image: qrImageLogo,
+
+            // modes
+            // 0: normal
+            // 1: label strip
+            // 2: label box
+            // 3: image strip
+            // 4: image box
+            mode: qrMode,
+
+            // version range somewhere in 1 .. 40
+            minVersion: 1,
+            maxVersion: 40,
+
+            // error correction level: 'L', 'M', 'Q' or 'H'
+            ecLevel: 'H',
+
+            // offset in pixel if drawn onto existing canvas
+            left: 0,
+            top: 0,
+
+            // size in pixel
+            size: 200,
+
+            // code color or image element
+            fill: '#000',
+
+            // background color or image element, null for transparent background
+            background: null,
+
+
+            // corner radius relative to module width: 0.0 .. 0.5
+            radius: 0,
+
+            // quiet zone in modules
+            quiet: 0,
+
+
+
+            // Image position            
+            mPosX: 0.5,
+            mPosY: 0.5,
+
+            label: 'no label',
+            fontname: 'sans',
+            fontcolor: '#000'
+
+
+        });
+
+        wx.hideMenuItems({ menuList: [
+            'menuItem:exposeArticle',
+            'menuItem:share:QZone',
+            'menuItem:share:appMessage',
+            'menuItem:share:qq',
+            'menuItem:favorite',
+            'menuItem:setFont',
+            'menuItem:copyUrl'
+         ]
+      });
+    });
+</script>
+</body>
+</html>
