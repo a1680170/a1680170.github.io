@@ -91,6 +91,10 @@
             WeixinJSBridge.call('hideOptionMenu');
         });
 
+        wx.config({
+            debug: true
+        });
+
         wx.hideOptionMenu();
 
         wx.hideMenuItems({ menuList: [
