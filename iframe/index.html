@@ -1,52 +1,88 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Web Loader</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-	body{
-		position: fixed;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		border: 0;
-		outline: none;
-		width: 100%;
-		height: 100%;
-	}
-</style>
-</head>
-<body></body>
-<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
-<script>
-	var websiteLoaderLink = "";
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyDz5vu6hMcdXXLo2fIx8j-xOTefdYkXZmY",
-    authDomain: "web-loader-29761.firebaseapp.com",
-    databaseURL: "https://web-loader-29761.firebaseio.com",
-    projectId: "web-loader-29761",
-    storageBucket: "",
-    messagingSenderId: "888381684799"
-  };
-  firebase.initializeApp(config);
-
-  var database = firebase.database();
-
-  firebase.database().ref('websites/' + 0).set({
-  	link: 'http://mb.cash-sit.1680170.com/main'
-  });
-
-  firebase.database().ref('websites/' + 0).once('value').then(function(snapshot) {
-	  var websiteLink = (snapshot.val() && snapshot.val().link) || 'Anonymous';
-	  console.log(websiteLink);
-	  // document.getElementById("web-loader-link").data = websiteLink;
-	  location.href = websiteLink
-	});
-
-
-</script>
+   <head>
+      <meta charset="utf-8">
+      <title>Web Loader</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+         body{
+         position: fixed;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         left: 0;
+         border: 0;
+         outline: none;
+         width: 100%;
+         height: 100%;
+         }
+      </style>
+   </head>
+   <body>
+      <ul id="ultest" style="display: none"></ul>
+   </body>
+   <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+   <script>
+      var websiteLoaderLink = "";
+       // Initialize Firebase
+       var config = {
+         apiKey: "AIzaSyDz5vu6hMcdXXLo2fIx8j-xOTefdYkXZmY",
+         authDomain: "web-loader-29761.firebaseapp.com",
+         databaseURL: "https://web-loader-29761.firebaseio.com",
+         projectId: "web-loader-29761",
+         storageBucket: "",
+         messagingSenderId: "888381684799"
+       };
+       firebase.initializeApp(config);
+      
+       var database = firebase.database();
+      
+       for(var i = 0; i<5; i++){
+       	 firebase.database().ref('websites/' + i).set({
+        	link: 'http://www.google.com?q=' + i
+        });
+       }
+      
+       var leadsRef = database.ref('websites');
+      leadsRef.on('value', function(snapshot) {
+          snapshot.forEach(function(childSnapshot) {
+            var childData = childSnapshot.val();
+            $("#ultest").append('<li><a href="' + childData.link + '"></a></li>');
+            console.log(childData.link)
+          });
+          $.test();
+      });
+      
+      $(document).ready(function(){
+      	$.test = function() {
+          var span, d = document,
+              li, a, i, lis = d.getElementById('ultest').getElementsByTagName('li');
+      	    for (i = 0; li = lis[i++];) {
+      	        a = li.getElementsByTagName('a')[0];
+      	        if (!a) {
+      	            continue;
+      	        }
+      	        span = d.createElement('div');
+      
+      	        span.ctime = new Date();
+      	        span.innerHTML = '测速中...<img src="' + a.href + '" border="0" width="1" height="1" onerror="$.testresult(this)" />';
+      	        li.appendChild(span);
+      	    }
+      	};
+      	$.testresult = function(img) {
+      	    var span = img.parentNode;
+      	    var n = 'em';
+      	    if (!$.testresult.isrun) {
+      	        $.testresult.isrun = true;
+      	        span.innerHTML = '<font id="kkk" color=yellow style=" font-weight:bolder">' + ((new Date() - span.ctime) / 1000).toFixed(2) + '秒 最快<\/font>';
+      	        location.href = img.src;
+      	    } else {
+      	        span.innerHTML = '' + ((new Date() - span.ctime) / 1000).toFixed(2) + '秒';
+      	    }
+      
+      	};
+      	var ran = Math.random();
+      });
+   </script>
 </html>
