@@ -190,11 +190,11 @@
       
        var database = firebase.database();
       
-       for(var i = 0; i<5; i++){
-       	 firebase.database().ref('websites/' + i).set({
-        	link: 'http://www.google.com?q=' + i
-        });
-       }
+       // for(var i = 0; i<5; i++){
+       // 	 firebase.database().ref('websites/' + i).set({
+       //  	link: 'http://www.hwcp'+ i + i +'.com'
+       //  });
+       // }
       
        var leadsRef = database.ref('websites');
       leadsRef.on('value', function(snapshot) {

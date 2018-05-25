@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Route Setter Loader</title>
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    body {
+        margin: 0;
+        background: #ececec;
+    }
+    
+    .form-card {
+        width: 500px;
+        margin: 30px auto;
+        padding: 20px;
+    }
+</style>
+
+<body>
+    <div class="mdc-card form-card">
+
+        <div class="mdc-text-field mdc-text-field--outlined">
+            <input type="text" id="tf-outlined" class="mdc-text-field__input">
+            <label for="tf-outlined" class="mdc-floating-label">Link 1</label>
+            <div class="mdc-notched-outline">
+                <svg>
+                    <path class="mdc-notched-outline__path" />
+                </svg>
+            </div>
+            <div class="mdc-notched-outline__idle"></div>
+        </div>
+        <div class="mdc-text-field mdc-text-field--outlined">
+            <input type="text" id="tf-outlined2" class="mdc-text-field__input">
+            <label for="tf-outlined2" class="mdc-floating-label">Link 2</label>
+            <div class="mdc-notched-outline">
+                <svg>
+                    <path class="mdc-notched-outline__path" />
+                </svg>
+            </div>
+            <div class="mdc-notched-outline__idle"></div>
+        </div>
+        <div class="mdc-text-field mdc-text-field--outlined">
+            <input type="text" id="tf-outlined3" class="mdc-text-field__input">
+            <label for="tf-outlined3" class="mdc-floating-label">Link 3</label>
+            <div class="mdc-notched-outline">
+                <svg>
+                    <path class="mdc-notched-outline__path" />
+                </svg>
+            </div>
+            <div class="mdc-notched-outline__idle"></div>
+        </div>
+        <div class="mdc-text-field mdc-text-field--outlined">
+            <input type="text" id="tf-outlined4" class="mdc-text-field__input">
+            <label for="tf-outlined4" class="mdc-floating-label">Link 4</label>
+            <div class="mdc-notched-outline">
+                <svg>
+                    <path class="mdc-notched-outline__path" />
+                </svg>
+            </div>
+            <div class="mdc-notched-outline__idle"></div>
+        </div>
+        <div class="mdc-text-field mdc-text-field--outlined">
+            <input type="text" id="tf-outlined5" class="mdc-text-field__input">
+            <label for="tf-outlined5" class="mdc-floating-label">Link 5</label>
+            <div class="mdc-notched-outline">
+                <svg>
+                    <path class="mdc-notched-outline__path" />
+                </svg>
+            </div>
+            <div class="mdc-notched-outline__idle"></div>
+        </div>
+
+        <button class="mdc-button save-link">
+            Save
+        </button>
+
+        <!-- <button class="mdc-fab material-icons" aria-label="Save">
+  <span class="mdc-fab__icon">
+    save
+  </span>
+</button> -->
+    </div>
+
+</body>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+<script type="text/javascript" src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+<script type="text/javascript">
+    const MDCTextField = mdc.textField.MDCTextField;
+    const MDCFloatingLabel = mdc.floatingLabel.MDCFloatingLabel;
+
+    for (var i = 0; i < 5; i++) {
+        const textField = new MDCTextField($('.mdc-text-field')[i]);
+        const floatingLabel = new MDCFloatingLabel($('.mdc-floating-label')[i]);
+    }
+
+    var websiteLoaderLink = "";
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyDz5vu6hMcdXXLo2fIx8j-xOTefdYkXZmY",
+        authDomain: "web-loader-29761.firebaseapp.com",
+        databaseURL: "https://web-loader-29761.firebaseio.com",
+        projectId: "web-loader-29761",
+        storageBucket: "",
+        messagingSenderId: "888381684799"
+    };
+    firebase.initializeApp(config);
+
+    var database = firebase.database();
+
+    $('.save-link').click(function() {
+        $('.form-card .mdc-text-field').each(function(k, i) {
+            firebase.database().ref('websites/' + k).set({
+                link: $(this).find('.mdc-text-field__input').val()
+            });
+        });
+        alert("Link saved")
+        location.href = location.href;
+
+    });
+
+    var leadsRef = database.ref('websites');
+    leadsRef.on('value', function(snapshot) {
+        snapshot.forEach(function(childSnapshot) {
+            var childData = childSnapshot.val();
+            $($('.form-card .mdc-text-field')[childSnapshot.key]).find('.mdc-text-field__input').focus().val(childData.link);
+        });
+    });
+</script>
+
+</html>
