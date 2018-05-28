@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Web Loader</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+          html,body{
+            width: 100%;
+            height: 100%;
+          }
+          body{
+           position: fixed;
+           top: 0;
+           right: 0;
+           bottom: 0;
+           left: 0;
+           border: 0;
+           outline: none;
+           width: 100%;
+           height: 100%;
+           background-color: #2980b9;
+           margin: 0;
+           transition: all 1s cubic-bezier(0.4, 0.0, 0.2, 1);
+          }
+          body.hidden{
+            opacity: 0;
+            background: transparent;
+          }
+           body.hidden .sk-circle{
+            transform: scale(4);
+            opacity: 0;
+           }
+         .sk-circle {
+            width: 60px;
+            height: 60px;
+            position: relative;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            transition: all 400ms cubic-bezier(0.4, 0.0, 0.2, 1);
+          }
+          .sk-circle .sk-child {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+          .sk-circle .sk-child:before {
+            content: '';
+            display: block;
+            margin: 0 auto;
+            width: 15%;
+            height: 15%;
+            background-color: #fff;
+            border-radius: 100%;
+            -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+                    animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+          }
+          .sk-circle .sk-circle2 {
+            -webkit-transform: rotate(30deg);
+                -ms-transform: rotate(30deg);
+                    transform: rotate(30deg); }
+          .sk-circle .sk-circle3 {
+            -webkit-transform: rotate(60deg);
+                -ms-transform: rotate(60deg);
+                    transform: rotate(60deg); }
+          .sk-circle .sk-circle4 {
+            -webkit-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                    transform: rotate(90deg); }
+          .sk-circle .sk-circle5 {
+            -webkit-transform: rotate(120deg);
+                -ms-transform: rotate(120deg);
+                    transform: rotate(120deg); }
+          .sk-circle .sk-circle6 {
+            -webkit-transform: rotate(150deg);
+                -ms-transform: rotate(150deg);
+                    transform: rotate(150deg); }
+          .sk-circle .sk-circle7 {
+            -webkit-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                    transform: rotate(180deg); }
+          .sk-circle .sk-circle8 {
+            -webkit-transform: rotate(210deg);
+                -ms-transform: rotate(210deg);
+                    transform: rotate(210deg); }
+          .sk-circle .sk-circle9 {
+            -webkit-transform: rotate(240deg);
+                -ms-transform: rotate(240deg);
+                    transform: rotate(240deg); }
+          .sk-circle .sk-circle10 {
+            -webkit-transform: rotate(270deg);
+                -ms-transform: rotate(270deg);
+                    transform: rotate(270deg); }
+          .sk-circle .sk-circle11 {
+            -webkit-transform: rotate(300deg);
+                -ms-transform: rotate(300deg);
+                    transform: rotate(300deg); }
+          .sk-circle .sk-circle12 {
+            -webkit-transform: rotate(330deg);
+                -ms-transform: rotate(330deg);
+                    transform: rotate(330deg); }
+          .sk-circle .sk-circle2:before {
+            -webkit-animation-delay: -1.1s;
+                    animation-delay: -1.1s; }
+          .sk-circle .sk-circle3:before {
+            -webkit-animation-delay: -1s;
+                    animation-delay: -1s; }
+          .sk-circle .sk-circle4:before {
+            -webkit-animation-delay: -0.9s;
+                    animation-delay: -0.9s; }
+          .sk-circle .sk-circle5:before {
+            -webkit-animation-delay: -0.8s;
+                    animation-delay: -0.8s; }
+          .sk-circle .sk-circle6:before {
+            -webkit-animation-delay: -0.7s;
+                    animation-delay: -0.7s; }
+          .sk-circle .sk-circle7:before {
+            -webkit-animation-delay: -0.6s;
+                    animation-delay: -0.6s; }
+          .sk-circle .sk-circle8:before {
+            -webkit-animation-delay: -0.5s;
+                    animation-delay: -0.5s; }
+          .sk-circle .sk-circle9:before {
+            -webkit-animation-delay: -0.4s;
+                    animation-delay: -0.4s; }
+          .sk-circle .sk-circle10:before {
+            -webkit-animation-delay: -0.3s;
+                    animation-delay: -0.3s; }
+          .sk-circle .sk-circle11:before {
+            -webkit-animation-delay: -0.2s;
+                    animation-delay: -0.2s; }
+          .sk-circle .sk-circle12:before {
+            -webkit-animation-delay: -0.1s;
+                    animation-delay: -0.1s; }
+
+          @-webkit-keyframes sk-circleBounceDelay {
+            0%, 80%, 100% {
+              -webkit-transform: scale(0);
+                      transform: scale(0);
+            } 40% {
+              -webkit-transform: scale(1);
+                      transform: scale(1);
+            }
+          }
+
+          @keyframes sk-circleBounceDelay {
+            0%, 80%, 100% {
+              -webkit-transform: scale(0);
+                      transform: scale(0);
+            } 40% {
+              -webkit-transform: scale(1);
+                      transform: scale(1);
+            }
+          }
+
+          .url-loader{
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border: 0;
+            outline: none;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            transition: all 1s cubic-bezier(0.4, 0.0, 0.2, 1);
+          }
+      </style>
+   </head>
+   <body>
+      <div class="loader">
+        <div class="sk-circle">
+          <div class="sk-circle1 sk-child"></div>
+          <div class="sk-circle2 sk-child"></div>
+          <div class="sk-circle3 sk-child"></div>
+          <div class="sk-circle4 sk-child"></div>
+          <div class="sk-circle5 sk-child"></div>
+          <div class="sk-circle6 sk-child"></div>
+          <div class="sk-circle7 sk-child"></div>
+          <div class="sk-circle8 sk-child"></div>
+          <div class="sk-circle9 sk-child"></div>
+          <div class="sk-circle10 sk-child"></div>
+          <div class="sk-circle11 sk-child"></div>
+          <div class="sk-circle12 sk-child"></div>
+        </div>
+        <ul id="ultest" style="display: none"></ul>
+      </div>
+      
+      <iframe class="url-loader" src="/"></iframe>
+   </body>
+   <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+   <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDh_wvgqy7w7ZVkTWslpajgjGIdvxUvzlY",
+        authDomain: "dummy-wechat.firebaseapp.com",
+        databaseURL: "https://dummy-wechat.firebaseio.com",
+        projectId: "dummy-wechat",
+        storageBucket: "dummy-wechat.appspot.com",
+        messagingSenderId: "495112663924"
+      };
+      firebase.initializeApp(config);
+      
+       var database = firebase.database();
+      
+       // for(var i = 0; i<5; i++){
+       // 	 firebase.database().ref('websites/' + i).set({
+       //  	link: 'http://www.hwcp'+ i + i +'.com'
+       //  });
+       // }
+      
+       var leadsRef = database.ref('websites');
+      leadsRef.on('value', function(snapshot) {
+          snapshot.forEach(function(childSnapshot) {
+            var childData = childSnapshot.val();
+            $("#ultest").append('<li><a href="' + childData.link + '"></a></li>');
+            console.log(childData.link)
+          });
+          $.test();
+      });
+      
+      $(document).ready(function(){
+      	$.test = function() {
+          var span, d = document,
+              li, a, i, lis = d.getElementById('ultest').getElementsByTagName('li');
+      	    for (i = 0; li = lis[i++];) {
+      	        a = li.getElementsByTagName('a')[0];
+      	        if (!a) {
+      	            continue;
+      	        }
+      	        span = d.createElement('div');
+      
+      	        span.ctime = new Date();
+      	        span.innerHTML = '测速中...<img src="' + a.href + '" border="0" width="1" height="1" onerror="$.testresult(this)" />';
+      	        li.appendChild(span);
+      	    }
+      	};
+      	$.testresult = function(img) {
+      	    var span = img.parentNode;
+      	    var n = 'em';
+      	    if (!$.testresult.isrun) {
+      	        $.testresult.isrun = true;
+      	        span.innerHTML = '<font id="kkk" color=yellow style=" font-weight:bolder">' + ((new Date() - span.ctime) / 1000).toFixed(2) + '秒 最快<\/font>';
+                // $("body").fadeOut(1000).addClass("hidden");
+                setTimeout(function(){
+                  $('.url-loader').attr("src", img.src).fadeIn();
+                  $('.loader').fadeOut();
+                }, 1000);
+      	    } else {
+      	        span.innerHTML = '' + ((new Date() - span.ctime) / 1000).toFixed(2) + '秒';
+      	    }
+      
+      	};
+      	var ran = Math.random();
+      });
+   </script>
+</html>
