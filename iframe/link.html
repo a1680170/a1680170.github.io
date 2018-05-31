@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Route Setter Loader</title>
+    <title>线路入口-设置</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -12,22 +13,91 @@
 <style>
     body {
         margin: 0;
-        background: #ececec;
+        background-color: #e5e5e5;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    body:after{
+        content: '';
+        z-index: -1;
+        background: #6200ee;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 30vh;
+        width: 100%;
+    }
+
+      body:before{
+        content: '';
+        z-index: 0;
+        background: url(grid-world.png) center / contain no-repeat;
+        width: 400px;
+        height: 400px;
+        opacity: 0.1;
+         position: fixed;
+        top: -50px;
+        left: -30px;
+    }
+
+    .page-header{
+        font-weight: bold;
+        color: #999;
+    }
+
+    .header-wrapper{
+        display: flex;
+        align-items: center;
+    }
+
+    .header-wrapper button:first-of-type{
+        margin-left: auto;
     }
     
     .form-card {
-        width: 500px;
-        margin: 30px auto;
+        width: 80vw;
+        margin: 10% auto;
         padding: 20px;
+    }
+
+    .mdc-text-field {
+        position: relative;
+    }
+
+    .material-icons.mdc-text-field__icon{
+        color: green !important;
+    }
+
+    .speed-test{
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+    }
+
+    .logo{
+        height: 45px;
+        float: left;
+        margin-right: 20px;
     }
 </style>
 
 <body>
-    <div class="mdc-card form-card">
-
-        <div class="mdc-text-field mdc-text-field--outlined">
+    <div class="mdc-card form-card" id="ultest">
+        <span class="header-wrapper">
+            <h1 class="mdc-h1 page-header"><img class="logo" src="logo.png" alt="logo" />迪士尼线路入口</h1>
+            <button class="mdc-button">
+              域名日志
+            </button>
+            <button class="mdc-button">
+              被封记录
+            </button>
+        </span>
+        <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon">
             <input type="text" id="tf-outlined" class="mdc-text-field__input">
-            <label for="tf-outlined" class="mdc-floating-label">Link 1</label>
+            <label for="tf-outlined" class="mdc-floating-label">域名 1</label>
+            <i class="material-icons mdc-text-field__icon">done</i>
             <div class="mdc-notched-outline">
                 <svg>
                     <path class="mdc-notched-outline__path" />
@@ -35,9 +105,10 @@
             </div>
             <div class="mdc-notched-outline__idle"></div>
         </div>
-        <div class="mdc-text-field mdc-text-field--outlined">
+        <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon">
             <input type="text" id="tf-outlined2" class="mdc-text-field__input">
-            <label for="tf-outlined2" class="mdc-floating-label">Link 2</label>
+            <label for="tf-outlined2" class="mdc-floating-label">域名 2</label>
+            <i class="material-icons mdc-text-field__icon">done</i>
             <div class="mdc-notched-outline">
                 <svg>
                     <path class="mdc-notched-outline__path" />
@@ -45,9 +116,10 @@
             </div>
             <div class="mdc-notched-outline__idle"></div>
         </div>
-        <div class="mdc-text-field mdc-text-field--outlined">
+        <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon">
             <input type="text" id="tf-outlined3" class="mdc-text-field__input">
-            <label for="tf-outlined3" class="mdc-floating-label">Link 3</label>
+            <label for="tf-outlined3" class="mdc-floating-label">域名 3</label>
+            <i class="material-icons mdc-text-field__icon">done</i>
             <div class="mdc-notched-outline">
                 <svg>
                     <path class="mdc-notched-outline__path" />
@@ -55,9 +127,10 @@
             </div>
             <div class="mdc-notched-outline__idle"></div>
         </div>
-        <div class="mdc-text-field mdc-text-field--outlined">
+        <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon">
             <input type="text" id="tf-outlined4" class="mdc-text-field__input">
-            <label for="tf-outlined4" class="mdc-floating-label">Link 4</label>
+            <label for="tf-outlined4" class="mdc-floating-label">域名 4</label>
+            <i class="material-icons mdc-text-field__icon">done</i>
             <div class="mdc-notched-outline">
                 <svg>
                     <path class="mdc-notched-outline__path" />
@@ -65,9 +138,10 @@
             </div>
             <div class="mdc-notched-outline__idle"></div>
         </div>
-        <div class="mdc-text-field mdc-text-field--outlined">
+        <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon">
             <input type="text" id="tf-outlined5" class="mdc-text-field__input">
-            <label for="tf-outlined5" class="mdc-floating-label">Link 5</label>
+            <label for="tf-outlined5" class="mdc-floating-label">域名 5</label>
+            <i class="material-icons mdc-text-field__icon">done</i>
             <div class="mdc-notched-outline">
                 <svg>
                     <path class="mdc-notched-outline__path" />
@@ -77,23 +151,68 @@
         </div>
 
         <button class="mdc-button save-link">
-            Save
+            保存域名
         </button>
-
-        <!-- <button class="mdc-fab material-icons" aria-label="Save">
-  <span class="mdc-fab__icon">
-    save
-  </span>
-</button> -->
     </div>
-
+    <aside id="mdc-dialog-with-list"
+        class="mdc-dialog"
+        role="alertdialog"
+        aria-labelledby="mdc-dialog-with-list-label"
+        aria-describedby="mdc-dialog-with-list-description">
+        <div class="mdc-dialog__surface">
+          <header class="mdc-dialog__header">
+            <h2 id="mdc-dialog-with-list-label" class="mdc-dialog__header__title">
+              域名日志
+            </h2>
+          </header>
+          <section id="mdc-dialog-with-list-description" class="mdc-dialog__body mdc-dialog__body--scrollable">
+            <ul class="mdc-list">
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+              <li class="mdc-list-item">北京, 18:37:00, 星期四，五月 31，2018</li>
+            </ul>
+          </section>
+          <footer class="mdc-dialog__footer">
+            <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--cancel">取消</button>
+            <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--accept">确定</button>
+          </footer>
+        </div>
+        <div class="mdc-dialog__backdrop"></div>
+      </aside>
 </body>
 <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
 <script type="text/javascript" src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 <script type="text/javascript">
+        $(document).ready(function(){
+
     const MDCTextField = mdc.textField.MDCTextField;
     const MDCFloatingLabel = mdc.floatingLabel.MDCFloatingLabel;
+
+    const dialog = new mdc.dialog.MDCDialog(document.querySelector('#mdc-dialog-with-list'));
+
+    $('.header-wrapper button').click(function(){
+        dialog.show();
+    })
 
     for (var i = 0; i < 5; i++) {
         const textField = new MDCTextField($('.mdc-text-field')[i]);
@@ -130,7 +249,43 @@
         snapshot.forEach(function(childSnapshot) {
             var childData = childSnapshot.val();
             $($('.form-card .mdc-text-field')[childSnapshot.key]).find('.mdc-text-field__input').focus().val(childData.link);
+            $($('.form-card .mdc-text-field')[childSnapshot.key]).append($('<span data-url="' + childData.link + '"></span>'));
         });
+        $.test();
+    });
+
+
+        $.test = function() {
+          var span, d = document,
+              li, a, i, lis = d.getElementById('ultest').getElementsByTagName("div");
+              console.log(lis[0])
+            for (i = 0; li = lis[i++];) {
+                a = li.getElementsByTagName('span')[0];
+                console.log(li.getElementsByTagName('span'))
+                if (!a) {
+                    continue;
+                }
+                span = d.createElement('div');
+                span.className += "speed-test";
+      
+                span.ctime = new Date();
+                span.innerHTML = '测速中...<img src="' + $(a).data("url") + '" border="0" width="1" height="1" onerror="$.testresult(this)" />';
+                li.appendChild(span);
+            }
+        };
+        $.testresult = function(img) {
+            var span = img.parentNode;
+            var n = 'em';
+            if (!$.testresult.isrun) {
+                $.testresult.isrun = true;
+                span.innerHTML = '<font id="kkk" color=green style=" font-weight:bolder">' + ((new Date() - span.ctime) / 1000).toFixed(2) + '秒 最快<\/font>';
+
+            } else {
+                span.innerHTML = '' + ((new Date() - span.ctime) / 1000).toFixed(2) + '秒';
+            }
+      
+        };
+        var ran = Math.random();
     });
 </script>
 
