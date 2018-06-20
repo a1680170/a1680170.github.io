@@ -1,0 +1,29 @@
+
+body{
+    background-color: #ececec;
+}
+
+.form-wrapper{
+    width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.output{
+    display: none;
+}
+
+.output > div{
+    display: none;
+}
+
+.output .icon{
+    position: absolute;
+    margin: 0em;
+    top: 0.78575em;
+    right: 0.5em;
+    opacity: 0.7;
+}

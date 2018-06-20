@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Nativefier</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/semantic.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="form-wrapper">
+    <h3>Nativefier Setting</h3>
+    <form class="ui form">
+        <div class="field">
+            <label>URL</label>
+            <input name="url" type="text">
+        </div>
+        <div class="field">
+            <label>Name</label>
+            <input name="name" type="text">
+        </div>
+        <div class="field">
+            <label>种类</label>
+            <div class="ui segment">
+                <div class="two fields">
+                    <div class="field">
+                        <div class="ui toggle checkbox">
+                            <input type="checkbox" checked name="official" tabindex="0" class="hidden">
+                            <label>官网</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui transparent input">
+                            <i class="paperclip icon"></i>
+                            <input name="official-text" type="text" placeholder="Icon path location">
+                        </div>
+                    </div>
+                </div>
+                <div class="ui divider"></div>
+                <div class="two fields">
+                    <div class="field">
+                        <div class="ui toggle checkbox">
+                            <input type="checkbox" checked name="ydl" tabindex="0" class="hidden">
+                            <label>代理有活动</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui transparent input">
+                            <i class="paperclip icon"></i>
+                            <input name="ydl-text" type="text" placeholder="Icon path location">
+                        </div>
+                    </div>
+                </div>
+                <div class="ui divider"></div>
+                <div class="two fields">
+                    <div class="field">
+                        <div class="ui toggle checkbox">
+                            <input type="checkbox" checked name="wdl" tabindex="0" class="hidden">
+                            <label>代理无活动</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui transparent input">
+                            <i class="paperclip icon"></i>
+                            <input name="wdl-text" type="text" placeholder="Icon path location">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="field">
+            <label>更多设置</label>
+            <div class="ui segment">
+                <div class="ui toggle checkbox">
+                    <input type="checkbox" checked name="contextMenu" tabindex="0" class="hidden">
+                    <label>Disable Context Menu</label>
+                </div>
+                <div class="ui divider"></div>
+                <div class="ui toggle checkbox">
+                    <input type="checkbox" checked name="devtools" tabindex="0" class="hidden">
+                    <label>Disable Dev Tools</label>
+                </div>
+                <div class="ui divider"></div>
+                <div class="two fields">
+                    <div class="field">
+                        <div class="ui toggle checkbox">
+                            <input type="checkbox" name="inject" tabindex="0" class="hidden">
+                            <label>Inject external</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui transparent input">
+                            <i class="paperclip icon"></i>
+                            <input name="inject-text" type="text" placeholder="Inject files path location">
+                        </div>
+                    </div>
+                </div>
+                <div class="ui divider"></div>
+                <div class="two fields">
+                    <div class="field">
+                        <div class="ui toggle checkbox">
+                            <input type="checkbox" name="internalUrl" tabindex="0" class="hidden">
+                            <label>Open external url internally</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui transparent input">
+                            <i class="paperclip icon"></i>
+                            <input name="internalUrl-text" type="text" placeholder="Regex for internal url (.*) for all URL(s)">
+                        </div>
+                    </div>
+                </div>
+                <div class="ui divider"></div>
+                <div class="two fields">
+                    <div class="field">
+                        <div class="ui toggle checkbox">
+                            <input type="checkbox" checked name="windows" tabindex="0" class="hidden">
+                            <label>Windows</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui toggle checkbox">
+                            <input type="checkbox" checked name="mac" tabindex="0" class="hidden">
+                            <label>macOS</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="ui button generate" tabindex="0">Generate</button>
+    </form>
+    <div class="ui green message output mac">
+        <i class="apple icon"></i>
+        <div class="output-official">
+            <div class="header">
+                官网
+            </div>
+            <p></p>
+            <div class="ui divider"></div>
+        </div>
+        <div class="output-ydl">
+            <div class="header">
+                代理有活动
+            </div>
+            <p></p>
+            <div class="ui divider"></div>
+        </div>
+        <div class="output-wdl">
+            <div class="header">
+                代理无活动
+            </div>
+            <p></p>
+        </div>
+    </div>
+    <div class="ui green message output windows">
+        <i class="windows icon"></i>
+        <div class="output-official">
+            <div class="header">
+                官网
+            </div>
+            <p></p>
+            <div class="ui divider"></div>
+        </div>
+        <div class="output-ydl">
+            <div class="header">
+                代理有活动
+            </div>
+            <p></p>
+            <div class="ui divider"></div>
+        </div>
+        <div class="output-wdl">
+            <div class="header">
+                代理无活动
+            </div>
+            <p></p>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/semantic.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
