@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>跳转</title>
+</head>
+<body>
+<h3>跳转中...&nbsp;<span class="time">5</span></h3>
+<script type="application/javascript" src="jquery-3.2.1.min.js"></script>
+<script>
+    var request = new XMLHttpRequest();
+    request.open("GET", "./data.json", false);
+    request.send(null);
+    var data = JSON.parse(request.responseText);
+    var currentType = location.search.replace("?type=", "");
+
+    console.log(data, currentType);
+    var href = data[currentType]
+    var countdownTotal = $('.time').text();
+    var count = countdownTotal;
+    var interval = setInterval(function(){
+        count -= 1;
+        $('.time').text(count);
+        if(count <= 0){
+           clearInterval(interval);
+           location.href = "https://" + href
+        }
+    }, 1000);
+    // var url = data['url'];
+    // var title = data['title'];
+</script>
+</body>
+</html>
